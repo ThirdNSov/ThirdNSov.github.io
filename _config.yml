@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            ThirdNSov-Dev
+title:            T-Dev
 tagline:          'A Jekyll theme'
 description:      'ThirdNSov Develop Blog'
 url:              https://thirdnsov.github.io
