@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            T-Dev
-tagline:          'A Jekyll theme'
+tagline:          
 description:      'ThirdNSov Develop Blog'
 url:              https://thirdnsov.github.io
 baseurl:          
