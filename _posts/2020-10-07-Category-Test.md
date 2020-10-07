@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Category Post
-category: Markup
+category: Daily
 excerpt_separator:  <!--more-->
 ---
 Test
