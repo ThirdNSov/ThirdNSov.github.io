@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First Post
-category: markup
+title: Category Post
+category: Markup
 excerpt_separator:  <!--more-->
 ---
 Test
