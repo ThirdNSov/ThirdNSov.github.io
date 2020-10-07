@@ -8,5 +8,5 @@ About ThirdNSov.
 
 Qt5 Programmer.
 
-왜 개행이 두 줄씩 되는거지?
+왜 개행이 두 줄씩 되는거지?</br>
 이렇게 그냥 하면 되나?
