@@ -36,8 +36,4 @@ sidebar_home_link:  true
 disqus:
   shortname: t-dev
   
-analytics:
-  provider: "google"
-  google:
-    tracking_id: "UA-180105969-1"
-    anonymize_ip: false # default
+google_analytics: UA-180105969-1
