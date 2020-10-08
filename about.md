@@ -7,4 +7,4 @@ markdown: kramdown
 
 About ThirdNSov.
 
-Qt5 Programmer.  Test
+Programmer.
