@@ -37,7 +37,7 @@ disqus:
   shortname: t-dev
   
 analytics:
-provider: "google"
-    google:
+  provider: "google"
+  google:
     tracking_id: "UA-180105969-1"
     anonymize_ip: false # default
