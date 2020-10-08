@@ -6,6 +6,4 @@ sidebar_sort_order: 12
 
 Links
 
-1. [Fedora Linux 한국 사용자 모임](https://www.fedoralinux.or.kr)
-
-2. [ThirdNSov Tistory Blog](https://thirdnsov.tistory.com)
+1. [Fedora Linux 한국 사용자 모임](https://www.fedoralinux.or.kr)  2. [ThirdNSov Tistory Blog](https://thirdnsov.tistory.com)
