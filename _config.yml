@@ -15,8 +15,8 @@ baseurl:
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'ThirdNSov'
+  url:            https://thirdnsov.github.io
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -35,3 +35,5 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 disqus:
   shortname: t-dev
+  
+google_analytics: UA-180105969-1
