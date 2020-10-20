@@ -1,5 +1,5 @@
 ---
-layout: category3333
+layout: category
 title: Daily
 sidebar_sort_order: 10
 ---
