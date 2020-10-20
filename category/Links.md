@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Links
-sidebar_sort_order: 12
+sidebar_sort_order: 13
 markdown: kramdown
 ---
 
