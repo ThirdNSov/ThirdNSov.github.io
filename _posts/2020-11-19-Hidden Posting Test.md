@@ -3,7 +3,7 @@ layout: post
 title: Hidden Posting Test
 category: Daily
 tags: 
-hidden: 1
+hidden: 0
 excerpt_separator:  <!--more-->
 ---
 
