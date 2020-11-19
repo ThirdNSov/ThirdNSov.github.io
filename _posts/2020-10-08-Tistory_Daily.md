@@ -3,6 +3,7 @@ layout: post
 title: Github 블로그 개설 일단 완료
 category: Daily
 tags: daily, blog, github
+hidden: 0
 excerpt_separator:  <!--more-->
 ---
 미루고 미루던 Github 블로그 작업 일단 1차 완료.  
