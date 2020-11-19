@@ -9,7 +9,7 @@ layout: default
   {{ content }}
 
   {% for post in paginator.posts %}
-  {% if post.hidden == 1 %}
+  <!-- {% if post.hidden == 1 %} -->
   <article class="post-body">
     <h2 class="post-title">
       <a href="{{ post.url | relative_url }}">
@@ -38,7 +38,7 @@ layout: default
       {% endif %}
     {% endif %}
   </article>
-  {% endif %}
+  <!-- {% endif %} -->
   {% endfor %}
 
   {% include pagination-older.html %}
