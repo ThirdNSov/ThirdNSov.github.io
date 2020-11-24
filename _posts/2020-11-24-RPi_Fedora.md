@@ -18,7 +18,7 @@ Fedora를 설치해서 사용해보려고 Hyper-V 설치하고 하다가 문득 
 해당 문서 내용 중에 라즈베리파이용 페도라 이미지가 있으니 다운 받아서 설치만  
 해주면 된다.
 
-![](img/fedora_wiki_1.PNG)
+![](/assets/img/fedora_wiki_1.PNG)
 
 ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞게  
 다운 받으면 된다.  
