@@ -45,8 +45,8 @@ ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞
 
 ![](/assets/img/undervoltage.jpg)
 
-부팅 도중에 전력 부족 로그가 출력되기는 하지만 
-기다리니 부팅은 되었다. 다만 Fedora 33 WorkStation으로 설치를 했더니  
+부팅 도중에 전력 부족 로그가 출력되기는 하지만 기다리니 부팅은 되었다.  
+다만 Fedora 33 WorkStation으로 설치를 했더니  
 RPi3에서 벅찬지 부팅만으로도 굉장히 시간이 오래 걸려서  
 Minimal 버전으로 다시 설치 진행해보았다. 
 
