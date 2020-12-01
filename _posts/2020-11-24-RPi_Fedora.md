@@ -36,3 +36,24 @@ ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞
 처음에 어려울거라 생각하고 포스팅도 같이 준비한건데 위키가 생각보다  
 잘 정리되어있고 페도라가 라즈베리파이를 잘 지원해줘서 특별히 따로 정리할 게  
 없는 것 같다..
+
+---
+
+다 구워진 후 부팅을 했는데 가지고 있던 RPi3가 고장이 나있었다..  
+아무리 기다려도 부팅은 되지 않고 전원부 온도만 급상승하는 증상이 나와서  
+새로 한대를 구했다.. 
+
+![](/assets/img/undervoltage.jpg)
+
+부팅 도중에 전력 부족 로그가 출력되기는 하지만 
+기다리니 부팅은 되었다. 다만 Fedora 33 WorkStation으로 설치를 했더니  
+RPi3에서 벅찬지 부팅만으로도 굉장히 시간이 오래 걸려서  
+Minimal 버전으로 다시 설치 진행해보았다. 
+
+여전히 undervoltage 이슈는 있지만 찾아보니 RPi3 B+는 2.5A 이상급으로
+전원이 공급 되어야 안정이 되는 것 같다.
+
+## 참고 링크
+[Fedora WiKi](https://fedoraproject.org/wiki/Architectures/ARM/Raspberry_Pi#aarch64_supported_images_for_Raspberry_Pi_3){:target="_blank"}  
+[balenaEtcher](https://www.balena.io/etcher/){:target="_blank"}  
+[UnderVoltage 관련 ](https://www.raspberrypi.org/forums/viewtopic.php?t=210914){:target="_blank"}
