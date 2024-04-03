@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on </title>
-    <link>https://thirdy.me/tech/</link>
+    <link>https://thirdnsov.github.io/tech/</link>
     <description>Recent content in Tech on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdy.me/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flutter - Android Studio Electic Eel 버전 설치 시 Java 오류</title>
-      <link>https://thirdy.me/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html</link>
+      <link>https://thirdnsov.github.io/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html</guid>
+      <guid>https://thirdnsov.github.io/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html</guid>
       <description>새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.
 기존에 세팅하던 순서대로 쭉 진행하고 있었는데
 Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기 flutter doctor에서 계속 오류가 발생하고 있었다.
@@ -24,10 +24,10 @@ PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는�
     
     <item>
       <title>맥북에서 undefined method `map&#39; for nil:NilClass 오류 발생 시</title>
-      <link>https://thirdy.me/tech/2023/03/05/T_Mac_Flutter_nilclass.html</link>
+      <link>https://thirdnsov.github.io/tech/2023/03/05/T_Mac_Flutter_nilclass.html</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/tech/2023/03/05/T_Mac_Flutter_nilclass.html</guid>
+      <guid>https://thirdnsov.github.io/tech/2023/03/05/T_Mac_Flutter_nilclass.html</guid>
       <description>최근 공부 겸 토이프로젝트 진행 중인데 매번 안드로이드 에뮬레이터에서만 하다가
 이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..
 이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서
@@ -39,10 +39,10 @@ Searching for inspections failed: undefined method `map&#39; for nil:NilClass �
     
     <item>
       <title>맥북에서 카톡 알림 안울릴 때</title>
-      <link>https://thirdy.me/tech/2023/02/23/T_Mac_Kakaotalk.html</link>
+      <link>https://thirdnsov.github.io/tech/2023/02/23/T_Mac_Kakaotalk.html</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/tech/2023/02/23/T_Mac_Kakaotalk.html</guid>
+      <guid>https://thirdnsov.github.io/tech/2023/02/23/T_Mac_Kakaotalk.html</guid>
       <description>맥북을 구매한지 이제 반년이 조금 지났는데 초반에 카톡 알림이 울리지 않아서
 찾아보았던 결과를 기록하려고 한다.
 구글, 네이버 검색으로 얻은 해결 방법으로는 해결하지 못했었다.
@@ -51,10 +51,10 @@ Searching for inspections failed: undefined method `map&#39; for nil:NilClass �
     
     <item>
       <title>맥북 한글 입력기 교체</title>
-      <link>https://thirdy.me/tech/2022/09/05/T_Mac_KeyInput_Gureum.html</link>
+      <link>https://thirdnsov.github.io/tech/2022/09/05/T_Mac_KeyInput_Gureum.html</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/tech/2022/09/05/T_Mac_KeyInput_Gureum.html</guid>
+      <guid>https://thirdnsov.github.io/tech/2022/09/05/T_Mac_KeyInput_Gureum.html</guid>
       <description>작성자는 평소 한영 전환키를 Shift + Space로 사용한다.
 이 단축키로 사용한지 꽤나 오랜 시간이 지났기 때문에 처음 맥북을 사용할 때
 Control + Space가 오늘까지도 너무 불편하게 다가왔다.
@@ -68,10 +68,10 @@ Monterey 버전부터는 Control + Space가 고정인듯했다.
     
     <item>
       <title>Flutter 다운로드 버튼 (Failed) 대처법</title>
-      <link>https://thirdy.me/tech/2022/09/02/T_Flutter_Download_Failed.html</link>
+      <link>https://thirdnsov.github.io/tech/2022/09/02/T_Flutter_Download_Failed.html</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/tech/2022/09/02/T_Flutter_Download_Failed.html</guid>
+      <guid>https://thirdnsov.github.io/tech/2022/09/02/T_Flutter_Download_Failed.html</guid>
       <description>최근 회사에서 Flutter를 사용할 일이 생겨서 학습해보는 중이다.
 그 과정 중에서 겪은 일이나 포스팅할 만한 내용은 간간히 남겨두려고 한다.
 새로운 개발 환경을 구축하려면 역시 관련 프로그램들을 설치해야한다.
@@ -83,10 +83,10 @@ Monterey 버전부터는 Control + Space가 고정인듯했다.
     
     <item>
       <title>Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</title>
-      <link>https://thirdy.me/tech/2021/11/02/T_Qt_OnlineInstaller.html</link>
+      <link>https://thirdnsov.github.io/tech/2021/11/02/T_Qt_OnlineInstaller.html</link>
       <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/tech/2021/11/02/T_Qt_OnlineInstaller.html</guid>
+      <guid>https://thirdnsov.github.io/tech/2021/11/02/T_Qt_OnlineInstaller.html</guid>
       <description>Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.
 Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..
 왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다. 하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..
@@ -96,10 +96,10 @@ Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치
     
     <item>
       <title>Github 블로그 포스팅 내용에 이미지 안나올 때</title>
-      <link>https://thirdy.me/tech/2021/10/10/T_Github_blog_img_upload.html</link>
+      <link>https://thirdnsov.github.io/tech/2021/10/10/T_Github_blog_img_upload.html</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/tech/2021/10/10/T_Github_blog_img_upload.html</guid>
+      <guid>https://thirdnsov.github.io/tech/2021/10/10/T_Github_blog_img_upload.html</guid>
       <description>오랜만에 포스팅 문서 작성을 하고 푸시를 하고 잘 올라갔는지 확인을 해보는데 이상하게 포스팅 내용 중간중간 이미지가 보이질 않는다.
 파일명도 맞고 .. 경로도 맞고 .. VS Code에선 이미지가 잘 보이는데 이상하게 실제 블로그 화면에서는 이미지가 계속 보이지 않았다.
 뭔가 잘못 푸시를 한걸까 싶어 찾다보니 단순한 문제였다.
@@ -109,10 +109,10 @@ VS Code에서는 파일명에 대해 대소문자를 크게 가리지 않아서 
     
     <item>
       <title>Raspberry Pi3&#43;에 Fedora Linux 설치</title>
-      <link>https://thirdy.me/linux/2020/11/24/RPi_Fedora.html</link>
+      <link>https://thirdnsov.github.io/linux/2020/11/24/RPi_Fedora.html</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/linux/2020/11/24/RPi_Fedora.html</guid>
+      <guid>https://thirdnsov.github.io/linux/2020/11/24/RPi_Fedora.html</guid>
       <description>Fedora를 설치해서 사용해보려고 Hyper-V 설치하고 하다가 문득 집에 RPi3+가 남아서
 여기에 설치를 해보자 싶어서 시작.
 라즈베리파이 사용할 때 주로 그냥 라즈비안 올려서 사용했었는데 페도라를 올리면 또
@@ -126,10 +126,10 @@ ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞
     
     <item>
       <title>Fedora Linux - yum, 그리고 dnf</title>
-      <link>https://thirdy.me/linux/2020/11/19/yum_vs_dnf.html</link>
+      <link>https://thirdnsov.github.io/linux/2020/11/19/yum_vs_dnf.html</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/linux/2020/11/19/yum_vs_dnf.html</guid>
+      <guid>https://thirdnsov.github.io/linux/2020/11/19/yum_vs_dnf.html</guid>
       <description>오랜만에 Fedora에 대한 정보를 들었는데 요즘은 yum을 대신해서 dnf라는
 명령을 사용한다고 들었다.
 yum을 사용하면서 크게 불편함을 느낀 기억이 없는데 왜 바뀌었는지 조금 찾아보았고

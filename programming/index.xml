@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on </title>
-    <link>https://thirdy.me/programming/</link>
+    <link>https://thirdnsov.github.io/programming/</link>
     <description>Recent content in Programming on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 18 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdy.me/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Qt 디버깅 시 QWebEngineCored 오류</title>
-      <link>https://thirdy.me/programming/2021/10/18/P_QWebEngine_Error.html</link>
+      <link>https://thirdnsov.github.io/programming/2021/10/18/P_QWebEngine_Error.html</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/programming/2021/10/18/P_QWebEngine_Error.html</guid>
+      <guid>https://thirdnsov.github.io/programming/2021/10/18/P_QWebEngine_Error.html</guid>
       <description>Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.
 관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.
 개발 환경  Windows 10 64bit Qt 5.12.2 MSVC 2017  발생했던 오류 메시지 내용은 다음과 같다.
@@ -21,10 +21,10 @@ QWebEngineCored - Check failed: used_count == used_items_ 코드상 특별한 �
     
     <item>
       <title>Qt 한글 깨짐 문제</title>
-      <link>https://thirdy.me/programming/2021/10/10/P_Qt_Korean.html</link>
+      <link>https://thirdnsov.github.io/programming/2021/10/10/P_Qt_Korean.html</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdy.me/programming/2021/10/10/P_Qt_Korean.html</guid>
+      <guid>https://thirdnsov.github.io/programming/2021/10/10/P_Qt_Korean.html</guid>
       <description>개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.
 여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.
 개발 환경  Windows 11 Qt 5.14.2 (with Qt Creator) MSVC 2017 64bit  이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.
