@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>qt on </title>
+    <link>https://thirdnsov.github.io/tags/qt/</link>
+    <description>Recent content in qt on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/qt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</title>
+      <link>https://thirdnsov.github.io/tech/2021/11/02/T_Qt_OnlineInstaller.html</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/2021/11/02/T_Qt_OnlineInstaller.html</guid>
+      <description>Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.
+Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..
+왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다. 하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..
+Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치가 완료될지 기약 없이 기다려야 되는 엄청 답답한 속도..
+그래서 속도를 높일 방법이 없을까 하고 생각하다가 Offline Installer도 Mirror 사이트에서 쾌적하게 다운이 되는데 Online Installer도 Mirror 주소로 변경이 가능하지 않을까?</description>
+    </item>
+    
+    <item>
+      <title>Qt 디버깅 시 QWebEngineCored 오류</title>
+      <link>https://thirdnsov.github.io/programming/2021/10/18/P_QWebEngine_Error.html</link>
+      <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/programming/2021/10/18/P_QWebEngine_Error.html</guid>
+      <description>Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.
+관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.
+개발 환경  Windows 10 64bit Qt 5.12.2 MSVC 2017  발생했던 오류 메시지 내용은 다음과 같다.
+QWebEngineCored - Check failed: used_count == used_items_ 코드상 특별한 수정을 했거나 오류가 발생할 만한 작업이 없었는데도 불구하고 뜬금없이 위 메시지가 뜨면서 디버깅 모드로 실행 자체가 불가능했었다.</description>
+    </item>
+    
+    <item>
+      <title>Qt 한글 깨짐 문제</title>
+      <link>https://thirdnsov.github.io/programming/2021/10/10/P_Qt_Korean.html</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/programming/2021/10/10/P_Qt_Korean.html</guid>
+      <description>개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.
+여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.
+개발 환경  Windows 11 Qt 5.14.2 (with Qt Creator) MSVC 2017 64bit  이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.
+보통 한글이 깨지는 주된 원인은 파일 인코딩인데 Windows에서 Qt Creator를 사용하면 기본 UTF-8로 설정되어있다.
+일반적으로 UTF-8이면 한글이 꺠지지 않아야 하는데 이상하게 한글이 깨져서 보인다.</description>
+    </item>
+    
+  </channel>
+</rss>

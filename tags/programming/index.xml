@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on </title>
+    <link>https://thirdnsov.github.io/tags/programming/</link>
+    <description>Recent content in programming on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter - Android Studio Electic Eel 버전 설치 시 Java 오류</title>
+      <link>https://thirdnsov.github.io/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html</guid>
+      <description>새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.
+기존에 세팅하던 순서대로 쭉 진행하고 있었는데
+Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기 flutter doctor에서 계속 오류가 발생하고 있었다.
+Unable to find bundled Java version. 분명 다 설치 했는데 왜지?
+안드로이드 스튜디오도 재설치 해보고 JAVA도 재설치 해보고
+PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는데 계속 해결이 안됐었다.
+결국 해결책을 찾기 시작했고 그리 오래 걸리지 않게 방법을 찾을 수 있었다.</description>
+    </item>
+    
+    <item>
+      <title>맥북에서 undefined method `map&#39; for nil:NilClass 오류 발생 시</title>
+      <link>https://thirdnsov.github.io/tech/2023/03/05/T_Mac_Flutter_nilclass.html</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/2023/03/05/T_Mac_Flutter_nilclass.html</guid>
+      <description>최근 공부 겸 토이프로젝트 진행 중인데 매번 안드로이드 에뮬레이터에서만 하다가
+이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..
+이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서
+빌드를 진행했는데 갑자기 .. 오류가 발생했다.
+Searching for inspections failed: undefined method `map&#39; for nil:NilClass 방금 전까지 분명 잘 되던 상태였는데 갑자기 오류가 발생하니 당황 ..
+테스트한다고 했던 코드랑 패키지를 하나씩 제거하다보니 역시나 특정 패키지에서
+문제가 있었던 것이고 해당 패키지는 사용하고 싶어서 해결 방법을 찾아봤다.</description>
+    </item>
+    
+    <item>
+      <title>Flutter 다운로드 버튼 (Failed) 대처법</title>
+      <link>https://thirdnsov.github.io/tech/2022/09/02/T_Flutter_Download_Failed.html</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/2022/09/02/T_Flutter_Download_Failed.html</guid>
+      <description>최근 회사에서 Flutter를 사용할 일이 생겨서 학습해보는 중이다.
+그 과정 중에서 겪은 일이나 포스팅할 만한 내용은 간간히 남겨두려고 한다.
+새로운 개발 환경을 구축하려면 역시 관련 프로그램들을 설치해야한다.
+제일 먼저 Flutter를 설치하기 위해서 구글에 Flutter를 검색하고 들어가봤다.
+홈페이지가 한글로 잘 나와있고 &amp;ldquo;시작하기&amp;quot;를 누르면 누구나 쉽게 다운로드 받을 수 있고
+각 OS별로 설치 가이드를 제공해줘서 비교적 쉽게 설치할 수 있게 되어있다.
+사이트 우측 상단에 있는 &amp;ldquo;시작하기&amp;quot;를 누르면 위 이미지와 같은 화면이 나오는데</description>
+    </item>
+    
+    <item>
+      <title>Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</title>
+      <link>https://thirdnsov.github.io/tech/2021/11/02/T_Qt_OnlineInstaller.html</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/2021/11/02/T_Qt_OnlineInstaller.html</guid>
+      <description>Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.
+Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..
+왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다. 하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..
+Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치가 완료될지 기약 없이 기다려야 되는 엄청 답답한 속도..
+그래서 속도를 높일 방법이 없을까 하고 생각하다가 Offline Installer도 Mirror 사이트에서 쾌적하게 다운이 되는데 Online Installer도 Mirror 주소로 변경이 가능하지 않을까?</description>
+    </item>
+    
+    <item>
+      <title>Qt 디버깅 시 QWebEngineCored 오류</title>
+      <link>https://thirdnsov.github.io/programming/2021/10/18/P_QWebEngine_Error.html</link>
+      <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/programming/2021/10/18/P_QWebEngine_Error.html</guid>
+      <description>Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.
+관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.
+개발 환경  Windows 10 64bit Qt 5.12.2 MSVC 2017  발생했던 오류 메시지 내용은 다음과 같다.
+QWebEngineCored - Check failed: used_count == used_items_ 코드상 특별한 수정을 했거나 오류가 발생할 만한 작업이 없었는데도 불구하고 뜬금없이 위 메시지가 뜨면서 디버깅 모드로 실행 자체가 불가능했었다.</description>
+    </item>
+    
+    <item>
+      <title>Qt 한글 깨짐 문제</title>
+      <link>https://thirdnsov.github.io/programming/2021/10/10/P_Qt_Korean.html</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/programming/2021/10/10/P_Qt_Korean.html</guid>
+      <description>개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.
+여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.
+개발 환경  Windows 11 Qt 5.14.2 (with Qt Creator) MSVC 2017 64bit  이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.
+보통 한글이 깨지는 주된 원인은 파일 인코딩인데 Windows에서 Qt Creator를 사용하면 기본 UTF-8로 설정되어있다.
+일반적으로 UTF-8이면 한글이 꺠지지 않아야 하는데 이상하게 한글이 깨져서 보인다.</description>
+    </item>
+    
+  </channel>
+</rss>
