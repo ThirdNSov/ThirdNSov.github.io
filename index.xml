@@ -6,7 +6,21 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 30 Mar 2024 13:30:09 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Apr 2024 12:06:45 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>jekyll -&gt; hugo 마이그레이션</title>
+      <link>https://thirdnsov.github.io/tech/jekyll_to_hugo/</link>
+      <pubDate>Sat, 06 Apr 2024 12:06:45 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/jekyll_to_hugo/</guid>
+      <description>계기 몇번 언급했었던 것 처럼 이전에는 Github Pages를 이용한 Jekyll 블로그를 나름 운영하고 있었다.
+사실 포스팅을 자주 하는 것도 아니고해서 운영이라고 말하기가 좀 그렇지만 ..
+블로그를 볼 때 마다 개편하고 싶다.. 새로 바꾸고 싶다 .. 라고 막연하게 생각만 했었다.
+거기다 개인 서버에 워드프레스를 이용한 블로그까지 볼 때면 바꾸고 싶다는 생각이 자주 들었었다.
+그렇게 꽤 긴 시간이 흐르고 최근에 드디어 두 개 블로그를 어차피 동일 내용으로 운영할꺼라면
+하나의 플랫폼으로 싹 개편을 해보자!</description>
+    </item>
+    
     <item>
       <title>hugo로 블로그 이전 완료</title>
       <link>https://thirdnsov.github.io/2024/03/30/hugo%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%A0%84-%EC%99%84%EB%A3%8C/</link>
