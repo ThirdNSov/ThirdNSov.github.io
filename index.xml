@@ -6,7 +6,22 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 06 Apr 2024 12:06:45 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 11:27:35 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO 배포 환경 구성</title>
+      <link>https://thirdnsov.github.io/tech/hugo_deploy_setting/</link>
+      <pubDate>Sun, 07 Apr 2024 11:27:35 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/hugo_deploy_setting/</guid>
+      <description>계기 HUGO로 블로그를 구축한지 며칠되지 않아서 문제점을 발견했었다.
+Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 맞게 추가 설정이 필요했었다.
+ Oracle Freetier(개인 서버) Github Pages  이렇게 두개의 서버 환경에서 동일한 블로그를 운영하고 싶었고 그렇게 구축을 진행하였다.
+처음에는 동일한 소스로 동일한 내용을 보여주기에 잘 구축이 되었다고 생각했었다.
+그러다 구글 서치 콘솔 연동 작업 등을 하면서 같은 설정 파일만으로는 각 서버의 설정을
+해주기가 어렵다고 판단이 되었다.
+ Hugo Config 내용 중 baseURL robots.</description>
+    </item>
+    
     <item>
       <title>jekyll -&gt; hugo 마이그레이션</title>
       <link>https://thirdnsov.github.io/tech/jekyll_to_hugo/</link>

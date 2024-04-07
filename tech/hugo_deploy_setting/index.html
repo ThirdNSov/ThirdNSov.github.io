@@ -67,28 +67,28 @@ if (!doNotTrack) {
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - jekyll -&gt; hugo 마이그레이션</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;jekyll&#32;-&gt;&#32;hugo&#32;마이그레이션 />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;jekyll&#32;-&gt;&#32;hugo&#32;마이그레이션 />
-<meta itemprop="name" content=Thirdy&#32;-&#32;jekyll&#32;-&gt;&#32;hugo&#32;마이그레이션 />
-<meta name="application-name" content=Thirdy&#32;-&#32;jekyll&#32;-&gt;&#32;hugo&#32;마이그레이션 />
+<title itemprop="name">Thirdy - HUGO 배포 환경 구성</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;HUGO&#32;배포&#32;환경&#32;구성 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;HUGO&#32;배포&#32;환경&#32;구성 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;HUGO&#32;배포&#32;환경&#32;구성 />
+<meta name="application-name" content=Thirdy&#32;-&#32;HUGO&#32;배포&#32;환경&#32;구성 />
 <meta property="og:site_name" content="" />
 
 
-<meta name="description" content="jekyll blog to hugo blog" />
-<meta itemprop="description" content="jekyll blog to hugo blog" />
-<meta property="og:description" content="jekyll blog to hugo blog" />
-<meta name="twitter:description" content="jekyll blog to hugo blog" />
+<meta name="description" content="HUGO 배포 관련 설정, 개인 서버 및 Github Pages에 배포하기" />
+<meta itemprop="description" content="HUGO 배포 관련 설정, 개인 서버 및 Github Pages에 배포하기" />
+<meta property="og:description" content="HUGO 배포 관련 설정, 개인 서버 및 Github Pages에 배포하기" />
+<meta name="twitter:description" content="HUGO 배포 관련 설정, 개인 서버 및 Github Pages에 배포하기" />
 
 
-<base href="https://thirdnsov.github.io/tech/jekyll_to_hugo/" />
-<link rel="canonical" href="https://thirdnsov.github.io/tech/jekyll_to_hugo/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/tech/jekyll_to_hugo/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/tech/jekyll_to_hugo/" />
-<meta property="og:url" content="https://thirdnsov.github.io/tech/jekyll_to_hugo/" />
+<base href="https://thirdnsov.github.io/tech/hugo_deploy_setting/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/hugo_deploy_setting/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/hugo_deploy_setting/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/hugo_deploy_setting/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/hugo_deploy_setting/" />
 
 
-<meta property="og:updated_time" content="2024-04-06T12:06:45Z" />
+<meta property="og:updated_time" content="2024-04-07T11:27:35Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
@@ -400,14 +400,14 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
                 <div class="post">
   <div class="info">
   <h1 class="post-title">
-    <a href="https://thirdnsov.github.io/tech/jekyll_to_hugo/">jekyll -&gt; hugo 마이그레이션</a>
+    <a href="https://thirdnsov.github.io/tech/hugo_deploy_setting/">HUGO 배포 환경 구성</a>
   </h1>
 
   <div class="headline">
     <div>
       
-      <time datetime=" 2024-04-06T12:06:45Z" class="post-date">
-        2024년 4월 6일
+      <time datetime=" 2024-04-07T11:27:35Z" class="post-date">
+        2024년 4월 7일
       </time>
       
       
@@ -425,16 +425,24 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
         <a href="https://thirdnsov.github.io/tags/blog">blog</a>
       </li>
       
-      <li class="tag-jekyll">
-        <a href="https://thirdnsov.github.io/tags/jekyll">jekyll</a>
-      </li>
-      
       <li class="tag-hugo">
         <a href="https://thirdnsov.github.io/tags/hugo">hugo</a>
       </li>
       
-      <li class="tag-migration">
-        <a href="https://thirdnsov.github.io/tags/migration">migration</a>
+      <li class="tag-oracle">
+        <a href="https://thirdnsov.github.io/tags/oracle">oracle</a>
+      </li>
+      
+      <li class="tag-freetier">
+        <a href="https://thirdnsov.github.io/tags/freetier">freetier</a>
+      </li>
+      
+      <li class="tag-github">
+        <a href="https://thirdnsov.github.io/tags/github">github</a>
+      </li>
+      
+      <li class="tag-githubpages">
+        <a href="https://thirdnsov.github.io/tags/githubpages">githubpages</a>
       </li>
       
     </ul>
@@ -448,71 +456,93 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </div>
 
   <h3 id="계기">계기</h3>
-<p>몇번 언급했었던 것 처럼 이전에는 Github Pages를 이용한 Jekyll 블로그를 나름 운영하고 있었다.<br>
-사실 포스팅을 자주 하는 것도 아니고해서 운영이라고 말하기가 좀 그렇지만 ..<br>
-블로그를 볼 때 마다 개편하고 싶다.. 새로 바꾸고 싶다 .. 라고 막연하게 생각만 했었다.<br>
-거기다 개인 서버에 워드프레스를 이용한 블로그까지 볼 때면 바꾸고 싶다는 생각이 자주 들었었다.</p>
-<p>그렇게 꽤 긴 시간이 흐르고 최근에 드디어 두 개 블로그를 어차피 동일 내용으로 운영할꺼라면<br>
-하나의 플랫폼으로 싹 개편을 해보자! 라고 마음을 먹었고 바로 진행하게 되었다.</p>
-<p>블로그 개편 이후 첫 포스팅인 글에서도 언급했었지만 정말 여러 블로그 플랫폼이 존재했고<br>
-그 중 개인 서버와 Github Pages를 모두 활용할 수 있는 플랫폼인 HUGO를 선택하게 되었다.</p>
-<p>각설하고 처음에는 Jekyll 블로그를 HUGO로 가져오는 방법이 없는 줄 알았었다.<br>
-애초에 마이그레이션에 대해 생각조차 않하고 있었다.<br>
-그냥 같은 Markdown으로 작성되어있으니 옮기기만 하면 되겠지? 라고 생각하며 ..</p>
-<p>하지만 사소한 차이는 존재했고 그저 옮기기만 한다고 내가 원하는대로 적용되진 않았었다.<br>
-큰 문제는 없었지만 .. 포스팅할 때 작성하는 전문(Front-Matter; 용어가 맞는지는 모르겠다..)이<br>
-차이가 나는 점이 있었다.</p>
-<p>그렇게 하나씩 옮기고 일일이 다 수정을 해야하나보다 싶어서 천천히 수동으로 옮기며 HUGO에 대해<br>
-이리저리 검색을 하고 있었는데 설정 정도만 확인하려고 방문한 블로그에서 마이그레이션이<br>
-가능하다고 작성되어있어서 바로 알아보고 바로 마이그레이션을 진행했다.</p>
-<hr>
-<h3 id="마이그레이션">마이그레이션</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo import jekyll <span style="color:#f92672">{{</span>Jekyll-Path<span style="color:#f92672">}}</span> <span style="color:#f92672">{{</span>HUGO-Path<span style="color:#f92672">}}</span>
-</code></pre></div><p>마이그레이션 하는 방법은 정말 간단했다.<br>
-위 명령어만 써주면 사실상 끝..<br>
-물론 부가 설정들은 필요하지만 생각보다 정말 간단하게 마이그레이션을 지원해주고 있었다.</p>
-<p>기존 Jekyll의 내용이 가벼워서 그런지 몰라도 마이그레이션 속도는 정말 순식간이었다.<br>
-명령을 요청하자마자 거의 바로 되는 느낌&hellip;?<br>
-하나하나 직접 옮기고 있던 내 자신이 작은 느낌이었다&hellip;<br>
-(무엇이든 공식 문서는 항상 잘 보는 습관이 필요하다고 다시 한번 깨닫기..)</p>
-<hr>
-<h3 id="경험">경험</h3>
-<p>마이그레이션을 했을 때 특별히 문제될 부분은 없었는데 config 파일 부분이 마음에 들지 않았다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site <span style="color:#f92672">{{</span>New-Site-Name<span style="color:#f92672">}}</span>
-</code></pre></div><p>처음 테스트할 때 이렇게 그냥 생성해서 확인을 했었는데 이때는 config 파일의 확장자가 toml이었다.<br>
-그래서 toml로 설정을 다 준비해두었고 나름 익숙해져있었는데 마이그레이션을 하고 보니 확장자가<br>
-yaml로 생성되어있었다.<br>
-그래서 옵션을 찾아보았는데 config 파일을 지정하는 옵션이 있어 다음 처럼 입력해보았었다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo import jekyll <span style="color:#f92672">{{</span>Jekyll-Path<span style="color:#f92672">}}</span> <span style="color:#f92672">{{</span>HUGO-Path<span style="color:#f92672">}}</span> --config config.toml
-</code></pre></div><p>하지만 사용법이 잘못된 것인지 여전히 yaml로 생성이 되는 모습을 보았었다.<br>
-특별히 이 부분 때문에 큰 문제가 있던 것도 아니고 미리 테스트하면서 준비해둔 config.toml이 있어서<br>
-그냥 교체해버리고 더 신경쓰지는 않았다.<br>
-공식 문서를 잘 확인해보면 제대로된 방법이 있지 않을까 생각만 하고 있다 ..</p>
-<p>하나 더 덧붙이자면 config가 yaml로 되면 hugo 관련 설정들 대부분이 yaml로 설정되는 느낌이었다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new <span style="color:#f92672">{{</span>Post-Path<span style="color:#f92672">}}</span>
-</code></pre></div><p>위 명령으로 새로 포스팅을 하려고 새 파일을 생성하면 전문이 yaml 포맷으로 나왔었다.
-왜 그런가 찾아보니 archetypes 디렉토리 아래의 default.md 내용이 yaml로 작성되어있었다.<br>
-어차피 커스텀을 할 생각이었어서 toml 포맷으로 변경 작성했고 이후에는 toml로 잘 생성되었다.</p>
-<p>아래 참고했던 블로그를 보면 본 포스팅 내용보다 유용한 정보가 작성되어있으니 참고해도 좋을 것 같다.</p>
-<hr>
-<h3 id="참고-링크">참고 링크</h3>
+<p>HUGO로 블로그를 구축한지 며칠되지 않아서 문제점을 발견했었다.<br>
+Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 맞게 추가 설정이 필요했었다.</p>
 <ul>
-<li><a href="https://gohugo.io/commands/hugo_import_jekyll/" target="_blank">hugo import jekyll</a></li>
-<li><a href="https://ryanking13.github.io/2020/12/29/migrating-jekyll-to-hugo.html" target="_blank">블로그 Jekyll to Hugo 마이그레이션 후기</a></li>
+<li>Oracle Freetier(개인 서버)</li>
+<li>Github Pages</li>
 </ul>
+<p>이렇게 두개의 서버 환경에서 동일한 블로그를 운영하고 싶었고 그렇게 구축을 진행하였다.<br>
+처음에는 동일한 소스로 동일한 내용을 보여주기에 잘 구축이 되었다고 생각했었다.<br>
+그러다 구글 서치 콘솔 연동 작업 등을 하면서 같은 설정 파일만으로는 각 서버의 설정을<br>
+해주기가 어렵다고 판단이 되었다.</p>
+<ul>
+<li>Hugo Config 내용 중 baseURL</li>
+<li>robots.txt</li>
+<li>Sitemap</li>
+<li>Google Analytics 연동</li>
+</ul>
+<p>이 4가지 설정값 만큼은 따로따로 가야한다고 판단이 들었다.<br>
+특히 baseURL의 경우에는 Sitemap 생성에도 영향을 주고 구글 서치 콘솔에서<br>
+집계도 제대로 안되는 문제가 있었다.</p>
+<hr>
+<h2 id="분리">분리</h2>
+<h3 id="configtoml">config.toml</h3>
+<p>설정을 어떻게 나눠야할지.. 관련 문서를 찾아보려고 했지만 마땅한 키워드도 생각나지 않고<br>
+고민을 계속하다가 결국 그냥 Config 파일을 두개로 분리하기로 결정하였다.</p>
+<ul>
+<li>config.toml : Oracle Freetier의 Hugo Config</li>
+<li>config_github.toml : Github Pages의 Hogo Config</li>
+</ul>
+<p>공식적으로 설정을 하는 방법이 있는지는 정확히는 모르겠지만 ..<br>
+현재 나는 두 서버의 도메인이 다르기 때문에 baseURL 설정을 위해서라도 분리하는게<br>
+맞다고 보였다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">...
+<span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;https://thirdy.me&#34;</span>
+<span style="color:#75715e"># baseURL = &#34;https://thirdnsov.github.io&#34; #Github 주소</span>
+<span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;ko-KR&#34;</span>
+<span style="color:#a6e22e">defaultContentLanguage</span> = <span style="color:#e6db74">&#34;ko&#34;</span>
+<span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#34;&#34;</span>
+<span style="color:#75715e"># googleAnalytics = &#34;&#34; #Github용 수집 ID</span>
+<span style="color:#75715e">#publishDir = &#34;public_github&#34; #Github용 Output Path</span>
+<span style="color:#a6e22e">enableRobotsTXT</span> = <span style="color:#66d9ef">true</span>
+...
+</code></pre></div><p>Config를 분리함으로써 복잡하게 생각할 필요 없이 그저 hugo 명령만 한번 더 해주면 되서<br>
+오히려 편하게 관리할 수 있는 느낌도 든다.<br>
+지금은 동일한 테마와 동일한 내용으로 구성이 되어있지만 혹시라도 나중에 서로 다른 테마 적용이나<br>
+다른 구성으로 가려고 했을 때 좀 더 수월할 거 같은 느낌&hellip;?</p>
+<p>무튼 이렇게 Config 파일 분리로 인해 baseURL, Sitemap, Google Analytics 연동 문제를<br>
+한번에 해결할 수 있었다.</p>
+<h3 id="robotstxt">robots.txt</h3>
+<p>robots.txt도 사실 Config 분리에서 해결될 수 있었지만 이전 Jekyll 블로그를 마이그레이션 하면서<br>
+이전 robots.txt가 static 디렉토리에 남아있어 내용이 Github Pages에서 사용하던 robots.txt가<br>
+그대로 다른 서버에도 적용되고 있었다.</p>
+<p>이것도 분리해서 관리를 할까 .. 공식 문서에서 알려주는 템플릿을 작성해서 사용할까 고민이 되었다.<br>
+근데 생각해보니 현재 상황에서는 딱히 bot을 막을 이유도 없고 일부 막을 부분도 없어서<br>
+단순히 그냥 .. 자유롭게 접근할 수 있게 설정을 해버렸다.</p>
+<ul>
+<li>config.toml / config_github.toml 내용 중
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">...
+<span style="color:#a6e22e">enableRobotsTXT</span> = <span style="color:#66d9ef">true</span>
+...
+</code></pre></div></li>
+</ul>
+<p>저 한줄이 설정 끝. 그리고 static에 있던 robots.txt는 삭제. <br>
+enableRobotsTXT 옵션을 주게 되면 구성해놓은 템플릿에 맞게 robots.txt가 생성된다.<br>
+(자동 생성 및 고정된 내용이라면 그냥 static 디렉토리에 넣어둬도 상관 없을듯)<br>
+아무런 설정을 하지 않았기 때문에 기본값을 가진 robots.txt가 생성되는 것을 확인했다.</p>
+<pre tabindex="0"><code>#robots.txt
+
+User-agent: *
+</code></pre><hr>
+<h2 id="마무리">마무리</h2>
+<p>하나의 서버 구성에서 운영하는 상황이었다면 고민할 필요가 없었던 부분일테지만<br>
+두 개의 서버 환경에서 서로 다른 설정으로 같은 내용을 보여주고자 하면서 발생했던 것 같다.<br>
+스크립트를 활용해서 복잡하게 해결을 했어도 되었겠지만 분리만으로도 나름 깔끔하게 잘 된거 같아서<br>
+스스로는 나름 만족하고 있다.<br>
+아직은 Hugo를 제대로 모르기도 하고 그냥 가지고 있는 아는 범위 내에서 해결을 하려고만 하고 있는 중..<br>
+추후에 다른 방법이 확인된다면 그때 다시 바꿔도 되지 않을까.. ?</p>
+<h3 id="참고-링크">참고 링크</h3>
+<p><a href="https://gohugo.io/templates/robots/" target="_blank">Robots.txt file</a></p>
 
   
   <hr>
 <div class="footer">
     
 	    
-            <a class="previous-post" href="https://thirdnsov.github.io/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Flutter - Android Studio Electic Eel 버전 설치 시 Java ...</a>
+            <a class="previous-post" href="https://thirdnsov.github.io/tech/jekyll_to_hugo/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>jekyll -&gt; hugo 마이그레이션</a>
         
 	    
-            <div class="next-post">
-                <a href="https://thirdnsov.github.io/tech/hugo_deploy_setting/?ref=footer"><span style="font-weight:bold;">Next »</span><br>HUGO 배포 환경 구성</a>
-            </div>
-        
     
 </div>
 
@@ -529,8 +559,16 @@ yaml로 생성되어있었다.<br>
     <li>
       <ul>
         <li><a href="#계기">계기</a></li>
-        <li><a href="#마이그레이션">마이그레이션</a></li>
-        <li><a href="#경험">경험</a></li>
+      </ul>
+    </li>
+    <li><a href="#분리">분리</a>
+      <ul>
+        <li><a href="#configtoml">config.toml</a></li>
+        <li><a href="#robotstxt">robots.txt</a></li>
+      </ul>
+    </li>
+    <li><a href="#마무리">마무리</a>
+      <ul>
         <li><a href="#참고-링크">참고 링크</a></li>
       </ul>
     </li>
