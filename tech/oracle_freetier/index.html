@@ -594,14 +594,12 @@ auth <span style="color:#f92672">=</span> Signer(
         }
     }
 
-    <span style="color:#75715e"># request 보내기, 해당 API는 post method를 요구합니다.</span>
     <span style="color:#66d9ef">return</span> requests<span style="color:#f92672">.</span>post(endpoint, json<span style="color:#f92672">=</span>body, auth<span style="color:#f92672">=</span>auth)
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sendTelegram</span>(msg, count) :
     bot <span style="color:#f92672">=</span> telegram<span style="color:#f92672">.</span>Bot(<span style="color:#e6db74">&#39;{{telegram_key}}&#39;</span>)
     chat_id <span style="color:#f92672">=</span> {{telegram_chat_id}}
 
-    <span style="color:#75715e">#output = count + &#34; try.. &#34; + msg + &#34;Oracle Freetier A1&#34;</span>
     output <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;---------------------------------------</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
     output <span style="color:#f92672">+=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>count<span style="color:#e6db74">}</span><span style="color:#e6db74"> try.. </span><span style="color:#e6db74">{</span>msg<span style="color:#e6db74">}</span><span style="color:#e6db74"> Oracle Freetier A1</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
     output <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;---------------------------------------</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
@@ -631,22 +629,23 @@ auth <span style="color:#f92672">=</span> Signer(
             run <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 
 </code></pre></div><p>빈칸('{{ }}')으로 보이는 항목은 각자의 정보로 새로 수정해서 사용하면 된다.</p>
-<p>auth = Signer() 부분 정보를 얻는 방법은 여기에 기술하기에는 내용이 길어길 것 같아서 우선은 참고 링크만 남겨둔다.<br>
-(추후 따로 정리하거나 이 페이지에 업데이트 예정)</p>
+<p>auth = Signer() 부분 정보를 얻는 방법은 여기에 기술하기에는 내용이<br>
+길어길 것 같아서 우선은 참고 링크만 남겨둔다.(추후 따로 정리하거나 이 페이지에 업데이트 예정)</p>
 <p><a href="https://jaehwanshim.tistory.com/3" target="_blank">오라클 클라우드 Out of host capacity 오류, 그리고 스크립트로 뚫기</a></p>
 <p>Body 부분의 정보는 개발자 도구로 손 쉽게 확인이 가능하다.<br>
 개발자 도구를 켠 후 Create 버튼을 누르면 잡히는 API의 Payload 값에 모두 담겨있다.</p>
 <p><img src="/assets/img/oracle_freetier/oracle_devtools.png" alt="Dev Tools"></p>
 <p>위 값을 복사에서 코드에 붙여넣고 사용하기만 하면 된다.<br>
 여기까지 되었다면 스크립트는 준비가 되었고 실제 동작시키기만 하면 된다.<br>
-PC를 사용할 때만 동작시켜서 성공한 사람도 있고 서버 등을 이용해서 계속 동작시키는 사람도 있고 다양하다.<br>
+PC를 사용할 때만 동작시켜서 성공한 사람도 있고 서버 등을 이용해서<br>
+계속 동작시키는 사람도 있고 다양하다.<br>
 필자는 이미 기존에 인스턴스가 하나 있기 때문에 해당 서버에서 동작시켰다.<br>
 너무 자주 시도하면 아예 막힌다는 얘기도 있기 때문에 시간 설정은 각자 판단하게 하면 될 것 같다.</p>
 <hr>
 <h3 id="후기">후기</h3>
 <p>약 3주간 15,000번의 시도를 해보았는데 성공하지는 못하였다.</p>
-<p>텔레그램 코드쪽에 예외처리가 부족해서 그런지 중간중간 Timeout 발생하면서 스크립트가 종료되기도 했고<br>
-API 응답으로 &ldquo;Out of host capacity.&ldquo;가 아닌 텍스트가 넘어오는 경우도 있었었다.<br>
+<p>텔레그램 코드쪽에 예외처리가 부족해서 그런지 중간중간 Timeout 발생하면서 스크립트가<br>
+종료되기도 했고 API 응답으로 &ldquo;Out of host capacity.&ldquo;가 아닌 텍스트가 넘어오는 경우도 있었었다.<br>
 결론적으로는 스크립트가 불완전한 상태이다. 하지만 그래도 손으로 직접하는 것 보다는 훨씬 효율이 좋고<br>
 서버를 활용하면 자고 있는 시간에도 시도하기 때문에 언젠가는 되지 않을까 하는 마음으로 ..<br>
 나중에 시간이 될 때 스크립트는 보완작업 예정이다.</p>
