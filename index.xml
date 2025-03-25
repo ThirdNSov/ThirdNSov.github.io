@@ -67,10 +67,10 @@ Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 �
     
     <item>
       <title>hugo로 블로그 이전 완료</title>
-      <link>https://thirdnsov.github.io/2024/03/30/hugo%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%A0%84-%EC%99%84%EB%A3%8C/</link>
+      <link>https://thirdnsov.github.io/2024/03/30/migrated_hugo_blog/</link>
       <pubDate>Sat, 30 Mar 2024 13:30:09 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/2024/03/30/hugo%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%A0%84-%EC%99%84%EB%A3%8C/</guid>
+      <guid>https://thirdnsov.github.io/2024/03/30/migrated_hugo_blog/</guid>
       <description>미루고 미루고 있던 블로그 개편을 드디어 진행..
 기존에는 Github에서 Jekyll과 워드프레스 두개의 블로그를 운영 중이었는데
 두 플랫폼의 포스팅 통일하기도 어렵고 .. 한쪽만 관리하자니 한쪽이 아쉽고 하는 상황이었다
@@ -95,10 +95,10 @@ Contact : thirdnsov.dev@gmail.com</description>
     
     <item>
       <title>Flutter - Android Studio Electic Eel 버전 설치 시 Java 오류</title>
-      <link>https://thirdnsov.github.io/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html</link>
+      <link>https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/tech/2023/03/05/T_Flutter_androidstudio_eel_jdk.html</guid>
+      <guid>https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/</guid>
       <description>새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.
 기존에 세팅하던 순서대로 쭉 진행하고 있었는데
 Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기 flutter doctor에서 계속 오류가 발생하고 있었다.
@@ -110,10 +110,10 @@ PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는�
     
     <item>
       <title>맥북에서 undefined method `map&#39; for nil:NilClass 오류 발생 시</title>
-      <link>https://thirdnsov.github.io/tech/2023/03/05/T_Mac_Flutter_nilclass.html</link>
+      <link>https://thirdnsov.github.io/tech/macbook_nilclass_issue/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/tech/2023/03/05/T_Mac_Flutter_nilclass.html</guid>
+      <guid>https://thirdnsov.github.io/tech/macbook_nilclass_issue/</guid>
       <description>최근 공부 겸 토이프로젝트 진행 중인데 매번 안드로이드 에뮬레이터에서만 하다가
 이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..
 이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서
@@ -125,10 +125,10 @@ Searching for inspections failed: undefined method `map&#39; for nil:NilClass �
     
     <item>
       <title>맥북에서 카톡 알림 안울릴 때</title>
-      <link>https://thirdnsov.github.io/tech/2023/02/23/T_Mac_Kakaotalk.html</link>
+      <link>https://thirdnsov.github.io/tech/macbook_kakaotalk_alram_issue/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/tech/2023/02/23/T_Mac_Kakaotalk.html</guid>
+      <guid>https://thirdnsov.github.io/tech/macbook_kakaotalk_alram_issue/</guid>
       <description>맥북을 구매한지 이제 반년이 조금 지났는데 초반에 카톡 알림이 울리지 않아서
 찾아보았던 결과를 기록하려고 한다.
 구글, 네이버 검색으로 얻은 해결 방법으로는 해결하지 못했었다.
@@ -137,10 +137,10 @@ Searching for inspections failed: undefined method `map&#39; for nil:NilClass �
     
     <item>
       <title>맥북 한글 입력기 교체</title>
-      <link>https://thirdnsov.github.io/tech/2022/09/05/T_Mac_KeyInput_Gureum.html</link>
+      <link>https://thirdnsov.github.io/tech/macbook_korean_input/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/tech/2022/09/05/T_Mac_KeyInput_Gureum.html</guid>
+      <guid>https://thirdnsov.github.io/tech/macbook_korean_input/</guid>
       <description>작성자는 평소 한영 전환키를 Shift + Space로 사용한다.
 이 단축키로 사용한지 꽤나 오랜 시간이 지났기 때문에 처음 맥북을 사용할 때
 Control + Space가 오늘까지도 너무 불편하게 다가왔다.
@@ -154,10 +154,10 @@ Monterey 버전부터는 Control + Space가 고정인듯했다.
     
     <item>
       <title>Flutter 다운로드 버튼 (Failed) 대처법</title>
-      <link>https://thirdnsov.github.io/tech/2022/09/02/T_Flutter_Download_Failed.html</link>
+      <link>https://thirdnsov.github.io/tech/flutter_download_failed_issue/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/tech/2022/09/02/T_Flutter_Download_Failed.html</guid>
+      <guid>https://thirdnsov.github.io/tech/flutter_download_failed_issue/</guid>
       <description>최근 회사에서 Flutter를 사용할 일이 생겨서 학습해보는 중이다.
 그 과정 중에서 겪은 일이나 포스팅할 만한 내용은 간간히 남겨두려고 한다.
 새로운 개발 환경을 구축하려면 역시 관련 프로그램들을 설치해야한다.
@@ -169,10 +169,10 @@ Monterey 버전부터는 Control + Space가 고정인듯했다.
     
     <item>
       <title>Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</title>
-      <link>https://thirdnsov.github.io/tech/2021/11/02/T_Qt_OnlineInstaller.html</link>
+      <link>https://thirdnsov.github.io/tech/qt_online_installer_mirror/</link>
       <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/tech/2021/11/02/T_Qt_OnlineInstaller.html</guid>
+      <guid>https://thirdnsov.github.io/tech/qt_online_installer_mirror/</guid>
       <description>Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.
 Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..
 왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다. 하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..
@@ -182,10 +182,10 @@ Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치
     
     <item>
       <title>Qt 디버깅 시 QWebEngineCored 오류</title>
-      <link>https://thirdnsov.github.io/programming/2021/10/18/P_QWebEngine_Error.html</link>
+      <link>https://thirdnsov.github.io/programming/qwebenginecored_issue/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/programming/2021/10/18/P_QWebEngine_Error.html</guid>
+      <guid>https://thirdnsov.github.io/programming/qwebenginecored_issue/</guid>
       <description>Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.
 관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.
 개발 환경  Windows 10 64bit Qt 5.12.2 MSVC 2017  발생했던 오류 메시지 내용은 다음과 같다.
@@ -194,10 +194,10 @@ QWebEngineCored - Check failed: used_count == used_items_ 코드상 특별한 �
     
     <item>
       <title>Kt 데이터 쉐어링 온라인 신청하기</title>
-      <link>https://thirdnsov.github.io/daily/2021/10/12/D_KT_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%89%90%EC%96%B4%EB%A7%81.html</link>
+      <link>https://thirdnsov.github.io/2021/10/12/kt_data_sharing/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2021/10/12/D_KT_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%89%90%EC%96%B4%EB%A7%81.html</guid>
+      <guid>https://thirdnsov.github.io/2021/10/12/kt_data_sharing/</guid>
       <description>갤럭시 탭 S7을 구입하고 와이파이로 사용하다가 문득 구매한 모델이 LTE지원 모델인 것을 깨닫고 바로 데이터 쉐어링을 찾아봤다.
 예전에 아는 형이 KT 데이터 쉐어링한다고 같이 KT 플라자를 방문해서 신청했던게 생각나서 회사 근처 KT 플라자를 찾아봤는데 찾다보니 온라인 신청도 가능하더라.
 KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선에 추가되서 청구된다고 한다.
@@ -207,10 +207,10 @@ KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선
     
     <item>
       <title>갤럭시 S7 구매(with 당근)</title>
-      <link>https://thirdnsov.github.io/daily/2021/10/11/D_GalaxyTab_s7.html</link>
+      <link>https://thirdnsov.github.io/2021/10/11/galaxy_tab_s7/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2021/10/11/D_GalaxyTab_s7.html</guid>
+      <guid>https://thirdnsov.github.io/2021/10/11/galaxy_tab_s7/</guid>
       <description>최근 계속 태블릿을 하나 갖고 싶은 생각이 계속 들어서
 살지말지 고민을 계속하다가 오늘 질러버렸다..
 새거로 살까.. 중고로 살까 계속 간만 보고 있다가 오늘
@@ -222,10 +222,10 @@ KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선
     
     <item>
       <title>Github 블로그 검색 등록 완료</title>
-      <link>https://thirdnsov.github.io/daily/2021/10/10/D_Reg_Search_Engine.html</link>
+      <link>https://thirdnsov.github.io/2021/10/10/reg_search_console/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2021/10/10/D_Reg_Search_Engine.html</guid>
+      <guid>https://thirdnsov.github.io/2021/10/10/reg_search_console/</guid>
       <description>Github 블로그를 만든지 1년 만에 구글, 네이버, 다음에서 검색되도록
 신청을 했다..
 신청하는 방법과 결과는 조만간 정리해서 포스팅 예정!
@@ -237,10 +237,10 @@ https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%
     
     <item>
       <title>Github 블로그 포스팅 내용에 이미지 안나올 때</title>
-      <link>https://thirdnsov.github.io/tech/2021/10/10/T_Github_blog_img_upload.html</link>
+      <link>https://thirdnsov.github.io/tech/github_blog_image_not_load/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/tech/2021/10/10/T_Github_blog_img_upload.html</guid>
+      <guid>https://thirdnsov.github.io/tech/github_blog_image_not_load/</guid>
       <description>오랜만에 포스팅 문서 작성을 하고 푸시를 하고 잘 올라갔는지 확인을 해보는데 이상하게 포스팅 내용 중간중간 이미지가 보이질 않는다.
 파일명도 맞고 .. 경로도 맞고 .. VS Code에선 이미지가 잘 보이는데 이상하게 실제 블로그 화면에서는 이미지가 계속 보이지 않았다.
 뭔가 잘못 푸시를 한걸까 싶어 찾다보니 단순한 문제였다.
@@ -250,10 +250,10 @@ VS Code에서는 파일명에 대해 대소문자를 크게 가리지 않아서 
     
     <item>
       <title>Qt 한글 깨짐 문제</title>
-      <link>https://thirdnsov.github.io/programming/2021/10/10/P_Qt_Korean.html</link>
+      <link>https://thirdnsov.github.io/programming/qt_korean_broken_issue/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/programming/2021/10/10/P_Qt_Korean.html</guid>
+      <guid>https://thirdnsov.github.io/programming/qt_korean_broken_issue/</guid>
       <description>개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.
 여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.
 개발 환경  Windows 11 Qt 5.14.2 (with Qt Creator) MSVC 2017 64bit  이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.
@@ -263,10 +263,10 @@ VS Code에서는 파일명에 대해 대소문자를 크게 가리지 않아서 
     
     <item>
       <title>Raspberry Pi3&#43;에 Fedora Linux 설치</title>
-      <link>https://thirdnsov.github.io/linux/2020/11/24/RPi_Fedora.html</link>
+      <link>https://thirdnsov.github.io/tech/rpi3_fedora_linux/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/linux/2020/11/24/RPi_Fedora.html</guid>
+      <guid>https://thirdnsov.github.io/tech/rpi3_fedora_linux/</guid>
       <description>Fedora를 설치해서 사용해보려고 Hyper-V 설치하고 하다가 문득 집에 RPi3+가 남아서
 여기에 설치를 해보자 싶어서 시작.
 라즈베리파이 사용할 때 주로 그냥 라즈비안 올려서 사용했었는데 페도라를 올리면 또
@@ -280,10 +280,10 @@ ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞
     
     <item>
       <title>Fedora Linux - yum, 그리고 dnf</title>
-      <link>https://thirdnsov.github.io/linux/2020/11/19/yum_vs_dnf.html</link>
+      <link>https://thirdnsov.github.io/tech/fedora_yum_dnf/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/linux/2020/11/19/yum_vs_dnf.html</guid>
+      <guid>https://thirdnsov.github.io/tech/fedora_yum_dnf/</guid>
       <description>오랜만에 Fedora에 대한 정보를 들었는데 요즘은 yum을 대신해서 dnf라는
 명령을 사용한다고 들었다.
 yum을 사용하면서 크게 불편함을 느낀 기억이 없는데 왜 바뀌었는지 조금 찾아보았고
@@ -293,10 +293,10 @@ yum을 사용하면서 크게 불편함을 느낀 기억이 없는데 왜 바뀌
     
     <item>
       <title>Github 블로그 개설 일단 완료</title>
-      <link>https://thirdnsov.github.io/daily/2020/10/08/Github_%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%B0%9C%EC%84%A4_%EC%9D%BC%EB%8B%A8_%EC%99%84%EB%A3%8C.html</link>
+      <link>https://thirdnsov.github.io/2020/10/08/make_github_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2020/10/08/Github_%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%B0%9C%EC%84%A4_%EC%9D%BC%EB%8B%A8_%EC%99%84%EB%A3%8C.html</guid>
+      <guid>https://thirdnsov.github.io/2020/10/08/make_github_blog/</guid>
       <description>미루고 미루던 Github 블로그 작업 일단 1차 완료.
 Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..
 다른 블로그 플랫폼이랑 뭔가 느낌자체가 달라서 적응시간도..
@@ -306,10 +306,10 @@ Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..
     
     <item>
       <title>블로그 개설한 기념 오랜만에 Tistory 방문</title>
-      <link>https://thirdnsov.github.io/daily/2020/10/08/Tistory_Daily.html</link>
+      <link>https://thirdnsov.github.io/2020/10/08/visit_my_tistory_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2020/10/08/Tistory_Daily.html</guid>
+      <guid>https://thirdnsov.github.io/2020/10/08/visit_my_tistory_blog/</guid>
       <description>Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.
 예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&amp;hellip;
 오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..</description>

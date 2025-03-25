@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - 맥북에서 undefined method `map&#39; for nil:NilClass 오류 발생 시</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;맥북에서&#32;undefined&#32;method&#32;&#96;map&#39;&#32;for&#32;nil:NilClass&#32;오류&#32;발생&#32;시 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;맥북에서&#32;undefined&#32;method&#32;&#96;map&#39;&#32;for&#32;nil:NilClass&#32;오류&#32;발생&#32;시 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;맥북에서&#32;undefined&#32;method&#32;&#96;map&#39;&#32;for&#32;nil:NilClass&#32;오류&#32;발생&#32;시 />
+<meta name="application-name" content=Thirdy&#32;-&#32;맥북에서&#32;undefined&#32;method&#32;&#96;map&#39;&#32;for&#32;nil:NilClass&#32;오류&#32;발생&#32;시 />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/tech/macbook_nilclass_issue/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/macbook_nilclass_issue/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/macbook_nilclass_issue/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/macbook_nilclass_issue/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/macbook_nilclass_issue/" />
 
 
-<meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
+<meta property="og:updated_time" content="2023-03-05T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,114 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/macbook_nilclass_issue/">맥북에서 undefined method `map&#39; for nil:NilClass 오류 발생 시</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2023-03-05T00:00:00Z" class="post-date">
+        2023년 3월 5일
+      </time>
+      
+      
+      
+    </div>
+
+
     
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-programming">
+        <a href="https://thirdnsov.github.io/tags/programming">programming</a>
+      </li>
+      
+      <li class="tag-flutter">
+        <a href="https://thirdnsov.github.io/tags/flutter">flutter</a>
+      </li>
+      
+      <li class="tag-error">
+        <a href="https://thirdnsov.github.io/tags/error">error</a>
+      </li>
+      
+    </ul>
     
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>최근 공부 겸 토이프로젝트 진행 중인데 매번 안드로이드 에뮬레이터에서만 하다가<br>
+이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..</p>
+<p>이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서<br>
+빌드를 진행했는데 갑자기 .. 오류가 발생했다.</p>
+<pre tabindex="0"><code>Searching for inspections failed: undefined method `map' for nil:NilClass
+</code></pre><p>방금 전까지 분명 잘 되던 상태였는데 갑자기 오류가 발생하니 당황 ..<br>
+테스트한다고 했던 코드랑 패키지를 하나씩 제거하다보니 역시나 특정 패키지에서<br>
+문제가 있었던 것이고 해당 패키지는 사용하고 싶어서 해결 방법을 찾아봤다.</p>
+<p>찾아보니 M1 맥북이어서 발생하는 문제로 보였다.<br>
+로제타 관련 이슈인 것 같아보였다.
+StackOverflow에서 관련 글을 확인했고 해당 글은<br>
+<a href="https://stackoverflow.com/questions/67443265/error-regarding-undefined-method-map-for-nilnilclass-for-flutter-app-cocoap" target="_blank">여기</a>이다.</p>
+<p>답변에서 제시한 방법으로 하니 당연히 동작은 되었고 관련해서 찾다보니<br>
+Flutter에서도 나름대로 내용을 공유해놓고 있었다.</p>
+<p><a href="https://docs.flutter.dev/get-started/install/macos#deploy-to-ios-devices" target="_blank">https://docs.flutter.dev/get-started/install/macos#deploy-to-ios-devices</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo gem uninstall ffi <span style="color:#f92672">&amp;&amp;</span> sudo gem install ffi -- --enable-libffi-alloc
+</code></pre></div><h4 id="참고-링크">참고 링크</h4>
+<ul>
+<li><a href="https://stackoverflow.com/questions/67443265/error-regarding-undefined-method-map-for-nilnilclass-for-flutter-app-cocoap" target="_blank">Error Regarding undefined method `map' for nil:NilClass for Flutter App / CocoaPod Error</a></li>
+<li><a href="https://docs.flutter.dev/get-started/install/macos#deploy-to-ios-devices" target="_blank">Deploy to iOS devices</a></li>
 </ul>
 
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/tech/macbook_kakaotalk_alram_issue/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>맥북에서 카톡 알림 안울릴 때</a>
+        
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Flutter - Android Studio Electic Eel 버전 설치 시 Java ...</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

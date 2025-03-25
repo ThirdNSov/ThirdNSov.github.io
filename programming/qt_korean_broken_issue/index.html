@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - Qt 한글 깨짐 문제</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Qt&#32;한글&#32;깨짐&#32;문제 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Qt&#32;한글&#32;깨짐&#32;문제 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Qt&#32;한글&#32;깨짐&#32;문제 />
+<meta name="application-name" content=Thirdy&#32;-&#32;Qt&#32;한글&#32;깨짐&#32;문제 />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/programming/qt_korean_broken_issue/" />
+<link rel="canonical" href="https://thirdnsov.github.io/programming/qt_korean_broken_issue/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/programming/qt_korean_broken_issue/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/programming/qt_korean_broken_issue/" />
+<meta property="og:url" content="https://thirdnsov.github.io/programming/qt_korean_broken_issue/" />
 
 
-<meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
+<meta property="og:updated_time" content="2021-10-10T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,117 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2021-10-10T00:00:00Z" class="post-date">
+        2021년 10월 10일
+      </time>
+      
+      
+      
+    </div>
+
+
     
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
+    <ul class="tags">
+      
+      <li class="tag-programming">
+        <a href="https://thirdnsov.github.io/tags/programming">programming</a>
+      </li>
+      
+      <li class="tag-qt">
+        <a href="https://thirdnsov.github.io/tags/qt">qt</a>
+      </li>
+      
+      <li class="tag-korean">
+        <a href="https://thirdnsov.github.io/tags/korean">korean</a>
+      </li>
+      
+    </ul>
     
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.<br>
+여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.</p>
+<h3 id="개발-환경">개발 환경</h3>
+<ul>
+<li>Windows 11</li>
+<li>Qt 5.14.2 (with Qt Creator)</li>
+<li>MSVC 2017 64bit</li>
+</ul>
+<p>이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.</p>
+<p>보통 한글이 깨지는 주된 원인은 파일 인코딩인데 Windows에서 Qt Creator를 사용하면 기본 UTF-8로 설정되어있다.<br>
+일반적으로 UTF-8이면 한글이 꺠지지 않아야 하는데 이상하게 한글이 깨져서 보인다.<br>
+Qt Designer를 이용해서 Widget에 직접 한글을 입력해둔 경우에는 깨지지 않지만 코드를 이용해 Widget에 한글로 Text를 입력시키면 깨지게 된다.</p>
+<p><img src="/assets/img/qt_korean_1.png" alt=""></p>
+<p>처음 한글 깨짐 현상을 겪고 &ldquo;Qt 한글 깨짐&rdquo; 키워드로 검색해서 여러 해결 방법을 적용시켜봤지만 쉽게 해결되지 않았다.</p>
+<p><img src="/assets/img/qt_korean_2.png" alt=""></p>
+<p>찾다보니 위 해결방법들은 일반적으로 Linux 환경의 Qt에서 정상 동작하는 해결 방법인 것을 알게 되었고 Windows에서, 특히 MSVC를 사용할 때는 위 방법이 아닌 아래 옵션을 추가해주면 쉽게 해결이 가능했다.</p>
+<pre tabindex="0"><code>Project file( .Pro )에 아래 내용 추가
+QMAKE_CXXFLAGS += /utf-8
+</code></pre><p><img src="/assets/img/qt_korean_4.png" alt=""></p>
+<p>Project File에 입력 후 Run Qmake → Rebuild를 진행해주고 실행하면 한글이 꺠지지 않고 디스플레이 되는 것을 확인할 수 있다.</p>
+<p><img src="/assets/img/qt_korean_5.png" alt=""></p>
+<p>MSVC는 기본적으로 소스코드를 UTF-8로 처리하지 않는다고 한다.
+그래서 위와 같은 옵션을 넣어주고 빌드를 하게 되면 MSVC가 소스코드를 UTF-8로 처리를 하게 되어 한글이 깨지지 않는 것이다.</p>
+<hr>
+<h4 id="참고-링크">참고 링크</h4>
+<ul>
+<li><a href="https://forum.qt.io/topic/76344/utf-8-characters-acting-strangely-in-windows-but-not-linux" target="_blank">UTF-8 characters acting strangely in Windows (but not Linux)</a></li>
+<li><a href="https://flower0.tistory.com/221" target="_blank">Qt 한글깨짐 수정방법 | Utf8 unicode 인코딩 | 예제 코드</a></li>
+<li><a href="https://kojin777.tistory.com/1" target="_blank">Qt 한글 출력</a></li>
 </ul>
 
+  
+  <hr>
+<div class="footer">
+    
+	    
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/programming/qwebenginecored_issue/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Qt 디버깅 시 QWebEngineCored 오류</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#개발-환경">개발 환경</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

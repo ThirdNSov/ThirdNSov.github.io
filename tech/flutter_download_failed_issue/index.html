@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - Flutter 다운로드 버튼 (Failed) 대처법</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Flutter&#32;다운로드&#32;버튼&#32;(Failed)&#32;대처법 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Flutter&#32;다운로드&#32;버튼&#32;(Failed)&#32;대처법 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Flutter&#32;다운로드&#32;버튼&#32;(Failed)&#32;대처법 />
+<meta name="application-name" content=Thirdy&#32;-&#32;Flutter&#32;다운로드&#32;버튼&#32;(Failed)&#32;대처법 />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/tech/flutter_download_failed_issue/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/flutter_download_failed_issue/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/flutter_download_failed_issue/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/flutter_download_failed_issue/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/flutter_download_failed_issue/" />
 
 
-<meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
+<meta property="og:updated_time" content="2022-09-02T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,109 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
-    
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
-    
-</ul>
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/flutter_download_failed_issue/">Flutter 다운로드 버튼 (Failed) 대처법</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2022-09-02T00:00:00Z" class="post-date">
+        2022년 9월 2일
+      </time>
+      
+      
+      
+    </div>
 
+
+    
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-programming">
+        <a href="https://thirdnsov.github.io/tags/programming">programming</a>
+      </li>
+      
+      <li class="tag-flutter">
+        <a href="https://thirdnsov.github.io/tags/flutter">flutter</a>
+      </li>
+      
+    </ul>
+    
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>최근 회사에서 Flutter를 사용할 일이 생겨서 학습해보는 중이다.<br>
+그 과정 중에서 겪은 일이나 포스팅할 만한 내용은 간간히 남겨두려고 한다.</p>
+<p>새로운 개발 환경을 구축하려면 역시 관련 프로그램들을 설치해야한다.<br>
+제일 먼저 Flutter를 설치하기 위해서 구글에 Flutter를 검색하고 들어가봤다.</p>
+<p>홈페이지가 한글로 잘 나와있고 &ldquo;시작하기&quot;를 누르면 누구나 쉽게 다운로드 받을 수 있고<br>
+각 OS별로 설치 가이드를 제공해줘서 비교적 쉽게 설치할 수 있게 되어있다.</p>
+<p><img src="/assets/img/flutter_download/flutter_1.png" alt=""></p>
+<p>사이트 우측 상단에 있는 &ldquo;시작하기&quot;를 누르면 위 이미지와 같은 화면이 나오는데<br>
+(20220902 기준)<br>
+본인이 사용 중인, 본인이 설치하고자 하는 OS에 맞게 클릭해주면 된다.</p>
+<p>현재 작성자는 맥북을 사용하고 있기 때문에 &ldquo;맥OS&quot;를 눌러주었다.<br>
+<img src="/assets/img/flutter_download/flutter_3.png" alt=""></p>
+<p>하지만 웬일인지 다운로드 버튼이 &ldquo;(failed)&ldquo;라고만 되어있고 클릭해봐도 빈 링크였다.<br>
+처음엔 페이지 오류인가.. 내 웹 환경이 문제인가 싶어 이리저리 만져보았는데도 해결이 되지 않아서 꽤 답답했다.</p>
+<p>그렇게 꽤 시간을 낭비하고 난 후 다시 시도해보기 위해 구글에 flutter를 검색했고<br>
+이번엔 한글 사이트가 아닌 영문 사이트로 접속을 하게 되었다.</p>
+<h2 id="heading">????</h2>
+<p>계속 괴롭히던 &ldquo;(failed)&ldquo;가 보이지 않고 정상적인 다운로드 버튼이 보였다..<br>
+<img src="/assets/img/flutter_download/flutter_5.png" alt=""></p>
+<p>약간 허무하게 해결되었고 나중에 잠깐 찾아보니 현재 한글 사이트에서는 해당 버튼에 문제가 있는 것으로 보였다.<br>
+꽤 오랜 시간을 낭비해서 한글사이트 버튼이 고쳐질 때까지 까먹을 일은 없겠지만 기록 및 혹시나 작성자와 같이 시간을 버리는 일이 없길 바라며 포스팅 해둔다 ..</p>
+<p>참고로 한글사이트 URL에서 &lsquo;-ko&rsquo; 부분만 지우고 접속하면 바로 영문 사이트로 연결되면서<br>
+정상적인 다운로드 버튼이 보인다.<br>
+<img src="/assets/img/flutter_download/flutter_4.png" alt=""></p>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/tech/qt_online_installer_mirror/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</a>
+        
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/tech/macbook_korean_input/?ref=footer"><span style="font-weight:bold;">Next »</span><br>맥북 한글 입력기 교체</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#heading">????</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

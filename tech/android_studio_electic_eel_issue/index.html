@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - Flutter - Android Studio Electic Eel 버전 설치 시 Java 오류</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Flutter&#32;-&#32;Android&#32;Studio&#32;Electic&#32;Eel&#32;버전&#32;설치&#32;시&#32;Java&#32;오류 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Flutter&#32;-&#32;Android&#32;Studio&#32;Electic&#32;Eel&#32;버전&#32;설치&#32;시&#32;Java&#32;오류 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Flutter&#32;-&#32;Android&#32;Studio&#32;Electic&#32;Eel&#32;버전&#32;설치&#32;시&#32;Java&#32;오류 />
+<meta name="application-name" content=Thirdy&#32;-&#32;Flutter&#32;-&#32;Android&#32;Studio&#32;Electic&#32;Eel&#32;버전&#32;설치&#32;시&#32;Java&#32;오류 />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/" />
 
 
-<meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
+<meta property="og:updated_time" content="2023-03-05T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,119 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/android_studio_electic_eel_issue/">Flutter - Android Studio Electic Eel 버전 설치 시 Java 오류</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2023-03-05T00:00:00Z" class="post-date">
+        2023년 3월 5일
+      </time>
+      
+      
+      
+    </div>
+
+
     
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-programming">
+        <a href="https://thirdnsov.github.io/tags/programming">programming</a>
+      </li>
+      
+      <li class="tag-flutter">
+        <a href="https://thirdnsov.github.io/tags/flutter">flutter</a>
+      </li>
+      
+      <li class="tag-androidstudio">
+        <a href="https://thirdnsov.github.io/tags/androidstudio">androidstudio</a>
+      </li>
+      
+      <li class="tag-jdk">
+        <a href="https://thirdnsov.github.io/tags/jdk">jdk</a>
+      </li>
+      
+    </ul>
     
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.<br>
+기존에 세팅하던 순서대로 쭉 진행하고 있었는데</p>
+<pre tabindex="0"><code>Flutter 설치 -&gt; Path 잡아주기 -&gt; Flutter doctor 돌려보면서 하나씩 설치해주기  
+</code></pre><p>flutter doctor에서 계속 오류가 발생하고 있었다.</p>
+<pre tabindex="0"><code>Unable to find bundled Java version.
+</code></pre><p>분명 다 설치 했는데 왜지?<br>
+안드로이드 스튜디오도 재설치 해보고 JAVA도 재설치 해보고<br>
+PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는데 계속 해결이 안됐었다.</p>
+<p>결국 해결책을 찾기 시작했고 그리 오래 걸리지 않게 방법을 찾을 수 있었다.<br>
+Android Studio가 버전업이 되면서 발생한 문제로 확인되었고<br>
+Android Studio Electric Eel 버전부터 발생하는듯 했다.<br>
+(포스팅 중인 현재는 이 이슈가 해결이 되었는지는 모르겠다.)</p>
+<p>Flutter 같이 Android Studio의 영향을 받는 서드 파티에선 대부분 발생하지<br>
+않았을까 생각되는데 어쨌든 원인은 업데이트가 되면서 jre 디렉토리의 이름이<br>
+변경되어서 문제가 되었다.</p>
+<p>기존에는 그냥 jre였는데 Eel 버전부터는 jbr로 설치가 되면서 찾지 못하는 것이었다.<br>
+StackOverflow에 몇몇 글이 있었고 해결할 수 있었다.</p>
+<h4 id="참고-링크">참고 링크</h4>
+<ul>
+<li><a href="https://stackoverflow.com/questions/75106727/android-studio-electric-eel-unable-to-find-bundled-java-version-in-flutter-docto" target="_blank">Android Studio Electric Eel Unable to find bundled Java version in flutter doctor [duplicate]</a></li>
+<li><a href="https://velog.io/@jiwon3378/Mac-M1-Flutter-Unable-to-find-bundled-Java-version" target="_blank">[Mac M1] Flutter - Unable to find bundled Java version.</a></li>
 </ul>
 
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/tech/macbook_nilclass_issue/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>맥북에서 undefined method `map&#39; for nil:NilClass...</a>
+        
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/tech/jekyll_to_hugo/?ref=footer"><span style="font-weight:bold;">Next »</span><br>jekyll -&gt; hugo 마이그레이션</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

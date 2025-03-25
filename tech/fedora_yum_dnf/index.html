@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - Fedora Linux - yum, 그리고 dnf</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Fedora&#32;Linux&#32;-&#32;yum,&#32;그리고&#32;dnf />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Fedora&#32;Linux&#32;-&#32;yum,&#32;그리고&#32;dnf />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Fedora&#32;Linux&#32;-&#32;yum,&#32;그리고&#32;dnf />
+<meta name="application-name" content=Thirdy&#32;-&#32;Fedora&#32;Linux&#32;-&#32;yum,&#32;그리고&#32;dnf />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/tech/fedora_yum_dnf/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/fedora_yum_dnf/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/fedora_yum_dnf/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/fedora_yum_dnf/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/fedora_yum_dnf/" />
 
 
-<meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
+<meta property="og:updated_time" content="2020-11-19T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,159 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/fedora_yum_dnf/">Fedora Linux - yum, 그리고 dnf</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2020-11-19T00:00:00Z" class="post-date">
+        2020년 11월 19일
+      </time>
+      
+      
+      
+    </div>
+
+
     
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-linux">
+        <a href="https://thirdnsov.github.io/tags/linux">linux</a>
+      </li>
+      
+      <li class="tag-fedora">
+        <a href="https://thirdnsov.github.io/tags/fedora">fedora</a>
+      </li>
+      
+      <li class="tag-command">
+        <a href="https://thirdnsov.github.io/tags/command">command</a>
+      </li>
+      
+    </ul>
     
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>오랜만에 Fedora에 대한 정보를 들었는데 요즘은 yum을 대신해서 dnf라는<br>
+명령을 사용한다고 들었다.</p>
+<p>yum을 사용하면서 크게 불편함을 느낀 기억이 없는데 왜 바뀌었는지 조금 찾아보았고<br>
+찾은 내용을 간략히 정리해둔다.</p>
+<ul>
+<li>yum은 오랜 기간 동안 수정되지 못한 여러 문제점이 존재</li>
+<li>여러 문제점들로 인해 성능 저하가 발생</li>
+<li>패키지 설치 시 의존성 관련 문제가 존재</li>
+<li>API 문서가 공식적으로 작성되었거나 제대로 정리가 되어있지 않음</li>
+<li>python으로 작성되어 확장 시스템이 python만 지원</li>
+</ul>
+<p>크게 대두되는 문제점들은 이 정도인 것으로 보이고 dnf로 변경된 가장 큰 이유는<br>
+아무래도 yum이 단순히 수정만으로 해결하기에는 덩치가 너무 커지고 복잡해졌기<br>
+때문인 것 같다.</p>
+<p>이러한 이유들로 새로운 패키지 관리도구가 필요해졌고 dnf라는 새로운 도구를<br>
+개발하게 되었고 Fedora 18에 처음 도입된 후 Fedora 22부터 정식으로<br>
+yum의 자리를 대신하게 됬다고 한다.</p>
+<ul>
+<li>dnf는 yum이 가지고 있던 고질적인 문제점들이 없음</li>
+<li>yum에 비해 성능 효율이 좋아 속도면에서 우수</li>
+<li>외부 라이브러리인 libsolv를 이용하여 의존성 문제를 해결</li>
+<li>API 문서가 공식적으로 제공</li>
+<li>C, C++, Python으로 작성되었고 여러 확장 시스템을 지원</li>
+</ul>
+<p>yum이 가진 문제들을 dnf에서 대부분 해결한 것으로 보이고 yum보다 코드 수도<br>
+절반 가량 줄어들어 개발적인 측면에서 더 효율이 좋아졌다고 볼 수도 있을듯?</p>
+<hr>
+<h3 id="업데이트-체크패키지명-입력-시-개별-체크-가능">업데이트 체크(패키지명 입력 시 개별 체크 가능)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum check-update (pkg-name)</span>
+<span style="color:#75715e"># dnf check-update (pkg-name)</span>
+</code></pre></div><h3 id="업데이트패키지명-입력-시-개별-업데이트-가능">업데이트(패키지명 입력 시 개별 업데이트 가능)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum update (pkg-name)</span>
+<span style="color:#75715e"># dnf update (pkg-name)</span>
+</code></pre></div><h3 id="패키지-인스톨">패키지 인스톨</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum install pkg-name</span>
+<span style="color:#75715e"># dnf install pkg-name</span>
+</code></pre></div><h3 id="패키지-재설치">패키지 재설치</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum reinstall pkg-name</span>
+<span style="color:#75715e"># dnf reinstall pkg-name</span>
+</code></pre></div><h3 id="설치된-패키지-삭제">설치된 패키지 삭제</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum remove pkg-name</span>
+<span style="color:#75715e"># dnf remove pkg-name</span>
+</code></pre></div><h3 id="설치된-패키지-목록패키지명-입력-시-개별-검색-가능">설치된 패키지 목록(패키지명 입력 시 개별 검색 가능)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum list installed (pkg-name)</span>
+<span style="color:#75715e"># dnf list installed (pkg-name)</span>
+</code></pre></div><h3 id="repository에서-패키지-검색">Repository에서 패키지 검색</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum search pkg-name</span>
+<span style="color:#75715e"># dnf search pkg-name</span>
+</code></pre></div><hr>
+<p>사용법도 기존 yum과 크게 차이가 없어 크게 새로 익힐 부분이 없지 않나 싶다.<br>
+흔히 쓰는 명령은 거의 비슷하다고 봐도 무방할 것 같다.<br>
+자세한 사용법은 아래 Reference 링크를 타고 들어가면 확인 할 수 있다.</p>
+<p>yum 최신 배포판에서도 계속 사용은 가능하다고 하니 dnf를 모른다고 해도<br>
+패키지 관리에 큰 문제는 없을 것 같다.</p>
+<h4 id="참고-링크">참고 링크</h4>
+<ul>
+<li><a href="https://ko.wikipedia.org/wiki/Yum" target="_blank">YUM 위키백과</a></li>
+<li><a href="http://www.vassox.com/linux-general/centos-7-rhel-7/yum-command-reference/" target="_blank">YUM Reference</a></li>
+<li><a href="https://ko.wikipedia.org/wiki/DNF_%28%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%29" target="_blank">DNF 위키백과</a></li>
+<li><a href="https://dnf.readthedocs.io/en/latest/command_ref.html" target="_blank">DNF Reference</a></li>
+<li><a href="https://www.2daygeek.com/comparison-difference-between-dnf-vs-yum/" target="_blank">https://www.2daygeek.com/comparison-difference-between-dnf-vs-yum/</a></li>
 </ul>
 
+  
+  <hr>
+<div class="footer">
+    
+	    
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/tech/rpi3_fedora_linux/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Raspberry Pi3+에 Fedora Linux 설치</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#업데이트-체크패키지명-입력-시-개별-체크-가능">업데이트 체크(패키지명 입력 시 개별 체크 가능)</a></li>
+        <li><a href="#업데이트패키지명-입력-시-개별-업데이트-가능">업데이트(패키지명 입력 시 개별 업데이트 가능)</a></li>
+        <li><a href="#패키지-인스톨">패키지 인스톨</a></li>
+        <li><a href="#패키지-재설치">패키지 재설치</a></li>
+        <li><a href="#설치된-패키지-삭제">설치된 패키지 삭제</a></li>
+        <li><a href="#설치된-패키지-목록패키지명-입력-시-개별-검색-가능">설치된 패키지 목록(패키지명 입력 시 개별 검색 가능)</a></li>
+        <li><a href="#repository에서-패키지-검색">Repository에서 패키지 검색</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

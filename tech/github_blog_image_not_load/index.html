@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - Github 블로그 포스팅 내용에 이미지 안나올 때</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Github&#32;블로그&#32;포스팅&#32;내용에&#32;이미지&#32;안나올&#32;때 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Github&#32;블로그&#32;포스팅&#32;내용에&#32;이미지&#32;안나올&#32;때 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Github&#32;블로그&#32;포스팅&#32;내용에&#32;이미지&#32;안나올&#32;때 />
+<meta name="application-name" content=Thirdy&#32;-&#32;Github&#32;블로그&#32;포스팅&#32;내용에&#32;이미지&#32;안나올&#32;때 />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/tech/github_blog_image_not_load/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/github_blog_image_not_load/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/github_blog_image_not_load/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/github_blog_image_not_load/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/github_blog_image_not_load/" />
 
 
-<meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
+<meta property="og:updated_time" content="2021-10-10T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,91 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
-    
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
-    
-</ul>
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/github_blog_image_not_load/">Github 블로그 포스팅 내용에 이미지 안나올 때</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2021-10-10T00:00:00Z" class="post-date">
+        2021년 10월 10일
+      </time>
+      
+      
+      
+    </div>
 
+
+    
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-tip">
+        <a href="https://thirdnsov.github.io/tags/tip">tip</a>
+      </li>
+      
+      <li class="tag-github">
+        <a href="https://thirdnsov.github.io/tags/github">github</a>
+      </li>
+      
+      <li class="tag-blog">
+        <a href="https://thirdnsov.github.io/tags/blog">blog</a>
+      </li>
+      
+    </ul>
+    
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>오랜만에 포스팅 문서 작성을 하고 푸시를 하고 잘 올라갔는지 확인을 해보는데 이상하게 포스팅 내용 중간중간 이미지가 보이질 않는다.</p>
+<p>파일명도 맞고 .. 경로도 맞고 .. VS Code에선 이미지가 잘 보이는데 이상하게 실제 블로그 화면에서는 이미지가 계속 보이지 않았다.</p>
+<p>뭔가 잘못 푸시를 한걸까 싶어 찾다보니 단순한 문제였다.<br>
+이미지 확장자를 저장할 때 소문자로 지정을 했고, 포스팅 내용에서는 대문자로 작성해두었던게 문제였다.</p>
+<p><img src="/assets/img/blog_img.png" alt=""></p>
+<p>VS Code에서는 파일명에 대해 대소문자를 크게 가리지 않아서 푸시하기 전까지 인지하지 못했던 상황이고, 언제 또 같은 상황을 겪을지 몰라 바로 남겨놓는다.</p>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/tech/rpi3_fedora_linux/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Raspberry Pi3+에 Fedora Linux 설치</a>
+        
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/tech/qt_online_installer_mirror/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents"></nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

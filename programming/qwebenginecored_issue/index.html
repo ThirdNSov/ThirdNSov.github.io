@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - Qt 디버깅 시 QWebEngineCored 오류</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Qt&#32;디버깅&#32;시&#32;QWebEngineCored&#32;오류 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Qt&#32;디버깅&#32;시&#32;QWebEngineCored&#32;오류 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Qt&#32;디버깅&#32;시&#32;QWebEngineCored&#32;오류 />
+<meta name="application-name" content=Thirdy&#32;-&#32;Qt&#32;디버깅&#32;시&#32;QWebEngineCored&#32;오류 />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/programming/qwebenginecored_issue/" />
+<link rel="canonical" href="https://thirdnsov.github.io/programming/qwebenginecored_issue/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/programming/qwebenginecored_issue/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/programming/qwebenginecored_issue/" />
+<meta property="og:url" content="https://thirdnsov.github.io/programming/qwebenginecored_issue/" />
 
 
 <meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,109 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2021-10-18T00:00:00Z" class="post-date">
+        2021년 10월 18일
+      </time>
+      
+      
+      
+    </div>
+
+
     
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
+    <ul class="tags">
+      
+      <li class="tag-programming">
+        <a href="https://thirdnsov.github.io/tags/programming">programming</a>
+      </li>
+      
+      <li class="tag-qt">
+        <a href="https://thirdnsov.github.io/tags/qt">qt</a>
+      </li>
+      
+      <li class="tag-error">
+        <a href="https://thirdnsov.github.io/tags/error">error</a>
+      </li>
+      
+    </ul>
     
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.<br>
+관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.</p>
+<h3 id="개발-환경">개발 환경</h3>
+<ul>
+<li>Windows 10 64bit</li>
+<li>Qt 5.12.2</li>
+<li>MSVC 2017</li>
+</ul>
+<p>발생했던 오류 메시지 내용은 다음과 같다.</p>
+<pre tabindex="0"><code>QWebEngineCored - Check failed: used_count == used_items_
+</code></pre><p>코드상 특별한 수정을 했거나 오류가 발생할 만한 작업이 없었는데도 불구하고 뜬금없이 위 메시지가 뜨면서 디버깅 모드로 실행 자체가 불가능했었다.</p>
+<p>정확한 증상은 디버깅 모드로 실행 시 중단점이 &ldquo;__debugbreak&quot;로만 잡히고 더 이상의 콜스택도 볼 수 없었고 메모리 조차 제대로 확인이 되지 않았었다.</p>
+<p>릴리즈 모드로 실행하면 또 문제 없이 잘 실행되었던 걸로 기억은 나는데 꽤 오래전 일이라서 정확하지는 않다.</p>
+<p>아무튼 관련해서 구글링을 시작했고 어렵지 않게 답을 찾을 수 있었다.<br>
+Qt Bug Report 사이트에 이미 등록이 되어있었고 해당 글의 Comment에서 힌트를 얻을 수 있었다. (링크는 아래쪽에)</p>
+<p>해당 댓글에는 Linux 기반으로 설명되어있었고 오류가 발생하는 프로젝트의 메타데이터(? 해당 댓글에서 메타데이터라고 명칭) 폴더 안의 QtWebEngine 디렉토리를 제거하라고 알려주고 있었다.</p>
+<p>리눅스 기반의 경로로 설명이 되어있어서 윈도우에서는 어디일까 고민하던 차에 이전에 AppData 폴더쪽에서 작업 중인 프로젝트명의 폴더를 봤던 기억이 났고 찾아가보니 그곳에 폴더가 존재하고 있었다.</p>
+<pre tabindex="0"><code>C:\Users\사용자명\AppData\Local\프로젝트명\QWebEngine
+</code></pre><p>혹시 모르니 지우지는 않고 폴더명을 변경한 후 디버깅 모드로 실행하니 깔끔하게 실행이 잘 되었다.</p>
+<p>명확한 해결책이 아니라 힌트를 얻어서 운 좋게 해결된 케이스라고 생각되고 해당 버그 리포트 댓글 마지막에는 Qt 5.13에서 수정되었다고 써있으니 아마 5.13 버전 이상이라면 발생하지 않을 문제일 것 같다.</p>
+<h4 id="참고-링크">참고 링크</h4>
+<ul>
+<li><a href="https://bugreports.qt.io/browse/QTBUG-74590" target="_blank">Debug build crashes immediately</a></li>
 </ul>
 
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/programming/qt_korean_broken_issue/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Qt 한글 깨짐 문제</a>
+        
+	    
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#개발-환경">개발 환경</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

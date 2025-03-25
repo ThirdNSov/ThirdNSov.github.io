@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - Raspberry Pi3&#43;에 Fedora Linux 설치</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Raspberry&#32;Pi3&#43;에&#32;Fedora&#32;Linux&#32;설치 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Raspberry&#32;Pi3&#43;에&#32;Fedora&#32;Linux&#32;설치 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Raspberry&#32;Pi3&#43;에&#32;Fedora&#32;Linux&#32;설치 />
+<meta name="application-name" content=Thirdy&#32;-&#32;Raspberry&#32;Pi3&#43;에&#32;Fedora&#32;Linux&#32;설치 />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/tech/rpi3_fedora_linux/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/rpi3_fedora_linux/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/rpi3_fedora_linux/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/rpi3_fedora_linux/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/rpi3_fedora_linux/" />
 
 
-<meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
+<meta property="og:updated_time" content="2020-11-24T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,125 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
-    
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
-    
-</ul>
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/rpi3_fedora_linux/">Raspberry Pi3&#43;에 Fedora Linux 설치</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2020-11-24T00:00:00Z" class="post-date">
+        2020년 11월 24일
+      </time>
+      
+      
+      
+    </div>
 
+
+    
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-linux">
+        <a href="https://thirdnsov.github.io/tags/linux">linux</a>
+      </li>
+      
+      <li class="tag-raspberry">
+        <a href="https://thirdnsov.github.io/tags/raspberry">raspberry</a>
+      </li>
+      
+      <li class="tag-fedora">
+        <a href="https://thirdnsov.github.io/tags/fedora">fedora</a>
+      </li>
+      
+    </ul>
+    
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>Fedora를 설치해서 사용해보려고 Hyper-V 설치하고 하다가 문득 집에 RPi3+가 남아서<br>
+여기에 설치를 해보자 싶어서 시작.</p>
+<p>라즈베리파이 사용할 때 주로 그냥 라즈비안 올려서 사용했었는데 페도라를 올리면 또<br>
+다른 느낌일 것 같아서 급하게 자료 찾아보고 설치를 진행했다.</p>
+<p>우선 다행이도 <a href="https://fedoraproject.org/wiki/Architectures/ARM/Raspberry_Pi#aarch64_supported_images_for_Raspberry_Pi_3" target="_blank">Fedora WiKi</a>에 라즈베리파이 설치 관련 문서가 있었고<br>
+영어의 압박만 견디면 따라하기 나름 쉽게 정리되어있다.</p>
+<p>해당 문서 내용 중에 라즈베리파이용 페도라 이미지가 있으니 다운 받아서 설치만<br>
+해주면 된다.</p>
+<p><img src="/assets/img/fedora_wiki_1.PNG" alt=""></p>
+<p>ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞게<br>
+다운 받으면 된다.<br>
+이미지는 구했고 이미지를 SD Card에 구워야하는데 Windows 환경에서 진행하였기<br>
+때문에 자주 사용했던 <a href="https://www.balena.io/etcher/" target="_blank">balenaEtcher</a>를 사용하였다.</p>
+<p>리눅스 환경에서 진행하는 방법은 위키에 자세히 잘 설명되어있으니<br>
+참고하면 될 것 같다.</p>
+<p><img src="/assets/img/fedora_rpi_1.PNG" alt=""></p>
+<p>이미지가 성공적으로 구워졌으면 이제 라즈베리파이에 SD카드 옮겨 꽂고 부팅만 하면<br>
+끝!</p>
+<p>처음에 어려울거라 생각하고 포스팅도 같이 준비한건데 위키가 생각보다<br>
+잘 정리되어있고 페도라가 라즈베리파이를 잘 지원해줘서 특별히 따로 정리할 게<br>
+없는 것 같다..</p>
+<hr>
+<p>다 구워진 후 부팅을 했는데 가지고 있던 RPi3가 고장이 나있었다..<br>
+아무리 기다려도 부팅은 되지 않고 전원부 온도만 급상승하는 증상이 나와서<br>
+새로 한대를 구했다..</p>
+<p><img src="/assets/img/undervoltage.jpg" alt=""></p>
+<p>부팅 도중에 전력 부족 로그가 출력되기는 하지만 기다리니 부팅은 되었다.<br>
+다만 Fedora 33 WorkStation으로 설치를 했더니<br>
+RPi3에서 벅찬지 부팅만으로도 굉장히 시간이 오래 걸려서<br>
+Minimal 버전으로 다시 설치 진행해보았다.</p>
+<p>여전히 undervoltage 이슈는 있지만 찾아보니 RPi3 B+는 2.5A 이상급으로
+전원이 공급 되어야 안정이 되는 것 같다.</p>
+<h2 id="참고-링크">참고 링크</h2>
+<p><a href="https://fedoraproject.org/wiki/Architectures/ARM/Raspberry_Pi#aarch64_supported_images_for_Raspberry_Pi_3" target="_blank">Fedora WiKi</a><br>
+<a href="https://www.balena.io/etcher/" target="_blank">balenaEtcher</a><br>
+<a href="https://www.raspberrypi.org/forums/viewtopic.php?t=210914" target="_blank">UnderVoltage 관련 </a></p>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/tech/fedora_yum_dnf/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Fedora Linux - yum, 그리고 dnf</a>
+        
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/tech/github_blog_image_not_load/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Github 블로그 포스팅 내용에 이미지 안나올 때</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#참고-링크">참고 링크</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

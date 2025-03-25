@@ -58,20 +58,20 @@ if (!doNotTrack) {
 
 
 
-  
-  
-  
 
 
+  
+  
+  
 
 
 <!-- Open Graph image and Twitter Card metadata -->
 
-<title itemprop="name">Thirdy - Programming</title>
-<meta property="og:title" content=Thirdy&#32;-&#32;Programming />
-<meta name="twitter:title" content=Thirdy&#32;-&#32;Programming />
-<meta itemprop="name" content=Thirdy&#32;-&#32;Programming />
-<meta name="application-name" content=Thirdy&#32;-&#32;Programming />
+<title itemprop="name">Thirdy - Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Qt&#32;Online&#32;Installer&#32;다운로드&#32;속도&#32;높이기(Mirror&#32;적용) />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Qt&#32;Online&#32;Installer&#32;다운로드&#32;속도&#32;높이기(Mirror&#32;적용) />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Qt&#32;Online&#32;Installer&#32;다운로드&#32;속도&#32;높이기(Mirror&#32;적용) />
+<meta name="application-name" content=Thirdy&#32;-&#32;Qt&#32;Online&#32;Installer&#32;다운로드&#32;속도&#32;높이기(Mirror&#32;적용) />
 <meta property="og:site_name" content="" />
 
 
@@ -81,18 +81,17 @@ if (!doNotTrack) {
 <meta name="twitter:description" content="" />
 
 
-<base href="https://thirdnsov.github.io/programming/" />
-<link rel="canonical" href="https://thirdnsov.github.io/programming/" itemprop="url" />
-<meta name="url" content="https://thirdnsov.github.io/programming/" />
-<meta name="twitter:url" content="https://thirdnsov.github.io/programming/" />
-<meta property="og:url" content="https://thirdnsov.github.io/programming/" />
+<base href="https://thirdnsov.github.io/tech/qt_online_installer_mirror/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/qt_online_installer_mirror/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/qt_online_installer_mirror/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/qt_online_installer_mirror/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/qt_online_installer_mirror/" />
 
 
-<meta property="og:updated_time" content="2021-10-18T00:00:00Z" />
+<meta property="og:updated_time" content="2021-11-02T00:00:00Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
-<link href="https://thirdnsov.github.io/programming/index.xml" rel="alternate" type="application/rss+xml" title="" />
 
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
@@ -398,34 +397,118 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </aside>
 
             <main class="content container">
-                <h1 class="title">Programming</h1>
-<ul class="entries">
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/qt_online_installer_mirror/">Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2021-11-02T00:00:00Z" class="post-date">
+        2021년 11월 2일
+      </time>
+      
+      
+      
+    </div>
+
+
     
-        <h3 style="text-align: center;">2021</h3>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qwebenginecored_issue/">Qt 디버깅 시 QWebEngineCored 오류</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 18일</time>
-                </span>
-            </li>
-        
-            <li>
-                <span class="title">
-                    <a href="/programming/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
-                </span>
-                <span class="published">
-                    <time class="pull-right post-list">2021년 10월 10일</time>
-                </span>
-            </li>
-        
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-programming">
+        <a href="https://thirdnsov.github.io/tags/programming">programming</a>
+      </li>
+      
+      <li class="tag-qt">
+        <a href="https://thirdnsov.github.io/tags/qt">qt</a>
+      </li>
+      
+    </ul>
     
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <p>Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.<br>
+Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..</p>
+<p>왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다.  하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..</p>
+<p>Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치가 완료될지 기약 없이 기다려야 되는 엄청 답답한 속도..</p>
+<p>그래서 속도를 높일 방법이 없을까 하고 생각하다가 Offline Installer도 Mirror 사이트에서 쾌적하게 다운이 되는데 Online Installer도 Mirror 주소로 변경이 가능하지 않을까? 하고 검색을 시작했다.</p>
+<p>역시나 방법은 있었고 해당 방법은 아주 간단하게 적용이 가능하다.<br>
+그저 Online Installer를 실행할 때 옵션 값으로</p>
+<pre tabindex="0"><code>online_installer.exe --mirror mirror_url
+</code></pre><p>끝.</p>
+<p>Mirror Url은 <a href="https://download.qt.io/static/mirrorlist/" target="_blank">여기</a>에서 확인이 가능하다.<br>
+한국에서는 아무래도 가까운 일본 Mirror가 가장 빠르고 필자는 주로 Jaist Mirror를 사용하는 편이다.</p>
+<pre tabindex="0"><code>online_installer.exe --mirror http://ftp.jaist.ac.jp/pub/qtproject/
+</code></pre><p>이런식으로 Qt 최상단 Url을 넣어주면 끝이다.
+<img src="/assets/img/qt_onlineInstaller/qt_1.png" alt=""></p>
+<p>그냥 실행하는 것과 인스톨러 UI 상으론 바뀐 점이 전혀 없기 때문에 제대로 된 건가 의심이 될 수도 있다.<br>
+하지만 &ldquo;Setup - Qt&rdquo; 페이지에서 메타 정보 가져오는 부분부터 속도가 확실히 다른걸 느낄 수 있다.</p>
+<p><img src="/assets/img/qt_onlineInstaller/qt_3.png" alt=""><br>
+Mirror 적용 전</p>
+<p><img src="/assets/img/qt_onlineInstaller/qt_2.png" alt=""><br>
+Mirror 적용 후</p>
+<p>화면에 출력되는 속도만으로는 제대로 확인이 안될 수도 있지만 다운로드 진행률이 증가하는 속도는 확실히 체감이 된다.</p>
+<p>위 방법은 Qt Wiki에서 확인된 방법이고 Miiror 옵션 외에도 있으니 참고하면 될 것 같다.<br>
+그리고 해당 방법은 Qt - Opensource 버전 설치 시에만 가능한 것으로 보인다.</p>
+<h4 id="참고-링크">참고 링크</h4>
+<ul>
+<li><a href="https://wiki.qt.io/Online_Installer_4.x#Selecting_a_mirror_for_opensource" target="_blank">Online Installer 4.x</a></li>
+<li><a href="https://download.qt.io/static/mirrorlist/" target="_blank">Qt Mirror List</a></li>
+<li><a href="https://download.qt.io/" target="_blank">download.qt.io</a></li>
 </ul>
 
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/tech/github_blog_image_not_load/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Github 블로그 포스팅 내용에 이미지 안나올 때</a>
+        
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/tech/flutter_download_failed_issue/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Flutter 다운로드 버튼 (Failed) 대처법</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
             </main>
             
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
         </div>
     </body>
 </html>

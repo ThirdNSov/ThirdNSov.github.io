@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 30 Mar 2024 13:30:09 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo로 블로그 이전 완료</title>
-      <link>https://thirdnsov.github.io/2024/03/30/hugo%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%A0%84-%EC%99%84%EB%A3%8C/</link>
+      <link>https://thirdnsov.github.io/2024/03/30/migrated_hugo_blog/</link>
       <pubDate>Sat, 30 Mar 2024 13:30:09 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/2024/03/30/hugo%EB%A1%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%A0%84-%EC%99%84%EB%A3%8C/</guid>
+      <guid>https://thirdnsov.github.io/2024/03/30/migrated_hugo_blog/</guid>
       <description>미루고 미루고 있던 블로그 개편을 드디어 진행..
 기존에는 Github에서 Jekyll과 워드프레스 두개의 블로그를 운영 중이었는데
 두 플랫폼의 포스팅 통일하기도 어렵고 .. 한쪽만 관리하자니 한쪽이 아쉽고 하는 상황이었다
@@ -26,10 +26,10 @@
     
     <item>
       <title>Kt 데이터 쉐어링 온라인 신청하기</title>
-      <link>https://thirdnsov.github.io/daily/2021/10/12/D_KT_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%89%90%EC%96%B4%EB%A7%81.html</link>
+      <link>https://thirdnsov.github.io/2021/10/12/kt_data_sharing/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2021/10/12/D_KT_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%89%90%EC%96%B4%EB%A7%81.html</guid>
+      <guid>https://thirdnsov.github.io/2021/10/12/kt_data_sharing/</guid>
       <description>갤럭시 탭 S7을 구입하고 와이파이로 사용하다가 문득 구매한 모델이 LTE지원 모델인 것을 깨닫고 바로 데이터 쉐어링을 찾아봤다.
 예전에 아는 형이 KT 데이터 쉐어링한다고 같이 KT 플라자를 방문해서 신청했던게 생각나서 회사 근처 KT 플라자를 찾아봤는데 찾다보니 온라인 신청도 가능하더라.
 KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선에 추가되서 청구된다고 한다.
@@ -39,10 +39,10 @@ KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선
     
     <item>
       <title>갤럭시 S7 구매(with 당근)</title>
-      <link>https://thirdnsov.github.io/daily/2021/10/11/D_GalaxyTab_s7.html</link>
+      <link>https://thirdnsov.github.io/2021/10/11/galaxy_tab_s7/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2021/10/11/D_GalaxyTab_s7.html</guid>
+      <guid>https://thirdnsov.github.io/2021/10/11/galaxy_tab_s7/</guid>
       <description>최근 계속 태블릿을 하나 갖고 싶은 생각이 계속 들어서
 살지말지 고민을 계속하다가 오늘 질러버렸다..
 새거로 살까.. 중고로 살까 계속 간만 보고 있다가 오늘
@@ -54,10 +54,10 @@ KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선
     
     <item>
       <title>Github 블로그 검색 등록 완료</title>
-      <link>https://thirdnsov.github.io/daily/2021/10/10/D_Reg_Search_Engine.html</link>
+      <link>https://thirdnsov.github.io/2021/10/10/reg_search_console/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2021/10/10/D_Reg_Search_Engine.html</guid>
+      <guid>https://thirdnsov.github.io/2021/10/10/reg_search_console/</guid>
       <description>Github 블로그를 만든지 1년 만에 구글, 네이버, 다음에서 검색되도록
 신청을 했다..
 신청하는 방법과 결과는 조만간 정리해서 포스팅 예정!
@@ -69,10 +69,10 @@ https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%
     
     <item>
       <title>Github 블로그 개설 일단 완료</title>
-      <link>https://thirdnsov.github.io/daily/2020/10/08/Github_%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%B0%9C%EC%84%A4_%EC%9D%BC%EB%8B%A8_%EC%99%84%EB%A3%8C.html</link>
+      <link>https://thirdnsov.github.io/2020/10/08/make_github_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2020/10/08/Github_%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%B0%9C%EC%84%A4_%EC%9D%BC%EB%8B%A8_%EC%99%84%EB%A3%8C.html</guid>
+      <guid>https://thirdnsov.github.io/2020/10/08/make_github_blog/</guid>
       <description>미루고 미루던 Github 블로그 작업 일단 1차 완료.
 Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..
 다른 블로그 플랫폼이랑 뭔가 느낌자체가 달라서 적응시간도..
@@ -82,10 +82,10 @@ Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..
     
     <item>
       <title>블로그 개설한 기념 오랜만에 Tistory 방문</title>
-      <link>https://thirdnsov.github.io/daily/2020/10/08/Tistory_Daily.html</link>
+      <link>https://thirdnsov.github.io/2020/10/08/visit_my_tistory_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://thirdnsov.github.io/daily/2020/10/08/Tistory_Daily.html</guid>
+      <guid>https://thirdnsov.github.io/2020/10/08/visit_my_tistory_blog/</guid>
       <description>Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.
 예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&amp;hellip;
 오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..</description>
