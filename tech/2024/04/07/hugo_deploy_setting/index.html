@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko-KR" lang="ko-KR">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.38ccdf5c998a71d2ad889faefccbe9132577d265b25e73d94a1be540ebcaaa18.js"></script>
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-QH13CJVBDK', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="icon" href=/assets/img/logo_48.ico>
+
+    
+    
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+<!-- Open Graph image and Twitter Card metadata -->
+
+<title itemprop="name">Thirdy - HUGO 배포 환경 구성</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;HUGO&#32;배포&#32;환경&#32;구성 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;HUGO&#32;배포&#32;환경&#32;구성 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;HUGO&#32;배포&#32;환경&#32;구성 />
+<meta name="application-name" content=Thirdy&#32;-&#32;HUGO&#32;배포&#32;환경&#32;구성 />
+<meta property="og:site_name" content="" />
+
+
+<meta name="description" content="HUGO 배포 관련 설정, 개인 서버 및 Github Pages에 배포하기" />
+<meta itemprop="description" content="HUGO 배포 관련 설정, 개인 서버 및 Github Pages에 배포하기" />
+<meta property="og:description" content="HUGO 배포 관련 설정, 개인 서버 및 Github Pages에 배포하기" />
+<meta name="twitter:description" content="HUGO 배포 관련 설정, 개인 서버 및 Github Pages에 배포하기" />
+
+
+<base href="https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/" />
+<link rel="canonical" href="https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/" />
+<meta property="og:url" content="https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/" />
+
+
+<meta property="og:updated_time" content="2024-04-07T11:27:35Z" />
+
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
+
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+
+
+<meta name="twitter:site" content="" />
+<meta name="twitter:creator" content="" />
+<meta property="fb:admins" content="" />
+
+
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.92.2" />
+
+
+    
+    
+
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.94a339836f89f0d25f31980cb6b0631da21e20af128308747ce44e0525eb16ef.css">
+
+
+    
+    <style>
+    body {
+        --sidebar-bg-color: #202020;
+        --sidebar-img-border-color: #515151;
+        --sidebar-p-color: #909090;
+        --sidebar-h1-color: #FFF;
+        --sidebar-a-color: #FFF;
+        --sidebar-socials-color: #FFF;
+        --text-color: #222;
+        --bkg-color: #FAF9F6;
+        --post-title-color: #303030;
+        --list-color: #5A5A5A;
+        --link-color: #268BD2;
+        --date-color: #515151;
+        --table-border-color: #E5E5E5;
+        --table-stripe-color: #F9F9F9;
+        --code-color: #000;
+        --code-background-color: #E5E5E5;
+        --code-block-color: #FFF;
+        --code-block-background-color: #272822;
+        --moon-sun-color: #FFF;
+        --moon-sun-background-color: #515151;
+    }
+    body.dark-theme {
+        --text-color: #EEE;
+        --bkg-color: #121212;
+        --post-title-color: #DBE2E9;
+        --list-color: #9D9D9D;
+        --link-color: #268BD2;
+        --date-color: #9A9A9A;
+        --table-border-color: #515151;
+        --table-stripe-color: #202020;
+        --code-color: #FFF;
+        --code-background-color: #515151;
+        --code-block-color: #FFF;
+        --code-block-background-color: #272822;
+    }
+    body {
+        background-color: var(--bkg-color);
+    }
+</style>
+
+</head>
+
+    <body class="dark-theme">
+        <div class="wrapper">
+            <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="right">
+    <button class="btn-light-dark" title="Toggle light/dark mode">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://thirdnsov.github.io">
+                <img src="/assets/img/logo.PNG" alt="brand image">
+            </a>
+        
+        
+            <a href="https://thirdnsov.github.io">
+                <h1>Thirdy</h1>
+            </a>
+        
+    </h1>
+    <p class="lead">
+    
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+        
+            
+
+            
+                
+                
+                    <li class="heading">
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+                    <li class="heading">
+                        <a href="/post/">Daily</a>
+                    </li>
+                    
+                
+            
+                
+                
+            
+                
+                
+            
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+                    <li class="heading">
+                        <a href="/tech/">Tech</a>
+                    </li>
+                    
+                
+            
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+                
+                
+                    <li class="heading">
+                        <a href="/programming/">Programming</a>
+                    </li>
+                    
+                
+            
+                
+                
+            
+            
+        
+
+    </ul>
+</nav>
+
+        
+    <a target="_blank" class="social" title="GitHub" href="https://github.com/ThirdNSov">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="-2 -2 24 24">
+            <path fill="currentColor" d="M18.88 1.099C18.147.366 17.265 0 16.233 0H3.746C2.714 0 1.832.366 1.099 1.099C.366 1.832 0 2.714 0 3.746v12.487c0 1.032.366 1.914 1.099 2.647c.733.733 1.615 1.099 2.647 1.099H6.66c.19 0 .333-.007.429-.02a.504.504 0 0 0 .286-.169c.095-.1.143-.245.143-.435l-.007-.885c-.004-.564-.006-1.01-.006-1.34l-.3.052c-.19.035-.43.05-.721.046a5.555 5.555 0 0 1-.904-.091a2.026 2.026 0 0 1-.872-.39a1.651 1.651 0 0 1-.572-.8l-.13-.3a3.25 3.25 0 0 0-.41-.663c-.186-.243-.375-.407-.566-.494l-.09-.065a.956.956 0 0 1-.17-.156a.723.723 0 0 1-.117-.182c-.026-.061-.004-.111.065-.15c.07-.04.195-.059.378-.059l.26.04c.173.034.388.138.643.311a2.1 2.1 0 0 1 .631.677c.2.355.44.626.722.813c.282.186.566.28.852.28c.286 0 .533-.022.742-.065a2.59 2.59 0 0 0 .585-.196c.078-.58.29-1.028.637-1.34a8.907 8.907 0 0 1-1.333-.234a5.314 5.314 0 0 1-1.223-.507a3.5 3.5 0 0 1-1.047-.872c-.277-.347-.505-.802-.683-1.365c-.177-.564-.266-1.215-.266-1.952c0-1.049.342-1.942 1.027-2.68c-.32-.788-.29-1.673.091-2.652c.252-.079.625-.02 1.119.175c.494.195.856.362 1.086.5c.23.14.414.257.553.352a9.233 9.233 0 0 1 2.497-.338c.859 0 1.691.113 2.498.338l.494-.312a6.997 6.997 0 0 1 1.197-.572c.46-.174.81-.221 1.054-.143c.39.98.424 1.864.103 2.653c.685.737 1.028 1.63 1.028 2.68c0 .737-.089 1.39-.267 1.957c-.177.568-.407 1.023-.689 1.366a3.65 3.65 0 0 1-1.053.865c-.42.234-.828.403-1.223.507a8.9 8.9 0 0 1-1.333.235c.45.39.676 1.005.676 1.846v3.11c0 .147.021.266.065.357a.36.36 0 0 0 .208.189c.096.034.18.056.254.064c.074.01.18.013.318.013h2.914c1.032 0 1.914-.366 2.647-1.099c.732-.732 1.099-1.615 1.099-2.647V3.746c0-1.032-.367-1.914-1.1-2.647z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a target="_blank" class="social" title="Email" href="mailto://thirdnsov.dev@gmail.com">
+       <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1.2em" viewBox="0 0 485.211 485.211">
+            <path fill="currentColor" d="M301.393,241.631L464.866,424.56H20.332l163.474-182.928l58.801,51.443L301.393,241.631z M462.174,60.651H23.027 l219.579,192.142L462.174,60.651z M324.225,221.67l160.986,180.151V80.792L324.225,221.67z M0,80.792v321.029L160.972,221.64 L0,80.792z"/>
+       </svg>
+    </a>
+
+
+    <a target="_blank" class="social" title="RSS Feed" href="/./index.xml">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1.2em" viewBox="0 0 1280.000000 1280.000000">
+            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="currentColor">
+                <path d="M2295 11929 c-284 -12 -642 -45 -707 -65 -17 -5 -18 -63 -18 -1039 0 -569 4 -1036 8 -1039 5 -3 74 6 153 19 510 86 1168 95 1789 25 1348 -153 2602 -677 3670 -1531 385 -308 820 -744 1126 -1129 842 -1060 1362 -2313 1514 -3650 70 -621 61 -1279 -25 -1789 -13 -79 -22 -148 -19 -153 3 -4 471 -8 1039 -8 l1035 0 5 23 c51 225 85 942 67 1419 -23 605 -77 1044 -198 1617 -294 1400 -927 2734 -1823 3846 -1043 1295 -2364 2259 -3909 2854 -1158 447 -2451 656 -3707 600z"/>
+                <path d="M2255 7845 c-269 -25 -620 -81 -667 -106 -17 -9 -18 -55 -18 -899 0 -706 3 -890 13 -890 6 0 66 18 132 41 130 44 288 79 467 105 154 21 577 30 749 15 1207 -107 2267 -823 2814 -1902 166 -327 268 -637 330 -1001 38 -227 48 -384 42 -662 -8 -348 -44 -590 -126 -831 -23 -66 -41 -126 -41 -132 0 -10 184 -13 890 -13 844 0 890 1 899 18 27 50 88 452 110 725 14 162 14 624 1 782 -59 703 -233 1323 -545 1945 -481 956 -1313 1788 -2270 2268 -620 310 -1239 483 -1940 542 -165 14 -669 10 -840 -5z"/>
+                <path d="M2519 3815 c-391 -66 -725 -336 -868 -703 -79 -201 -96 -462 -45 -677 83 -344 338 -641 666 -774 116 -47 205 -69 330 -80 412 -39 811 153 1040 500 193 292 240 648 128 981 -135 403 -492 699 -914 757 -100 14 -241 12 -337 -4z"/>
+            </g>
+        </svg>
+    </a>
+
+
+        <p class="footnote">
+powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+    <br>
+    &copy; 2025 . All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+            <main class="content container">
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/">HUGO 배포 환경 구성</a>
+  </h1>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2024-04-07T11:27:35Z" class="post-date">
+        2024년 4월 7일
+      </time>
+      
+      
+      
+    </div>
+
+
+    
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-blog">
+        <a href="https://thirdnsov.github.io/tags/blog">blog</a>
+      </li>
+      
+      <li class="tag-hugo">
+        <a href="https://thirdnsov.github.io/tags/hugo">hugo</a>
+      </li>
+      
+      <li class="tag-oracle">
+        <a href="https://thirdnsov.github.io/tags/oracle">oracle</a>
+      </li>
+      
+      <li class="tag-freetier">
+        <a href="https://thirdnsov.github.io/tags/freetier">freetier</a>
+      </li>
+      
+      <li class="tag-github">
+        <a href="https://thirdnsov.github.io/tags/github">github</a>
+      </li>
+      
+      <li class="tag-githubpages">
+        <a href="https://thirdnsov.github.io/tags/githubpages">githubpages</a>
+      </li>
+      
+    </ul>
+    
+
+
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <h3 id="계기">계기</h3>
+<p>HUGO로 블로그를 구축한지 며칠되지 않아서 문제점을 발견했었다.<br>
+Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 맞게 추가 설정이 필요했었다.</p>
+<ul>
+<li>Oracle Freetier(개인 서버)</li>
+<li>Github Pages</li>
+</ul>
+<p>이렇게 두개의 서버 환경에서 동일한 블로그를 운영하고 싶었고 그렇게 구축을 진행하였다.<br>
+처음에는 동일한 소스로 동일한 내용을 보여주기에 잘 구축이 되었다고 생각했었다.<br>
+그러다 구글 서치 콘솔 연동 작업 등을 하면서 같은 설정 파일만으로는 각 서버의 설정을<br>
+해주기가 어렵다고 판단이 되었다.</p>
+<ul>
+<li>Hugo Config 내용 중 baseURL</li>
+<li>robots.txt</li>
+<li>Sitemap</li>
+<li>Google Analytics 연동</li>
+</ul>
+<p>이 4가지 설정값 만큼은 따로따로 가야한다고 판단이 들었다.<br>
+특히 baseURL의 경우에는 Sitemap 생성에도 영향을 주고 구글 서치 콘솔에서<br>
+집계도 제대로 안되는 문제가 있었다.</p>
+<hr>
+<h2 id="분리">분리</h2>
+<h3 id="configtoml">config.toml</h3>
+<p>설정을 어떻게 나눠야할지.. 관련 문서를 찾아보려고 했지만 마땅한 키워드도 생각나지 않고<br>
+고민을 계속하다가 결국 그냥 Config 파일을 두개로 분리하기로 결정하였다.</p>
+<ul>
+<li>config.toml : Oracle Freetier의 Hugo Config</li>
+<li>config_github.toml : Github Pages의 Hogo Config</li>
+</ul>
+<p>공식적으로 설정을 하는 방법이 있는지는 정확히는 모르겠지만 ..<br>
+현재 나는 두 서버의 도메인이 다르기 때문에 baseURL 설정을 위해서라도 분리하는게<br>
+맞다고 보였다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">...
+<span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;https://thirdy.me&#34;</span>
+<span style="color:#75715e"># baseURL = &#34;https://thirdnsov.github.io&#34; #Github 주소</span>
+<span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;ko-KR&#34;</span>
+<span style="color:#a6e22e">defaultContentLanguage</span> = <span style="color:#e6db74">&#34;ko&#34;</span>
+<span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#34;&#34;</span>
+<span style="color:#75715e"># googleAnalytics = &#34;&#34; #Github용 수집 ID</span>
+<span style="color:#75715e">#publishDir = &#34;public_github&#34; #Github용 Output Path</span>
+<span style="color:#a6e22e">enableRobotsTXT</span> = <span style="color:#66d9ef">true</span>
+...
+</code></pre></div><p>Config를 분리함으로써 복잡하게 생각할 필요 없이 그저 hugo 명령만 한번 더 해주면 되서<br>
+오히려 편하게 관리할 수 있는 느낌도 든다.<br>
+지금은 동일한 테마와 동일한 내용으로 구성이 되어있지만 혹시라도 나중에 서로 다른 테마 적용이나<br>
+다른 구성으로 가려고 했을 때 좀 더 수월할 거 같은 느낌&hellip;?</p>
+<p>무튼 이렇게 Config 파일 분리로 인해 baseURL, Sitemap, Google Analytics 연동 문제를<br>
+한번에 해결할 수 있었다.</p>
+<h3 id="robotstxt">robots.txt</h3>
+<p>robots.txt도 사실 Config 분리에서 해결될 수 있었지만 이전 Jekyll 블로그를 마이그레이션 하면서<br>
+이전 robots.txt가 static 디렉토리에 남아있어 내용이 Github Pages에서 사용하던 robots.txt가<br>
+그대로 다른 서버에도 적용되고 있었다.</p>
+<p>이것도 분리해서 관리를 할까 .. 공식 문서에서 알려주는 템플릿을 작성해서 사용할까 고민이 되었다.<br>
+근데 생각해보니 현재 상황에서는 딱히 bot을 막을 이유도 없고 일부 막을 부분도 없어서<br>
+단순히 그냥 .. 자유롭게 접근할 수 있게 설정을 해버렸다.</p>
+<ul>
+<li>config.toml / config_github.toml 내용 중
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">...
+<span style="color:#a6e22e">enableRobotsTXT</span> = <span style="color:#66d9ef">true</span>
+...
+</code></pre></div></li>
+</ul>
+<p>저 한줄이 설정 끝. 그리고 static에 있던 robots.txt는 삭제. <br>
+enableRobotsTXT 옵션을 주게 되면 구성해놓은 템플릿에 맞게 robots.txt가 생성된다.<br>
+(자동 생성 및 고정된 내용이라면 그냥 static 디렉토리에 넣어둬도 상관 없을듯)<br>
+아무런 설정을 하지 않았기 때문에 기본값을 가진 robots.txt가 생성되는 것을 확인했다.</p>
+<pre tabindex="0"><code>#robots.txt
+
+User-agent: *
+</code></pre><hr>
+<h2 id="마무리">마무리</h2>
+<p>하나의 서버 구성에서 운영하는 상황이었다면 고민할 필요가 없었던 부분일테지만<br>
+두 개의 서버 환경에서 서로 다른 설정으로 같은 내용을 보여주고자 하면서 발생했던 것 같다.<br>
+스크립트를 활용해서 복잡하게 해결을 했어도 되었겠지만 분리만으로도 나름 깔끔하게 잘 된거 같아서<br>
+스스로는 나름 만족하고 있다.<br>
+아직은 Hugo를 제대로 모르기도 하고 그냥 가지고 있는 아는 범위 내에서 해결을 하려고만 하고 있는 중..<br>
+추후에 다른 방법이 확인된다면 그때 다시 바꿔도 되지 않을까.. ?</p>
+<h3 id="참고-링크">참고 링크</h3>
+<p><a href="https://gohugo.io/templates/robots/" target="_blank">Robots.txt file</a></p>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/tech/2024/04/06/jekyll_to_hugo/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>jekyll -&gt; hugo 마이그레이션</a>
+        
+	    
+            <div class="next-post">
+                <a href="https://thirdnsov.github.io/tech/2024/05/15/oracle_freetier/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Oracle freetier A1 생성 시도(서울리전)</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
+            </main>
+            
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#계기">계기</a></li>
+      </ul>
+    </li>
+    <li><a href="#분리">분리</a>
+      <ul>
+        <li><a href="#configtoml">config.toml</a></li>
+        <li><a href="#robotstxt">robots.txt</a></li>
+      </ul>
+    </li>
+    <li><a href="#마무리">마무리</a>
+      <ul>
+        <li><a href="#참고-링크">참고 링크</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
+        </div>
+    </body>
+</html>

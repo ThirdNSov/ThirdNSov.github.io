@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>naver on </title>
+    <link>https://thirdnsov.github.io/tags/naver/</link>
+    <description>Recent content in naver on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sun, 10 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/naver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github 블로그 검색 등록 완료</title>
+      <link>https://thirdnsov.github.io/daily/2021/10/10/reg_search_console/</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/daily/2021/10/10/reg_search_console/</guid>
+      <description>Github 블로그를 만든지 1년 만에 구글, 네이버, 다음에서 검색되도록
+신청을 했다..
+신청하는 방법과 결과는 조만간 정리해서 포스팅 예정!
+미리 참고 했던 블로그를 적어두자면..
+http://jinyongjeong.github.io/2017/01/13/blog_make_searched/
+https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%B6%9C%EC%8B%9C%ED%82%A4%EA%B8%B0
+ 생각 중인 블로그 관련 작업  검색 사이트에서 검색되게 하기 티스토리 블로그와 연동하기 프리티어에 블로그 올려서 연동하기(오라클 or AWS) 꾸준한 포스팅!    </description>
+    </item>
+    
+  </channel>
+</rss>

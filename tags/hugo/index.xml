@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on </title>
+    <link>https://thirdnsov.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Wed, 15 May 2024 12:13:23 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VSCode 터미널에서 git - Missing or invalid credentials. 오류</title>
+      <link>https://thirdnsov.github.io/tech/2024/05/15/vscode_git_push_error/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/2024/05/15/vscode_git_push_error/</guid>
+      <description>개요 블로그 환경을 Hugo로 변경한 후 블로그 작성 툴로 vscode를 사용하고 있다.
+hugo도 지원되고 원격 접속 등 다양한 확장 프로그램이 지원되고 무엇보다 가벼워서 사용 중이다.
+한참 블로그 세팅을 변경하고 하면서 긴 시간 터미널로 서버에 접속해 작업하다 &amp;lsquo;git push&amp;rsquo;를
+사용했더니 &amp;lsquo;Missing or invalid credentials.&amp;rsquo; 오류가 발생하면서 push가 되질 않았다.
+분명 방금 전까지 잘 동작했었는데 .. 이상해서 검색을 해보았는데 생각보다 단순하게 해결이 되었다.
+ 내용 누가봐도 자격 증명에 문제가 생겼고 귀찮은 일이 생길 것 같아 보이지만 .</description>
+    </item>
+    
+    <item>
+      <title>HUGO 배포 환경 구성</title>
+      <link>https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/</link>
+      <pubDate>Sun, 07 Apr 2024 11:27:35 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/</guid>
+      <description>계기 HUGO로 블로그를 구축한지 며칠되지 않아서 문제점을 발견했었다.
+Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 맞게 추가 설정이 필요했었다.
+ Oracle Freetier(개인 서버) Github Pages  이렇게 두개의 서버 환경에서 동일한 블로그를 운영하고 싶었고 그렇게 구축을 진행하였다.
+처음에는 동일한 소스로 동일한 내용을 보여주기에 잘 구축이 되었다고 생각했었다.
+그러다 구글 서치 콘솔 연동 작업 등을 하면서 같은 설정 파일만으로는 각 서버의 설정을
+해주기가 어렵다고 판단이 되었다.
+ Hugo Config 내용 중 baseURL robots.</description>
+    </item>
+    
+    <item>
+      <title>jekyll -&gt; hugo 마이그레이션</title>
+      <link>https://thirdnsov.github.io/tech/2024/04/06/jekyll_to_hugo/</link>
+      <pubDate>Sat, 06 Apr 2024 12:06:45 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/tech/2024/04/06/jekyll_to_hugo/</guid>
+      <description>계기 몇번 언급했었던 것 처럼 이전에는 Github Pages를 이용한 Jekyll 블로그를 나름 운영하고 있었다.
+사실 포스팅을 자주 하는 것도 아니고해서 운영이라고 말하기가 좀 그렇지만 ..
+블로그를 볼 때 마다 개편하고 싶다.. 새로 바꾸고 싶다 .. 라고 막연하게 생각만 했었다.
+거기다 개인 서버에 워드프레스를 이용한 블로그까지 볼 때면 바꾸고 싶다는 생각이 자주 들었었다.
+그렇게 꽤 긴 시간이 흐르고 최근에 드디어 두 개 블로그를 어차피 동일 내용으로 운영할꺼라면
+하나의 플랫폼으로 싹 개편을 해보자!</description>
+    </item>
+    
+    <item>
+      <title>hugo로 블로그 이전 완료</title>
+      <link>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</link>
+      <pubDate>Sat, 30 Mar 2024 13:30:09 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</guid>
+      <description>미루고 미루고 있던 블로그 개편을 드디어 진행..
+기존에는 Github에서 Jekyll과 워드프레스 두개의 블로그를 운영 중이었는데
+두 플랫폼의 포스팅 통일하기도 어렵고 .. 한쪽만 관리하자니 한쪽이 아쉽고 하는 상황이었다
+(자세한 부분은 따로 포스팅을 할까 생각 중)
+워드프레스를 내리고 Jekyll로만 운영하려고 이것저것 찾아보던 중
+생각보다 블로그 플랫폼이 다양하게 존재하는 것을 확인했고 그 많은 플랫폼 중에
+개인적으로는 HUGO가 끌려 바로 진행하게 되었다.
+일단은 워드프레스를 내리고 HUGO를 올려보면서 친해지는 시간이 좀 필요했었다.
+대략적으로 구조를 이해하고 간단한 사용법을 확인하는 데까지 이틀 정도 걸린 것 같고 .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on </title>
+    <link>https://thirdnsov.github.io/tags/wordpress/</link>
+    <description>Recent content in wordpress on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sat, 30 Mar 2024 13:30:09 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo로 블로그 이전 완료</title>
+      <link>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</link>
+      <pubDate>Sat, 30 Mar 2024 13:30:09 +0000</pubDate>
+      
+      <guid>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</guid>
+      <description>미루고 미루고 있던 블로그 개편을 드디어 진행..
+기존에는 Github에서 Jekyll과 워드프레스 두개의 블로그를 운영 중이었는데
+두 플랫폼의 포스팅 통일하기도 어렵고 .. 한쪽만 관리하자니 한쪽이 아쉽고 하는 상황이었다
+(자세한 부분은 따로 포스팅을 할까 생각 중)
+워드프레스를 내리고 Jekyll로만 운영하려고 이것저것 찾아보던 중
+생각보다 블로그 플랫폼이 다양하게 존재하는 것을 확인했고 그 많은 플랫폼 중에
+개인적으로는 HUGO가 끌려 바로 진행하게 되었다.
+일단은 워드프레스를 내리고 HUGO를 올려보면서 친해지는 시간이 좀 필요했었다.
+대략적으로 구조를 이해하고 간단한 사용법을 확인하는 데까지 이틀 정도 걸린 것 같고 .</description>
+    </item>
+    
+  </channel>
+</rss>
