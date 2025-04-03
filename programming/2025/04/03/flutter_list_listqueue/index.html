@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko-KR" lang="ko-KR">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.38ccdf5c998a71d2ad889faefccbe9132577d265b25e73d94a1be540ebcaaa18.js"></script>
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-QH13CJVBDK', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="icon" href=/assets/img/logo_48.ico>
+
+    
+    
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+<!-- Open Graph image and Twitter Card metadata -->
+
+<title itemprop="name">Thirdy - Flutter - List, ListQueue 처리 속도 비교</title>
+<meta property="og:title" content=Thirdy&#32;-&#32;Flutter&#32;-&#32;List,&#32;ListQueue&#32;처리&#32;속도&#32;비교 />
+<meta name="twitter:title" content=Thirdy&#32;-&#32;Flutter&#32;-&#32;List,&#32;ListQueue&#32;처리&#32;속도&#32;비교 />
+<meta itemprop="name" content=Thirdy&#32;-&#32;Flutter&#32;-&#32;List,&#32;ListQueue&#32;처리&#32;속도&#32;비교 />
+<meta name="application-name" content=Thirdy&#32;-&#32;Flutter&#32;-&#32;List,&#32;ListQueue&#32;처리&#32;속도&#32;비교 />
+<meta property="og:site_name" content="" />
+
+
+<meta name="description" content="" />
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+
+<base href="https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/" />
+<link rel="canonical" href="https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/" itemprop="url" />
+<meta name="url" content="https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/" />
+<meta name="twitter:url" content="https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/" />
+<meta property="og:url" content="https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/" />
+
+
+<meta property="og:updated_time" content="2025-04-03T12:22:52Z" />
+
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
+
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+
+
+<meta name="twitter:site" content="" />
+<meta name="twitter:creator" content="" />
+<meta property="fb:admins" content="" />
+
+
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.92.2" />
+
+
+    
+    
+
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.8d80d957eb4652872ae88f6384687dfa732356385d8a6abf94fac744f49b65d7.css">
+
+
+    
+    <style>
+    body {
+        --sidebar-bg-color: #202020;
+        --sidebar-img-border-color: #515151;
+        --sidebar-p-color: #909090;
+        --sidebar-h1-color: #FFF;
+        --sidebar-a-color: #FFF;
+        --sidebar-socials-color: #FFF;
+        --text-color: #222;
+        --bkg-color: #FAF9F6;
+        --post-title-color: #303030;
+        --list-color: #5A5A5A;
+        --link-color: #268BD2;
+        --date-color: #515151;
+        --table-border-color: #E5E5E5;
+        --table-stripe-color: #F9F9F9;
+        --code-color: #000;
+        --code-background-color: #E5E5E5;
+        --code-block-color: #FFF;
+        --code-block-background-color: #272822;
+        --moon-sun-color: #FFF;
+        --moon-sun-background-color: #515151;
+    }
+    body.dark-theme {
+        --text-color: #EEE;
+        --bkg-color: #121212;
+        --post-title-color: #DBE2E9;
+        --list-color: #9D9D9D;
+        --link-color: #268BD2;
+        --date-color: #9A9A9A;
+        --table-border-color: #515151;
+        --table-stripe-color: #202020;
+        --code-color: #FFF;
+        --code-background-color: #515151;
+        --code-block-color: #FFF;
+        --code-block-background-color: #272822;
+    }
+    body {
+        background-color: var(--bkg-color);
+    }
+</style>
+
+</head>
+
+    <body class="dark-theme">
+        <div class="wrapper">
+            <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="right">
+    <button class="btn-light-dark" title="Toggle light/dark mode">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://thirdnsov.github.io">
+                <img src="/assets/img/logo.PNG" alt="brand image">
+            </a>
+        
+        
+            <a href="https://thirdnsov.github.io">
+                <h2>Thirdy</h2>
+            </a>
+        
+    </h1>
+    <p class="lead">
+    
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+        
+            
+
+            
+                
+                
+                    <li class="heading">
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+                    <li class="heading">
+                        <a href="/post/">Daily</a>
+                    </li>
+                    
+                
+            
+                
+                
+            
+                
+                
+            
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+                    <li class="heading">
+                        <a href="/tech/">Tech</a>
+                    </li>
+                    
+                
+            
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+                
+                
+                    <li class="heading">
+                        <a href="/programming/">Programming</a>
+                    </li>
+                    
+                
+            
+                
+                
+            
+            
+        
+
+    </ul>
+</nav>
+
+        
+    <a target="_blank" class="social" title="GitHub" href="https://github.com/ThirdNSov">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="-2 -2 24 24">
+            <path fill="currentColor" d="M18.88 1.099C18.147.366 17.265 0 16.233 0H3.746C2.714 0 1.832.366 1.099 1.099C.366 1.832 0 2.714 0 3.746v12.487c0 1.032.366 1.914 1.099 2.647c.733.733 1.615 1.099 2.647 1.099H6.66c.19 0 .333-.007.429-.02a.504.504 0 0 0 .286-.169c.095-.1.143-.245.143-.435l-.007-.885c-.004-.564-.006-1.01-.006-1.34l-.3.052c-.19.035-.43.05-.721.046a5.555 5.555 0 0 1-.904-.091a2.026 2.026 0 0 1-.872-.39a1.651 1.651 0 0 1-.572-.8l-.13-.3a3.25 3.25 0 0 0-.41-.663c-.186-.243-.375-.407-.566-.494l-.09-.065a.956.956 0 0 1-.17-.156a.723.723 0 0 1-.117-.182c-.026-.061-.004-.111.065-.15c.07-.04.195-.059.378-.059l.26.04c.173.034.388.138.643.311a2.1 2.1 0 0 1 .631.677c.2.355.44.626.722.813c.282.186.566.28.852.28c.286 0 .533-.022.742-.065a2.59 2.59 0 0 0 .585-.196c.078-.58.29-1.028.637-1.34a8.907 8.907 0 0 1-1.333-.234a5.314 5.314 0 0 1-1.223-.507a3.5 3.5 0 0 1-1.047-.872c-.277-.347-.505-.802-.683-1.365c-.177-.564-.266-1.215-.266-1.952c0-1.049.342-1.942 1.027-2.68c-.32-.788-.29-1.673.091-2.652c.252-.079.625-.02 1.119.175c.494.195.856.362 1.086.5c.23.14.414.257.553.352a9.233 9.233 0 0 1 2.497-.338c.859 0 1.691.113 2.498.338l.494-.312a6.997 6.997 0 0 1 1.197-.572c.46-.174.81-.221 1.054-.143c.39.98.424 1.864.103 2.653c.685.737 1.028 1.63 1.028 2.68c0 .737-.089 1.39-.267 1.957c-.177.568-.407 1.023-.689 1.366a3.65 3.65 0 0 1-1.053.865c-.42.234-.828.403-1.223.507a8.9 8.9 0 0 1-1.333.235c.45.39.676 1.005.676 1.846v3.11c0 .147.021.266.065.357a.36.36 0 0 0 .208.189c.096.034.18.056.254.064c.074.01.18.013.318.013h2.914c1.032 0 1.914-.366 2.647-1.099c.732-.732 1.099-1.615 1.099-2.647V3.746c0-1.032-.367-1.914-1.1-2.647z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a target="_blank" class="social" title="Email" href="mailto://thirdnsov.dev@gmail.com">
+       <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1.2em" viewBox="0 0 485.211 485.211">
+            <path fill="currentColor" d="M301.393,241.631L464.866,424.56H20.332l163.474-182.928l58.801,51.443L301.393,241.631z M462.174,60.651H23.027 l219.579,192.142L462.174,60.651z M324.225,221.67l160.986,180.151V80.792L324.225,221.67z M0,80.792v321.029L160.972,221.64 L0,80.792z"/>
+       </svg>
+    </a>
+
+
+    <a target="_blank" class="social" title="RSS Feed" href="/./index.xml">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1.2em" viewBox="0 0 1280.000000 1280.000000">
+            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="currentColor">
+                <path d="M2295 11929 c-284 -12 -642 -45 -707 -65 -17 -5 -18 -63 -18 -1039 0 -569 4 -1036 8 -1039 5 -3 74 6 153 19 510 86 1168 95 1789 25 1348 -153 2602 -677 3670 -1531 385 -308 820 -744 1126 -1129 842 -1060 1362 -2313 1514 -3650 70 -621 61 -1279 -25 -1789 -13 -79 -22 -148 -19 -153 3 -4 471 -8 1039 -8 l1035 0 5 23 c51 225 85 942 67 1419 -23 605 -77 1044 -198 1617 -294 1400 -927 2734 -1823 3846 -1043 1295 -2364 2259 -3909 2854 -1158 447 -2451 656 -3707 600z"/>
+                <path d="M2255 7845 c-269 -25 -620 -81 -667 -106 -17 -9 -18 -55 -18 -899 0 -706 3 -890 13 -890 6 0 66 18 132 41 130 44 288 79 467 105 154 21 577 30 749 15 1207 -107 2267 -823 2814 -1902 166 -327 268 -637 330 -1001 38 -227 48 -384 42 -662 -8 -348 -44 -590 -126 -831 -23 -66 -41 -126 -41 -132 0 -10 184 -13 890 -13 844 0 890 1 899 18 27 50 88 452 110 725 14 162 14 624 1 782 -59 703 -233 1323 -545 1945 -481 956 -1313 1788 -2270 2268 -620 310 -1239 483 -1940 542 -165 14 -669 10 -840 -5z"/>
+                <path d="M2519 3815 c-391 -66 -725 -336 -868 -703 -79 -201 -96 -462 -45 -677 83 -344 338 -641 666 -774 116 -47 205 -69 330 -80 412 -39 811 153 1040 500 193 292 240 648 128 981 -135 403 -492 699 -914 757 -100 14 -241 12 -337 -4z"/>
+            </g>
+        </svg>
+    </a>
+
+
+        <p class="footnote">
+powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+    <br>
+    &copy; 2025 . All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+            <main class="content container">
+                <div class="post">
+  <div class="info">
+  <h3 class="post-title">
+    <a href="https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/">Flutter - List, ListQueue 처리 속도 비교</a>
+  </h3>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2025-04-03T12:22:52Z" class="post-date">
+        2025년 4월 3일
+      </time>
+      
+      
+      
+    </div>
+  </div>
+  
+  <div class="headline">
+    
+    <ul class="tags">
+      
+      <li class="tag-programming">
+        <a href="https://thirdnsov.github.io/tags/programming">programming</a>
+      </li>
+      
+      <li class="tag-flutter">
+        <a href="https://thirdnsov.github.io/tags/flutter">flutter</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+  <h2 id="list">List</h2>
+<p>List 타입은 개발을 하면서 흔히 볼 수 있는 데이터 타입 중 하나로, 나 역시도 자주 사용하는 타입 중 하나다.<br>
+흔히 배열이라고 불리는 이 List 타입은 여러 개의 값을 하나의 변수에 보관하면서 다양하게 활용할 수 있게 해주는 데이터 타입이다.</p>
+<p>List를 사용하면서 처리 속도에 대해 고민을 할 정도로 많은 양의 데이터를 삽입할 일이 없었는데<br>
+최근 업무를 진행하면서 최소 10만개 이상의 데이터를 관리해야하는 상황을 겪으면서 알게 된 사실을 포스팅하려고 한다.</p>
+<p>리스트화 시킬 데이터 타입에 따라 다르긴 하겠지만 10만개 정도면 엄청나게 많은 양의 데이터라고 생각하지는 않는다.<br>
+그렇기에 큰 고민 없이 당연히 List로 관리하면 되겠지 하며 개발을 진행했다.<br>
+원하는 기능을 모두 다 구현했고 동작 결과도 예상 결과가 동일해서 대수롭지 않게 생각하고 해당 기능을 마무리했었다.<br>
+근데 성능 테스트를 진행하면서 최적화가 필요하다는 결론에 도달했고 어느 부분이 문제인지 찾다보니<br>
+List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있다는 것을 알게 되었다.</p>
+<p>범인은 List의 여러 메소드 중 removeRange()라는 메소드가 문제였다.<br>
+코드 내용 중 주기적으로 특정 List들의 앞부분 데이터를 제거해줄 필요가 있었고, 그에 따라 removeRange(0, length)를 사용해서<br>
+이를 처리해주는 로직을 추가해주었었는데 이 부분이 생각보다 처리 시간이 많이 소요된다는 것을 알게 되었다.</p>
+<p>단순히 리스트에서 데이터 일부만, 그것도 앞쪽의 데이터를 지우는 것뿐인데 왜 이렇게 오래걸리는 것인지 찾아보니 바로 이해할 수 있었다.</p>
+<p>List의 경우에는 순서가 있는 배열로 removeRange()나 removeAt()을 통해 특정 위치의 데이터를 삭제하게 되면<br>
+내부적으로 해당 리스트에 대해 전체 재인덱싱을 진행한다고 한다.<br>
+즉, 배열의 자연스러운 연결성을 위해서 이빨 빠진 곳을 메우듯, 전체 데이터가 재정렬에 들어간다는 말이었다.<br>
+그러니 당연하게도 removeRange(0, length)를 호출하면 전체 재정렬이 발생하니 에상 외의 지연 시간이 생길 수 밖에 없었던 것이었다.</p>
+<p>그럼 실제로는 얼마나 차이가 나는 것인지 확인하기 위해 간단하게 비교할 수 있는 예제를 작성했고, 테스트를 진행해봤다.</p>
+<h3 id="listremoveat0-vs-listremoveatlistlength---1-vs-listremoverange0-length">List.removeAt(0) vs. List.removeAt(list.length - 1) vs. List.removeRange(0, length)</h3>
+<ul>
+<li>삭제 개수는 2,500개씩 삭제 진행</li>
+<li>ms단위 보다는 μs단위가 조금 더 비교하기 편해서 μs로 진행
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left">10,000</th>
+<th style="text-align:left">100,000</th>
+<th style="text-align:left">1,000,000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>List.removeAt(0)</strong></td>
+<td style="text-align:left">61157 μs</td>
+<td style="text-align:left">467991 μs</td>
+<td style="text-align:left">4745593 μs</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>List.removeAt(list.length - 1)</strong></td>
+<td style="text-align:left">189 μs</td>
+<td style="text-align:left">311 μs</td>
+<td style="text-align:left">263 μs</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>List.removeRange(0, length)</strong></td>
+<td style="text-align:left">253 μs</td>
+<td style="text-align:left">740 μs</td>
+<td style="text-align:left">5142 μs</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>직접 비교해놓고 보니 처리 속도 차이가 말도 안되게 크게 나는 것을 확인할 수 있었다.<br>
+여러 번 측정하고 비교해야 조금 더 신뢰성 있는 결과곘지만..<br>
+표에 적어둔 결과와 같이 몇번만 해봐도 차이가 분명 있다는걸 알 수 있었다.</p>
+<p>removeRange()의 경우, 예상 외로 처리 속도가 빨라서 의외였지만 테스트 코드가 아닌 실제 프로젝트 코드에서는<br>
+여러 List에 대해 removeRange()를 수행하는 로직이기 떄문에 야금야금 지연시간이 발생하고 있었다는 것을 추측해볼 수 있었다.</p>
+<p>removeRange()를 대체하려면 어떻게 해야할까? 라는 생각을 하기 전에 문득 그럼 List.insert()는 .. ?<br>
+하는 생각에 바로 List.add()와 간단하게 비교를 해보았다.</p>
+<h3 id="listadd-vs-listinsert">List.add() vs List.insert()</h3>
+<ul>
+<li>ms단위 보다는 μs단위가 조금 더 비교하기 편해서 μs로 진행
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left">10,000</th>
+<th style="text-align:left">100,000</th>
+<th style="text-align:left">1,000,000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>List.add()</strong></td>
+<td style="text-align:left">103 μs</td>
+<td style="text-align:left">1876 μs</td>
+<td style="text-align:left">11243 μs</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>List.insert()</strong></td>
+<td style="text-align:left">92556 μs</td>
+<td style="text-align:left">7121580 μs</td>
+<td style="text-align:left">807640533 μs</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>막연하게 insert가 조금 더 느리겠거니 하고 진행한 테스트인데 결과는 의외였다.<br>
+생각한거 보다 훨씬 큰 차이가 나는 것을 알 수 있었고, 100만개 결과를 보고나선 함부로 List에 insert를 하면 안되겠구나를 새삼 깨닫게 되었다.</p>
+<p>이 모든 테스트는 List<!-- raw HTML omitted -->로 테스트를 진행한 것인데, 아마 int가 아닌 다른 타입이나 객체를 사용하는 리스트라면<br>
+그 차이는 더 벌어질 것으로 예상된다.</p>
+<p>그럼 이 상황을 해결해줄 수 있는 대체제는 무엇이 있을지 검색을 해보았다.<br>
+답은 의외로 간단하게 List가 아닌 ListQueue라는 타입을 사용하면 된다고 한다.</p>
+<h2 id="listqueue">ListQueue</h2>
+<p>ListQueue는 이름과 달리 List, 그러니까 배열의 느낌이라기 보단 말 그대로 Queue라고 보면 된다고 한다.<br>
+링크트 리스트니 FIFO/FILO니 하는 타입에 대한 이론적인 설명은 작성하기엔 능력이 부족하기 때문에 ..<br>
+더 자세한 설명은 아래 참고 링크나 검색을 통해 확인해 보는 것을 추천한다.</p>
+<p>각설하고 내 기준 두 타입의 가장 큰 차이점을 간단히 적어보자면 다음과 같다.<br>
+List : 데이터 추가/삭제가 빈번하지 않고, 데이터 접근이 많을 때 사용
+ListQueue : 데이터 목록의 앞/뒤로 빈번한 추가/삭제가 있을 때 사용</p>
+<p>내 경우에는 데이터 중간 삽입이나 삭제보다는 앞과 뒷 부분에 대해 추가/삭제가 빈번한 로직이기 때문에<br>
+ListQueue를 사용하는 것이 더 효율적이라는 것이다.<br>
+즉, 중간 데이터에 대한 처리가 필요 없고 앞뒤 데이터에 대한 처리가 빈번하다면 ListQueue를 쓰면 더 좋다. 라는 것이다.</p>
+<p>관련 내용을 확인한 후 기존 로직에 있는 List를 대신해 ListQueue로 마이그레이션을 진행했고 결과는 ..
+상당 부분 만족할만큼 처리 속도 개선이 된 것을 확인할 수 있었다.</p>
+<p>업무 중 확인했던 부분이라 테스트 데이터를 갖고 있지는 않지만 기억상 대략 5~8ms 만큼의 시간이 줄어들었던 것으로 기억한다.<br>
+실시간으로 아주 짧은 시간 내에 데이터를 처리 해야하는 로직이기 때문에 5ms 정도만 시간이 확보되어도<br>
+성능에 꽤 많은 영향을 주기 때문에 상당히 만족스러운 결과였다.</p>
+<p>내친김에 위의 List 관련 테스트 처럼 ListQueue도 테스트를 진행해보았다.</p>
+<h3 id="listqueueadd-vs-listqueueaddfirst">ListQueue.add() vs ListQueue.addFirst()</h3>
+<ul>
+<li>ms단위 보다는 μs단위가 조금 더 비교하기 편해서 μs로 진행
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left">10,000</th>
+<th style="text-align:left">100,000</th>
+<th style="text-align:left">1,000,000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>ListQueue.add()</strong></td>
+<td style="text-align:left">51 μs</td>
+<td style="text-align:left">542 μs</td>
+<td style="text-align:left">6214 μs</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ListQueue.addFirst()</strong></td>
+<td style="text-align:left">64 μs</td>
+<td style="text-align:left">838 μs</td>
+<td style="text-align:left">5750 μs</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h3 id="listremovefirst-vs-listremovelast">List.removeFirst() vs. List.removeLast()</h3>
+<ul>
+<li>삭제 개수는 전체 개수</li>
+<li>ms단위 보다는 μs단위가 조금 더 비교하기 편해서 μs로 진행
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left">10,000</th>
+<th style="text-align:left">100,000</th>
+<th style="text-align:left">1,000,000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>ListQueue.removeFirst()</strong></td>
+<td style="text-align:left">74 μs</td>
+<td style="text-align:left">688 μs</td>
+<td style="text-align:left">7461 μs</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ListQueue.removeLast()</strong></td>
+<td style="text-align:left">61 μs</td>
+<td style="text-align:left">674 μs</td>
+<td style="text-align:left">6478 μs</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>테스트를 해보니 앞뒤 데이터 처리에는 ListQueue가 List보다 조금 더 빠른 것을 알 수 있었다.<br>
+다만, 테스트 결과의 시간 단위를 보면 알 수 있듯이 ms가 아닌 μs기 때문에 실제 체감을 할만큼의 차이는 아닐 수도 있다.<br>
+프로그램 입장에서야 차이가 있는 것이지만 나 처럼 매우 짧은 시간에 그런 처리를 하는 상황이 아니라면<br>
+큰 차이를 못 느낄 수도 있을 것 같다.</p>
+<hr>
+<p>결론적으론 리스트 데이터의 선입선출이나 선입후출이 빈번하게 발생하는 경우가 예상된다면 List가 아니라 ListQueue를 사용하는게<br>
+속도면에서 조금이라도 이득을 챙길 수 있다는 점을 알 수 있었다.<br>
+개인적으로 여러 Collection 타입 중 List를 다소 무분별하게 사용하곤 했었는데 이번 경험을 통해<br>
+적재적소에 필요한 타입이나 기능을 잘 찾아서 잘 활용하는 것도 개발자로써 필요한 요소가 아닌가 하는 생각이 들었다.</p>
+<p>아는 것만 사용하면 편하지만 대체할 수 있는 더 좋은 수단이 있는지 한번 정도는 확인해본 다면 조금 더 좋은 결과를 얻을 수 있지 않을까?</p>
+<h4 id="참고-링크">참고 링크</h4>
+<ul>
+<li><a href="https://api.flutter.dev/flutter/dart-collection/ListQueue-class.html" target="_blank">ListQueue</a></li>
+<li><a href="https://stackoverflow.com/questions/64512932/difference-between-list-and-listqueue" target="_blank">Difference between List And ListQueue</a></li>
+<li><a href="https://medium.com/@sunlution/flutter-collection-package-%EC%A0%95%EB%A6%AC-1%EB%B6%80-class-%ED%8E%B8-96546d6ad1e8" target="_blank">[Flutter] Collection Package 정리 1부. Class 편</a></li>
+<li><a href="https://blog.naver.com/chandong83/222300637908" target="_blank">플러터(Flutter) - List, ListQueue, DoubleLinkedQueue 추가/삭제 성능 비교 테스트</a></li>
+</ul>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://thirdnsov.github.io/programming/2021/10/18/qwebenginecored_issue/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Qt 디버깅 시 QWebEngineCored 오류</a>
+        
+	    
+    
+</div>
+
+  
+</div>
+            </main>
+            
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#list">List</a>
+      <ul>
+        <li><a href="#listremoveat0-vs-listremoveatlistlength---1-vs-listremoverange0-length">List.removeAt(0) vs. List.removeAt(list.length - 1) vs. List.removeRange(0, length)</a></li>
+        <li><a href="#listadd-vs-listinsert">List.add() vs List.insert()</a></li>
+      </ul>
+    </li>
+    <li><a href="#listqueue">ListQueue</a>
+      <ul>
+        <li><a href="#listqueueadd-vs-listqueueaddfirst">ListQueue.add() vs ListQueue.addFirst()</a></li>
+        <li><a href="#listremovefirst-vs-listremovelast">List.removeFirst() vs. List.removeLast()</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
+        </div>
+    </body>
+</html>
