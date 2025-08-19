@@ -20,23 +20,26 @@
 
 
 
-<script defer language="javascript" type="text/javascript" src="/js/bundle.min.38ccdf5c998a71d2ad889faefccbe9132577d265b25e73d94a1be540ebcaaa18.js"></script>
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.7750550c0319f5de56d916b91e642bf72a5bd09ee50b201dc2ed9db69d6177a8.js"></script>
 
 
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-QH13CJVBDK', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QH13CJVBDK');
+        }
+      </script>
 
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -111,13 +114,13 @@ if (!doNotTrack) {
 
 
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.148.2">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.8d80d957eb4652872ae88f6384687dfa732356385d8a6abf94fac744f49b65d7.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.91550e3e6a2234e4ff320015b38cb741615043a380a7fdbef2af30d71990b7e3.css">
 
 
     
@@ -183,12 +186,12 @@ if (!doNotTrack) {
         <div class="sidebar-about">
     <h1 class="brand">
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <img src="/assets/img/logo.PNG" alt="brand image">
             </a>
         
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <h2>Thirdy</h2>
             </a>
         
@@ -419,7 +422,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..</p>
 <p>이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서<br>
 빌드를 진행했는데 갑자기 .. 오류가 발생했다.</p>
-<pre tabindex="0"><code>Searching for inspections failed: undefined method `map' for nil:NilClass
+<pre tabindex="0"><code>Searching for inspections failed: undefined method `map&#39; for nil:NilClass
 </code></pre><p>방금 전까지 분명 잘 되던 상태였는데 갑자기 오류가 발생하니 당황 ..<br>
 테스트한다고 했던 코드랑 패키지를 하나씩 제거하다보니 역시나 특정 패키지에서<br>
 문제가 있었던 것이고 해당 패키지는 사용하고 싶어서 해결 방법을 찾아봤다.</p>
@@ -430,10 +433,10 @@ StackOverflow에서 관련 글을 확인했고 해당 글은<br>
 <p>답변에서 제시한 방법으로 하니 당연히 동작은 되었고 관련해서 찾다보니<br>
 Flutter에서도 나름대로 내용을 공유해놓고 있었다.</p>
 <p><a href="https://docs.flutter.dev/get-started/install/macos#deploy-to-ios-devices" target="_blank">https://docs.flutter.dev/get-started/install/macos#deploy-to-ios-devices</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo gem uninstall ffi <span style="color:#f92672">&amp;&amp;</span> sudo gem install ffi -- --enable-libffi-alloc
-</code></pre></div><h4 id="참고-링크">참고 링크</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo gem uninstall ffi <span style="color:#f92672">&amp;&amp;</span> sudo gem install ffi -- --enable-libffi-alloc
+</span></span></code></pre></div><h4 id="참고-링크">참고 링크</h4>
 <ul>
-<li><a href="https://stackoverflow.com/questions/67443265/error-regarding-undefined-method-map-for-nilnilclass-for-flutter-app-cocoap" target="_blank">Error Regarding undefined method `map' for nil:NilClass for Flutter App / CocoaPod Error</a></li>
+<li><a href="https://stackoverflow.com/questions/67443265/error-regarding-undefined-method-map-for-nilnilclass-for-flutter-app-cocoap" target="_blank">Error Regarding undefined method `map&rsquo; for nil:NilClass for Flutter App / CocoaPod Error</a></li>
 <li><a href="https://docs.flutter.dev/get-started/install/macos#deploy-to-ios-devices" target="_blank">Deploy to iOS devices</a></li>
 </ul>
 

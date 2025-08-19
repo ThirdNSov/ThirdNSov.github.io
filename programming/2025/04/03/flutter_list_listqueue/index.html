@@ -20,23 +20,26 @@
 
 
 
-<script defer language="javascript" type="text/javascript" src="/js/bundle.min.38ccdf5c998a71d2ad889faefccbe9132577d265b25e73d94a1be540ebcaaa18.js"></script>
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.7750550c0319f5de56d916b91e642bf72a5bd09ee50b201dc2ed9db69d6177a8.js"></script>
 
 
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-QH13CJVBDK', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QH13CJVBDK');
+        }
+      </script>
 
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -111,13 +114,13 @@ if (!doNotTrack) {
 
 
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.148.2">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.8d80d957eb4652872ae88f6384687dfa732356385d8a6abf94fac744f49b65d7.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.91550e3e6a2234e4ff320015b38cb741615043a380a7fdbef2af30d71990b7e3.css">
 
 
     
@@ -183,12 +186,12 @@ if (!doNotTrack) {
         <div class="sidebar-about">
     <h1 class="brand">
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <img src="/assets/img/logo.PNG" alt="brand image">
             </a>
         
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <h2>Thirdy</h2>
             </a>
         
@@ -435,34 +438,34 @@ List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있
 <li>삭제 개수는 2,500개씩 삭제 진행</li>
 <li>ms단위 보다는 μs단위가 조금 더 비교하기 편해서 μs로 진행
 <table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:left">10,000</th>
-<th style="text-align:left">100,000</th>
-<th style="text-align:left">1,000,000</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>List.removeAt(0)</strong></td>
-<td style="text-align:left">61157 μs</td>
-<td style="text-align:left">467991 μs</td>
-<td style="text-align:left">4745593 μs</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>List.removeAt(list.length - 1)</strong></td>
-<td style="text-align:left">189 μs</td>
-<td style="text-align:left">311 μs</td>
-<td style="text-align:left">263 μs</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>List.removeRange(0, length)</strong></td>
-<td style="text-align:left">253 μs</td>
-<td style="text-align:left">740 μs</td>
-<td style="text-align:left">5142 μs</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">10,000</th>
+          <th style="text-align: left">100,000</th>
+          <th style="text-align: left">1,000,000</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>List.removeAt(0)</strong></td>
+          <td style="text-align: left">61157 μs</td>
+          <td style="text-align: left">467991 μs</td>
+          <td style="text-align: left">4745593 μs</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>List.removeAt(list.length - 1)</strong></td>
+          <td style="text-align: left">189 μs</td>
+          <td style="text-align: left">311 μs</td>
+          <td style="text-align: left">263 μs</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>List.removeRange(0, length)</strong></td>
+          <td style="text-align: left">253 μs</td>
+          <td style="text-align: left">740 μs</td>
+          <td style="text-align: left">5142 μs</td>
+      </tr>
+  </tbody>
 </table>
 </li>
 </ul>
@@ -478,35 +481,35 @@ List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있
 <ul>
 <li>ms단위 보다는 μs단위가 조금 더 비교하기 편해서 μs로 진행
 <table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:left">10,000</th>
-<th style="text-align:left">100,000</th>
-<th style="text-align:left">1,000,000</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>List.add()</strong></td>
-<td style="text-align:left">103 μs</td>
-<td style="text-align:left">1876 μs</td>
-<td style="text-align:left">11243 μs</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>List.insert()</strong></td>
-<td style="text-align:left">92556 μs</td>
-<td style="text-align:left">7121580 μs</td>
-<td style="text-align:left">807640533 μs</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">10,000</th>
+          <th style="text-align: left">100,000</th>
+          <th style="text-align: left">1,000,000</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>List.add()</strong></td>
+          <td style="text-align: left">103 μs</td>
+          <td style="text-align: left">1876 μs</td>
+          <td style="text-align: left">11243 μs</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>List.insert()</strong></td>
+          <td style="text-align: left">92556 μs</td>
+          <td style="text-align: left">7121580 μs</td>
+          <td style="text-align: left">807640533 μs</td>
+      </tr>
+  </tbody>
 </table>
 </li>
 </ul>
 <p>막연하게 insert가 조금 더 느리겠거니 하고 진행한 테스트인데 결과는 의외였다.<br>
 생각한거 보다 훨씬 큰 차이가 나는 것을 알 수 있었고<br>
 100만개 결과를 보고나선 함부로 List에 insert를 하면 안되겠구나를 새삼 깨닫게 되었다.</p>
-<p>이 모든 테스트는 List<!-- raw HTML omitted -->로 테스트를 진행한 것인데, 아마 int가 아닌 다른 타입이나<br>
+<p>이 모든 테스트는 List<int>로 테스트를 진행한 것인데, 아마 int가 아닌 다른 타입이나<br>
 객체를 사용하는 리스트라면 그 차이는 더 벌어질 것으로 예상된다.</p>
 <p>그럼 이 상황을 해결해줄 수 있는 대체제는 무엇이 있을지 검색을 해보았다.<br>
 답은 의외로 간단하게 List가 아닌 ListQueue라는 타입을 사용하면 된다고 한다.</p>
@@ -532,28 +535,28 @@ List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있
 <ul>
 <li>ms단위 보다는 μs단위가 조금 더 비교하기 편해서 μs로 진행
 <table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:left">10,000</th>
-<th style="text-align:left">100,000</th>
-<th style="text-align:left">1,000,000</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>ListQueue.add()</strong></td>
-<td style="text-align:left">51 μs</td>
-<td style="text-align:left">542 μs</td>
-<td style="text-align:left">6214 μs</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>ListQueue.addFirst()</strong></td>
-<td style="text-align:left">64 μs</td>
-<td style="text-align:left">838 μs</td>
-<td style="text-align:left">5750 μs</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">10,000</th>
+          <th style="text-align: left">100,000</th>
+          <th style="text-align: left">1,000,000</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>ListQueue.add()</strong></td>
+          <td style="text-align: left">51 μs</td>
+          <td style="text-align: left">542 μs</td>
+          <td style="text-align: left">6214 μs</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>ListQueue.addFirst()</strong></td>
+          <td style="text-align: left">64 μs</td>
+          <td style="text-align: left">838 μs</td>
+          <td style="text-align: left">5750 μs</td>
+      </tr>
+  </tbody>
 </table>
 </li>
 </ul>
@@ -562,28 +565,28 @@ List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있
 <li>삭제 개수는 전체 개수</li>
 <li>ms단위 보다는 μs단위가 조금 더 비교하기 편해서 μs로 진행
 <table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:left">10,000</th>
-<th style="text-align:left">100,000</th>
-<th style="text-align:left">1,000,000</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>ListQueue.removeFirst()</strong></td>
-<td style="text-align:left">74 μs</td>
-<td style="text-align:left">688 μs</td>
-<td style="text-align:left">7461 μs</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>ListQueue.removeLast()</strong></td>
-<td style="text-align:left">61 μs</td>
-<td style="text-align:left">674 μs</td>
-<td style="text-align:left">6478 μs</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">10,000</th>
+          <th style="text-align: left">100,000</th>
+          <th style="text-align: left">1,000,000</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>ListQueue.removeFirst()</strong></td>
+          <td style="text-align: left">74 μs</td>
+          <td style="text-align: left">688 μs</td>
+          <td style="text-align: left">7461 μs</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>ListQueue.removeLast()</strong></td>
+          <td style="text-align: left">61 μs</td>
+          <td style="text-align: left">674 μs</td>
+          <td style="text-align: left">6478 μs</td>
+      </tr>
+  </tbody>
 </table>
 </li>
 </ul>

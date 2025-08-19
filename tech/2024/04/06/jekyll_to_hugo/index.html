@@ -20,23 +20,26 @@
 
 
 
-<script defer language="javascript" type="text/javascript" src="/js/bundle.min.38ccdf5c998a71d2ad889faefccbe9132577d265b25e73d94a1be540ebcaaa18.js"></script>
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.7750550c0319f5de56d916b91e642bf72a5bd09ee50b201dc2ed9db69d6177a8.js"></script>
 
 
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-QH13CJVBDK', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QH13CJVBDK');
+        }
+      </script>
 
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -111,13 +114,13 @@ if (!doNotTrack) {
 
 
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.148.2">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.8d80d957eb4652872ae88f6384687dfa732356385d8a6abf94fac744f49b65d7.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.91550e3e6a2234e4ff320015b38cb741615043a380a7fdbef2af30d71990b7e3.css">
 
 
     
@@ -183,12 +186,12 @@ if (!doNotTrack) {
         <div class="sidebar-about">
     <h1 class="brand">
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <img src="/assets/img/logo.PNG" alt="brand image">
             </a>
         
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <h2>Thirdy</h2>
             </a>
         
@@ -439,8 +442,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 가능하다고 작성되어있어서 바로 알아보고 바로 마이그레이션을 진행했다.</p>
 <hr>
 <h3 id="마이그레이션">마이그레이션</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo import jekyll <span style="color:#f92672">{{</span>Jekyll-Path<span style="color:#f92672">}}</span> <span style="color:#f92672">{{</span>HUGO-Path<span style="color:#f92672">}}</span>
-</code></pre></div><p>마이그레이션 하는 방법은 정말 간단했다.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo import jekyll <span style="color:#f92672">{{</span>Jekyll-Path<span style="color:#f92672">}}</span> <span style="color:#f92672">{{</span>HUGO-Path<span style="color:#f92672">}}</span>
+</span></span></code></pre></div><p>마이그레이션 하는 방법은 정말 간단했다.<br>
 위 명령어만 써주면 사실상 끝..<br>
 물론 부가 설정들은 필요하지만 생각보다 정말 간단하게 마이그레이션을 지원해주고 있었다.</p>
 <p>기존 Jekyll의 내용이 가벼워서 그런지 몰라도 마이그레이션 속도는 정말 순식간이었다.<br>
@@ -450,19 +453,19 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 <hr>
 <h3 id="경험">경험</h3>
 <p>마이그레이션을 했을 때 특별히 문제될 부분은 없었는데 config 파일 부분이 마음에 들지 않았다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site <span style="color:#f92672">{{</span>New-Site-Name<span style="color:#f92672">}}</span>
-</code></pre></div><p>처음 테스트할 때 이렇게 그냥 생성해서 확인을 했었는데 이때는 config 파일의 확장자가 toml이었다.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new site <span style="color:#f92672">{{</span>New-Site-Name<span style="color:#f92672">}}</span>
+</span></span></code></pre></div><p>처음 테스트할 때 이렇게 그냥 생성해서 확인을 했었는데 이때는 config 파일의 확장자가 toml이었다.<br>
 그래서 toml로 설정을 다 준비해두었고 나름 익숙해져있었는데 마이그레이션을 하고 보니 확장자가<br>
 yaml로 생성되어있었다.<br>
 그래서 옵션을 찾아보았는데 config 파일을 지정하는 옵션이 있어 다음 처럼 입력해보았었다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo import jekyll <span style="color:#f92672">{{</span>Jekyll-Path<span style="color:#f92672">}}</span> <span style="color:#f92672">{{</span>HUGO-Path<span style="color:#f92672">}}</span> --config config.toml
-</code></pre></div><p>하지만 사용법이 잘못된 것인지 여전히 yaml로 생성이 되는 모습을 보았었다.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo import jekyll <span style="color:#f92672">{{</span>Jekyll-Path<span style="color:#f92672">}}</span> <span style="color:#f92672">{{</span>HUGO-Path<span style="color:#f92672">}}</span> --config config.toml
+</span></span></code></pre></div><p>하지만 사용법이 잘못된 것인지 여전히 yaml로 생성이 되는 모습을 보았었다.<br>
 특별히 이 부분 때문에 큰 문제가 있던 것도 아니고 미리 테스트하면서 준비해둔 config.toml이 있어서<br>
 그냥 교체해버리고 더 신경쓰지는 않았다.<br>
 공식 문서를 잘 확인해보면 제대로된 방법이 있지 않을까 생각만 하고 있다 ..</p>
 <p>하나 더 덧붙이자면 config가 yaml로 되면 hugo 관련 설정들 대부분이 yaml로 설정되는 느낌이었다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new <span style="color:#f92672">{{</span>Post-Path<span style="color:#f92672">}}</span>
-</code></pre></div><p>위 명령으로 새로 포스팅을 하려고 새 파일을 생성하면 전문이 yaml 포맷으로 나왔었다.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new <span style="color:#f92672">{{</span>Post-Path<span style="color:#f92672">}}</span>
+</span></span></code></pre></div><p>위 명령으로 새로 포스팅을 하려고 새 파일을 생성하면 전문이 yaml 포맷으로 나왔었다.
 왜 그런가 찾아보니 archetypes 디렉토리 아래의 default.md 내용이 yaml로 작성되어있었다.<br>
 어차피 커스텀을 할 생각이었어서 toml 포맷으로 변경 작성했고 이후에는 toml로 잘 생성되었다.</p>
 <p>아래 참고했던 블로그를 보면 본 포스팅 내용보다 유용한 정보가 작성되어있으니 참고해도 좋을 것 같다.</p>

@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://thirdnsov.github.io/</loc>
-    <lastmod>2025-04-03T12:22:52+00:00</lastmod>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/tags/blog/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/tags/cafe24/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/tags/daily/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/tags/hugo/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/tags/oracle/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/tags/oracle_freetier/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/post/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/tags/server/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/tags/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
+  </url><url>
+    <loc>https://thirdnsov.github.io/daily/2025/08/19/migration_blog_server/</loc>
+    <lastmod>2025-08-19T12:28:57+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/tags/flutter/</loc>
     <lastmod>2025-04-03T12:22:52+00:00</lastmod>
@@ -16,12 +46,6 @@
   </url><url>
     <loc>https://thirdnsov.github.io/tags/programming/</loc>
     <lastmod>2025-04-03T12:22:52+00:00</lastmod>
-  </url><url>
-    <loc>https://thirdnsov.github.io/tags/</loc>
-    <lastmod>2025-04-03T12:22:52+00:00</lastmod>
-  </url><url>
-    <loc>https://thirdnsov.github.io/tags/blog/</loc>
-    <lastmod>2024-05-15T12:13:23+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/tags/credentials/</loc>
     <lastmod>2024-05-15T12:13:23+00:00</lastmod>
@@ -38,19 +62,16 @@
     <loc>https://thirdnsov.github.io/tags/gitpush/</loc>
     <lastmod>2024-05-15T12:13:23+00:00</lastmod>
   </url><url>
-    <loc>https://thirdnsov.github.io/tags/hugo/</loc>
-    <lastmod>2024-05-15T12:13:23+00:00</lastmod>
-  </url><url>
     <loc>https://thirdnsov.github.io/tags/invalid/</loc>
     <lastmod>2024-05-15T12:13:23+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/tags/missing/</loc>
     <lastmod>2024-05-15T12:13:23+00:00</lastmod>
   </url><url>
-    <loc>https://thirdnsov.github.io/tech/</loc>
+    <loc>https://thirdnsov.github.io/tags/tech/</loc>
     <lastmod>2024-05-15T12:13:23+00:00</lastmod>
   </url><url>
-    <loc>https://thirdnsov.github.io/tags/tech/</loc>
+    <loc>https://thirdnsov.github.io/tech/</loc>
     <lastmod>2024-05-15T12:13:23+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/tags/visualstudio/</loc>
@@ -71,9 +92,6 @@
     <loc>https://thirdnsov.github.io/tags/freetier/</loc>
     <lastmod>2024-05-15T11:13:10+00:00</lastmod>
   </url><url>
-    <loc>https://thirdnsov.github.io/tags/oracle/</loc>
-    <lastmod>2024-05-15T11:13:10+00:00</lastmod>
-  </url><url>
     <loc>https://thirdnsov.github.io/tech/2024/05/15/oracle_freetier/</loc>
     <lastmod>2024-05-15T11:13:10+00:00</lastmod>
   </url><url>
@@ -87,9 +105,6 @@
     <lastmod>2024-05-15T11:13:10+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/tags/seoul/</loc>
-    <lastmod>2024-05-15T11:13:10+00:00</lastmod>
-  </url><url>
-    <loc>https://thirdnsov.github.io/tags/server/</loc>
     <lastmod>2024-05-15T11:13:10+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/tags/githubpages/</loc>
@@ -108,9 +123,6 @@
     <lastmod>2024-04-06T12:06:45+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</loc>
-    <lastmod>2024-03-30T13:30:09+00:00</lastmod>
-  </url><url>
-    <loc>https://thirdnsov.github.io/post/</loc>
     <lastmod>2024-03-30T13:30:09+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/tags/wordpress/</loc>
@@ -172,9 +184,6 @@
   </url><url>
     <loc>https://thirdnsov.github.io/programming/2021/10/18/qwebenginecored_issue/</loc>
     <lastmod>2021-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thirdnsov.github.io/tags/daily/</loc>
-    <lastmod>2021-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thirdnsov.github.io/tags/kt/</loc>
     <lastmod>2021-10-12T00:00:00+00:00</lastmod>

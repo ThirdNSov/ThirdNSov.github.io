@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>androidstudio on </title>
+    <title>Androidstudio on </title>
     <link>https://thirdnsov.github.io/tags/androidstudio/</link>
-    <description>Recent content in androidstudio on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Androidstudio on </description>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/androidstudio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/tags/androidstudio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flutter - Android Studio Electic Eel 버전 설치 시 Java 오류</title>
       <link>https://thirdnsov.github.io/tech/2023/03/05/android_studio_electic_eel_issue/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2023/03/05/android_studio_electic_eel_issue/</guid>
-      <description>새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.
-기존에 세팅하던 순서대로 쭉 진행하고 있었는데
-Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기 flutter doctor에서 계속 오류가 발생하고 있었다.
-Unable to find bundled Java version. 분명 다 설치 했는데 왜지?
-안드로이드 스튜디오도 재설치 해보고 JAVA도 재설치 해보고
-PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는데 계속 해결이 안됐었다.
-결국 해결책을 찾기 시작했고 그리 오래 걸리지 않게 방법을 찾을 수 있었다.</description>
+      <description>&lt;p&gt;새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.&lt;br&gt;&#xA;기존에 세팅하던 순서대로 쭉 진행하고 있었는데&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기  &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;flutter doctor에서 계속 오류가 발생하고 있었다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Unable to find bundled Java version.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;분명 다 설치 했는데 왜지?&lt;br&gt;&#xA;안드로이드 스튜디오도 재설치 해보고 JAVA도 재설치 해보고&lt;br&gt;&#xA;PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는데 계속 해결이 안됐었다.&lt;/p&gt;&#xA;&lt;p&gt;결국 해결책을 찾기 시작했고 그리 오래 걸리지 않게 방법을 찾을 수 있었다.&lt;br&gt;&#xA;Android Studio가 버전업이 되면서 발생한 문제로 확인되었고&lt;br&gt;&#xA;Android Studio Electric Eel 버전부터 발생하는듯 했다.&lt;br&gt;&#xA;(포스팅 중인 현재는 이 이슈가 해결이 되었는지는 모르겠다.)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

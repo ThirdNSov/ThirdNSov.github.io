@@ -4,92 +4,58 @@
     <title>Post on </title>
     <link>https://thirdnsov.github.io/post/</link>
     <description>Recent content in Post on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 30 Mar 2024 13:30:09 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Aug 2025 12:28:57 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>블로그 서버 이사</title>
+      <link>https://thirdnsov.github.io/daily/2025/08/19/migration_blog_server/</link>
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/daily/2025/08/19/migration_blog_server/</guid>
+      <description>&lt;p&gt;그동안 오라클 프리티어 서버를 사용하고 있었는데&lt;br&gt;&#xA;풍문일지는 몰라도 A1 서버 사용하다가 갑자기 삭제되거나 계정이 정지되는 경우가&lt;br&gt;&#xA;종종 있다는 얘기를 듣고 그 후부터 조금 안정적인 서버에 대한 욕심이 생기고..&lt;/p&gt;&#xA;&lt;p&gt;무료로 쓰던걸 갑자기 돈을 주고 쓸 생각을 하니.. 쉽게 결제하지 못하고&lt;br&gt;&#xA;계속 시간만 허비했다.&lt;br&gt;&#xA;그러다가 오늘 블로그 말고 어떤 서비스를 좀 안정적으로 올려서 사용하고&lt;br&gt;&#xA;싶은 생각이 문득 들어서 미루고 미루던 카페24 가상서버호스팅을 결제했다.&lt;/p&gt;&#xA;&lt;p&gt;한달 커피 한잔 값으로 스펙은 다소 아쉽지만 그래도 카페24에서 서버를&lt;br&gt;&#xA;관리해주는 것이니 느리고 제한적이더라도 안정적이지 싶어 진행했다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>hugo로 블로그 이전 완료</title>
       <link>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</link>
       <pubDate>Sat, 30 Mar 2024 13:30:09 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</guid>
-      <description>미루고 미루고 있던 블로그 개편을 드디어 진행..
-기존에는 Github에서 Jekyll과 워드프레스 두개의 블로그를 운영 중이었는데
-두 플랫폼의 포스팅 통일하기도 어렵고 .. 한쪽만 관리하자니 한쪽이 아쉽고 하는 상황이었다
-(자세한 부분은 따로 포스팅을 할까 생각 중)
-워드프레스를 내리고 Jekyll로만 운영하려고 이것저것 찾아보던 중
-생각보다 블로그 플랫폼이 다양하게 존재하는 것을 확인했고 그 많은 플랫폼 중에
-개인적으로는 HUGO가 끌려 바로 진행하게 되었다.
-일단은 워드프레스를 내리고 HUGO를 올려보면서 친해지는 시간이 좀 필요했었다.
-대략적으로 구조를 이해하고 간단한 사용법을 확인하는 데까지 이틀 정도 걸린 것 같고 .</description>
+      <description>&lt;p&gt;미루고 미루고 있던 블로그 개편을 드디어 진행..&lt;br&gt;&#xA;기존에는 Github에서 Jekyll과 워드프레스 두개의 블로그를 운영 중이었는데&lt;br&gt;&#xA;두 플랫폼의 포스팅 통일하기도 어렵고 .. 한쪽만 관리하자니 한쪽이 아쉽고 하는 상황이었다&lt;br&gt;&#xA;(자세한 부분은 따로 포스팅을 할까 생각 중)&lt;br&gt;&#xA;워드프레스를 내리고 Jekyll로만 운영하려고 이것저것 찾아보던 중&lt;br&gt;&#xA;생각보다 블로그 플랫폼이 다양하게 존재하는 것을 확인했고 그 많은 플랫폼 중에&lt;br&gt;&#xA;개인적으로는 HUGO가 끌려 바로 진행하게 되었다.&lt;/p&gt;&#xA;&lt;p&gt;일단은 워드프레스를 내리고 HUGO를 올려보면서 친해지는 시간이 좀 필요했었다.&lt;br&gt;&#xA;대략적으로 구조를 이해하고 간단한 사용법을 확인하는 데까지 이틀 정도 걸린 것 같고 ..&lt;br&gt;&#xA;단독으로 서버를 올리기 보단 Nginx와 함께 올리기로 결정하고 바로 적용했다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kt 데이터 쉐어링 온라인 신청하기</title>
       <link>https://thirdnsov.github.io/daily/2021/10/12/kt_data_sharing/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2021/10/12/kt_data_sharing/</guid>
-      <description>갤럭시 탭 S7을 구입하고 와이파이로 사용하다가 문득 구매한 모델이 LTE지원 모델인 것을 깨닫고 바로 데이터 쉐어링을 찾아봤다.
-예전에 아는 형이 KT 데이터 쉐어링한다고 같이 KT 플라자를 방문해서 신청했던게 생각나서 회사 근처 KT 플라자를 찾아봤는데 찾다보니 온라인 신청도 가능하더라.
-KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선에 추가되서 청구된다고 한다.
-간단히 신용카드 정보 같은 것을 이용해서 본인 인증만 하면 신청할 수 있도록 되어있다.
-찾아보니 신청 후 약 2일 정도 뒤에 수령할 수 있는 것 같았다.</description>
+      <description>&lt;p&gt;갤럭시 탭 S7을 구입하고 와이파이로 사용하다가 문득 구매한 모델이 LTE지원 모델인 것을 깨닫고 바로 데이터 쉐어링을 찾아봤다.&lt;/p&gt;&#xA;&lt;p&gt;예전에 아는 형이 KT 데이터 쉐어링한다고 같이 KT 플라자를 방문해서 신청했던게 생각나서 회사 근처 KT 플라자를 찾아봤는데 찾다보니 온라인 신청도 가능하더라.&lt;/p&gt;&#xA;&lt;p&gt;KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선에 추가되서 청구된다고 한다.&lt;br&gt;&#xA;간단히 신용카드 정보 같은 것을 이용해서 본인 인증만 하면 신청할 수 있도록 되어있다.&lt;br&gt;&#xA;찾아보니 신청 후 약 2일 정도 뒤에 수령할 수 있는 것 같았다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>갤럭시 S7 구매(with 당근)</title>
       <link>https://thirdnsov.github.io/daily/2021/10/11/galaxy_tab_s7/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2021/10/11/galaxy_tab_s7/</guid>
-      <description>최근 계속 태블릿을 하나 갖고 싶은 생각이 계속 들어서
-살지말지 고민을 계속하다가 오늘 질러버렸다..
-새거로 살까.. 중고로 살까 계속 간만 보고 있다가 오늘
-당근에 생각보다 가격도 괜찮고 상태도 좋은 매물이 있어서 바로 연락 후 구매해왔다.
-중고거래다 보니 현금이 훅 나가버렸지만 좋은 가격에 구해서 위안 삼는 중..
-태블릿 활용도는 많이 떨어지긴하겠지만 최대한 활용해보려고 한다.
- 간단한 블로그 포스팅 작성용 영상 시청용 메모/필기용 그외 장난감  1번 블로그 포스팅의 경우에는 아무래도 Github 블로그이다 보니 안드로이드용</description>
+      <description>&lt;p&gt;최근 계속 태블릿을 하나 갖고 싶은 생각이 계속 들어서&lt;br&gt;&#xA;살지말지 고민을 계속하다가 오늘 질러버렸다..&lt;/p&gt;&#xA;&lt;p&gt;새거로 살까.. 중고로 살까 계속 간만 보고 있다가 오늘&lt;br&gt;&#xA;당근에 생각보다 가격도 괜찮고 상태도 좋은 매물이 있어서 바로 연락 후 구매해왔다.&lt;br&gt;&#xA;중고거래다 보니 현금이 훅 나가버렸지만 좋은 가격에 구해서 위안 삼는 중..&lt;/p&gt;&#xA;&lt;p&gt;태블릿 활용도는 많이 떨어지긴하겠지만 최대한 활용해보려고 한다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;간단한 블로그 포스팅 작성용&lt;/li&gt;&#xA;&lt;li&gt;영상 시청용&lt;/li&gt;&#xA;&lt;li&gt;메모/필기용&lt;/li&gt;&#xA;&lt;li&gt;그외 장난감&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;1번 블로그 포스팅의 경우에는 아무래도 Github 블로그이다 보니 안드로이드용&lt;br&gt;&#xA;편집기가 있을지 의문이었지만 생각보다 괜찮은 어플을 찾아서 사용해보는 중이다.&lt;br&gt;&#xA;지금도 태블릿에서 해당 어플을 이용해서 작성 중인데 아직 낯선 느낌이다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Github 블로그 검색 등록 완료</title>
       <link>https://thirdnsov.github.io/daily/2021/10/10/reg_search_console/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2021/10/10/reg_search_console/</guid>
-      <description>Github 블로그를 만든지 1년 만에 구글, 네이버, 다음에서 검색되도록
-신청을 했다..
-신청하는 방법과 결과는 조만간 정리해서 포스팅 예정!
-미리 참고 했던 블로그를 적어두자면..
-http://jinyongjeong.github.io/2017/01/13/blog_make_searched/
-https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%B6%9C%EC%8B%9C%ED%82%A4%EA%B8%B0
- 생각 중인 블로그 관련 작업  검색 사이트에서 검색되게 하기 티스토리 블로그와 연동하기 프리티어에 블로그 올려서 연동하기(오라클 or AWS) 꾸준한 포스팅!    </description>
+      <description>&lt;p&gt;Github 블로그를 만든지 1년 만에 구글, 네이버, 다음에서 검색되도록&lt;br&gt;&#xA;신청을 했다..&lt;/p&gt;&#xA;&lt;p&gt;신청하는 방법과 결과는 조만간 정리해서 포스팅 예정!&lt;/p&gt;&#xA;&lt;p&gt;미리 참고 했던 블로그를 적어두자면..&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://jinyongjeong.github.io/2017/01/13/blog_make_searched/&#34; target=&#34;_blank&#34;&gt;http://jinyongjeong.github.io/2017/01/13/blog_make_searched/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%B6%9C%EC%8B%9C%ED%82%A4%EA%B8%B0&#34; target=&#34;_blank&#34;&gt;https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%B6%9C%EC%8B%9C%ED%82%A4%EA%B8%B0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;생각 중인 블로그 관련 작업&#xA;&lt;ul&gt;&#xA;&lt;li&gt;검색 사이트에서 검색되게 하기&lt;/li&gt;&#xA;&lt;li&gt;티스토리 블로그와 연동하기&lt;/li&gt;&#xA;&lt;li&gt;프리티어에 블로그 올려서 연동하기(오라클 or AWS)&lt;/li&gt;&#xA;&lt;li&gt;꾸준한 포스팅!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Github 블로그 개설 일단 완료</title>
       <link>https://thirdnsov.github.io/daily/2020/10/08/make_github_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2020/10/08/make_github_blog/</guid>
-      <description>미루고 미루던 Github 블로그 작업 일단 1차 완료.
-Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..
-다른 블로그 플랫폼이랑 뭔가 느낌자체가 달라서 적응시간도..
-얼마나 유지하고 관리할지는 모르겠지만 ..
-개인적으로 공부한 내용들, 개발하면서 기록해둘 사항 같은 것들 정리하는 차원에서 시작.</description>
+      <description>&lt;p&gt;미루고 미루던 Github 블로그 작업 일단 1차 완료.&lt;br&gt;&#xA;Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..&lt;br&gt;&#xA;다른 블로그 플랫폼이랑 뭔가 느낌자체가 달라서 적응시간도..&lt;/p&gt;&#xA;&lt;p&gt;얼마나 유지하고 관리할지는 모르겠지만 ..&lt;br&gt;&#xA;개인적으로 공부한 내용들, 개발하면서 기록해둘 사항 같은 것들 정리하는 차원에서 시작.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>블로그 개설한 기념 오랜만에 Tistory 방문</title>
       <link>https://thirdnsov.github.io/daily/2020/10/08/visit_my_tistory_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2020/10/08/visit_my_tistory_blog/</guid>
-      <description>Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.
-예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&amp;hellip;
-오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..</description>
+      <description>&lt;p&gt;Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.&lt;br&gt;&#xA;예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

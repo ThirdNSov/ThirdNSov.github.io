@@ -20,23 +20,26 @@
 
 
 
-<script defer language="javascript" type="text/javascript" src="/js/bundle.min.38ccdf5c998a71d2ad889faefccbe9132577d265b25e73d94a1be540ebcaaa18.js"></script>
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.7750550c0319f5de56d916b91e642bf72a5bd09ee50b201dc2ed9db69d6177a8.js"></script>
 
 
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-QH13CJVBDK', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QH13CJVBDK');
+        }
+      </script>
 
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -85,7 +88,7 @@ if (!doNotTrack) {
 <meta property="og:url" content="https://thirdnsov.github.io/" />
 
 
-<meta property="og:updated_time" content="2025-04-03T12:22:52Z" />
+<meta property="og:updated_time" content="2025-08-19T12:28:57Z" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://thirdnsov.github.io/sitemap.xml' />
@@ -109,13 +112,13 @@ if (!doNotTrack) {
 
 
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.148.2">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.8d80d957eb4652872ae88f6384687dfa732356385d8a6abf94fac744f49b65d7.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.91550e3e6a2234e4ff320015b38cb741615043a380a7fdbef2af30d71990b7e3.css">
 
 
     
@@ -181,12 +184,12 @@ if (!doNotTrack) {
         <div class="sidebar-about">
     <h1 class="brand">
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <img src="/assets/img/logo.PNG" alt="brand image">
             </a>
         
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <h2>Thirdy</h2>
             </a>
         
@@ -371,6 +374,76 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
     <article class="post">
         <div class="info">
   <h3 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/2020/11/19/fedora_yum_dnf/">Fedora Linux - yum, 그리고 dnf</a>
+  </h3>
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2020-11-19T00:00:00Z" class="post-date">
+        2020년 11월 19일
+      </time>
+      
+      
+      
+    </div>
+  </div>
+  
+  <div class="headline">
+    
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-linux">
+        <a href="https://thirdnsov.github.io/tags/linux">linux</a>
+      </li>
+      
+      <li class="tag-fedora">
+        <a href="https://thirdnsov.github.io/tags/fedora">fedora</a>
+      </li>
+      
+      <li class="tag-command">
+        <a href="https://thirdnsov.github.io/tags/command">command</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+        
+        <p>오랜만에 Fedora에 대한 정보를 들었는데 요즘은 yum을 대신해서 dnf라는<br>
+명령을 사용한다고 들었다.</p>
+<p>yum을 사용하면서 크게 불편함을 느낀 기억이 없는데 왜 바뀌었는지 조금 찾아보았고<br>
+찾은 내용을 간략히 정리해둔다.</p>
+<ul>
+<li>yum은 오랜 기간 동안 수정되지 못한 여러 문제점이 존재</li>
+<li>여러 문제점들로 인해 성능 저하가 발생</li>
+<li>패키지 설치 시 의존성 관련 문제가 존재</li>
+<li>API 문서가 공식적으로 작성되었거나 제대로 정리가 되어있지 않음</li>
+<li>python으로 작성되어 확장 시스템이 python만 지원</li>
+</ul>
+<p>크게 대두되는 문제점들은 이 정도인 것으로 보이고 dnf로 변경된 가장 큰 이유는<br>
+아무래도 yum이 단순히 수정만으로 해결하기에는 덩치가 너무 커지고 복잡해졌기<br>
+때문인 것 같다.</p>
+        
+        <div class="read-more-link">
+            <a href="/tech/2020/11/19/fedora_yum_dnf/">Read More…</a>
+        </div>
+        
+        
+    </article>
+    <article class="post">
+        <div class="info">
+  <h3 class="post-title">
     <a href="https://thirdnsov.github.io/daily/2020/10/08/make_github_blog/">Github 블로그 개설 일단 완료</a>
   </h3>
   <div class="headline">
@@ -417,11 +490,11 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </div>
 
         
-        미루고 미루던 Github 블로그 작업 일단 1차 완료.
-Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..
-다른 블로그 플랫폼이랑 뭔가 느낌자체가 달라서 적응시간도..
-얼마나 유지하고 관리할지는 모르겠지만 ..
-개인적으로 공부한 내용들, 개발하면서 기록해둘 사항 같은 것들 정리하는 차원에서 시작.
+        <p>미루고 미루던 Github 블로그 작업 일단 1차 완료.<br>
+Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..<br>
+다른 블로그 플랫폼이랑 뭔가 느낌자체가 달라서 적응시간도..</p>
+<p>얼마나 유지하고 관리할지는 모르겠지만 ..<br>
+개인적으로 공부한 내용들, 개발하면서 기록해둘 사항 같은 것들 정리하는 차원에서 시작.</p>
         
         
     </article>
@@ -470,9 +543,9 @@ Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..
 </div>
 
         
-        Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.
-예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&hellip;
-오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..
+        <p>Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.<br>
+예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&hellip;</p>
+<p>오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..</p>
         
         
     </article>

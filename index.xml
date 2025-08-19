@@ -4,330 +4,177 @@
     <title></title>
     <link>https://thirdnsov.github.io/</link>
     <description>Recent content on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 03 Apr 2025 12:22:52 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Aug 2025 12:28:57 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>블로그 서버 이사</title>
+      <link>https://thirdnsov.github.io/daily/2025/08/19/migration_blog_server/</link>
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/daily/2025/08/19/migration_blog_server/</guid>
+      <description>&lt;p&gt;그동안 오라클 프리티어 서버를 사용하고 있었는데&lt;br&gt;&#xA;풍문일지는 몰라도 A1 서버 사용하다가 갑자기 삭제되거나 계정이 정지되는 경우가&lt;br&gt;&#xA;종종 있다는 얘기를 듣고 그 후부터 조금 안정적인 서버에 대한 욕심이 생기고..&lt;/p&gt;&#xA;&lt;p&gt;무료로 쓰던걸 갑자기 돈을 주고 쓸 생각을 하니.. 쉽게 결제하지 못하고&lt;br&gt;&#xA;계속 시간만 허비했다.&lt;br&gt;&#xA;그러다가 오늘 블로그 말고 어떤 서비스를 좀 안정적으로 올려서 사용하고&lt;br&gt;&#xA;싶은 생각이 문득 들어서 미루고 미루던 카페24 가상서버호스팅을 결제했다.&lt;/p&gt;&#xA;&lt;p&gt;한달 커피 한잔 값으로 스펙은 다소 아쉽지만 그래도 카페24에서 서버를&lt;br&gt;&#xA;관리해주는 것이니 느리고 제한적이더라도 안정적이지 싶어 진행했다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Flutter - List, ListQueue 처리 속도 비교</title>
       <link>https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/</link>
       <pubDate>Thu, 03 Apr 2025 12:22:52 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/</guid>
-      <description>List List 타입은 흔히 볼 수 있는 Collection 타입 중 하나로, 자주 사용하는 타입 중 하나다.
-흔히 배열이라고 불리는 이 List 타입은 여러 개의 값을 하나의 변수에 보관하면서
-다양하게 활용할 수 있게 해주는 데이터 타입이다.
-List를 사용하면서 처리 속도에 대해 고민을 할 정도로 많은 양의 데이터를 삽입할 일이 없었는데
-최근 업무를 진행하면서 최소 10만개 이상의 데이터를 다룰 때 겪은 내용을 포스팅하려고 한다.
-개인적으로 10만개 정도면 엄청나게 많은 양의 데이터라고 생각하지는 않는다.</description>
+      <description>&lt;h2 id=&#34;list&#34;&gt;List&lt;/h2&gt;&#xA;&lt;p&gt;List 타입은 흔히 볼 수 있는 Collection 타입 중 하나로, 자주 사용하는 타입 중 하나다.&lt;br&gt;&#xA;흔히 배열이라고 불리는 이 List 타입은 여러 개의 값을 하나의 변수에 보관하면서&lt;br&gt;&#xA;다양하게 활용할 수 있게 해주는 데이터 타입이다.&lt;/p&gt;&#xA;&lt;p&gt;List를 사용하면서 처리 속도에 대해 고민을 할 정도로 많은 양의 데이터를 삽입할 일이 없었는데&lt;br&gt;&#xA;최근 업무를 진행하면서 최소 10만개 이상의 데이터를 다룰 때 겪은 내용을 포스팅하려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;개인적으로 10만개 정도면 엄청나게 많은 양의 데이터라고 생각하지는 않는다.&lt;br&gt;&#xA;그렇기에 큰 고민 없이 당연히 List로 관리하면 되겠지 하며 개발을 진행했다.&lt;br&gt;&#xA;원하는 기능을 구현이 끝났고 결과도 잘나와 대수롭지 않게 생각하고 해당 기능을 마무리했었다.&lt;br&gt;&#xA;근데 성능 테스트를 진행하면서 최적화가 필요하다는 결론에 도달했고 어느 부분이 문제인지 찾다보니&lt;br&gt;&#xA;List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있다는 것을 알게 되었다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VSCode 터미널에서 git - Missing or invalid credentials. 오류</title>
       <link>https://thirdnsov.github.io/tech/2024/05/15/vscode_git_push_error/</link>
       <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2024/05/15/vscode_git_push_error/</guid>
-      <description>개요 블로그 환경을 Hugo로 변경한 후 블로그 작성 툴로 vscode를 사용하고 있다.
-hugo도 지원되고 원격 접속 등 다양한 확장 프로그램이 지원되고 무엇보다 가벼워서 사용 중이다.
-한참 블로그 세팅을 변경하고 하면서 긴 시간 터미널로 서버에 접속해 작업하다 &amp;lsquo;git push&amp;rsquo;를
-사용했더니 &amp;lsquo;Missing or invalid credentials.&amp;rsquo; 오류가 발생하면서 push가 되질 않았다.
-분명 방금 전까지 잘 동작했었는데 .. 이상해서 검색을 해보았는데 생각보다 단순하게 해결이 되었다.
- 내용 누가봐도 자격 증명에 문제가 생겼고 귀찮은 일이 생길 것 같아 보이지만 .</description>
+      <description>&lt;h3 id=&#34;개요&#34;&gt;개요&lt;/h3&gt;&#xA;&lt;p&gt;블로그 환경을 Hugo로 변경한 후 블로그 작성 툴로 vscode를 사용하고 있다.&lt;br&gt;&#xA;hugo도 지원되고 원격 접속 등 다양한 확장 프로그램이 지원되고 무엇보다 가벼워서 사용 중이다.&lt;/p&gt;&#xA;&lt;p&gt;한참 블로그 세팅을 변경하고 하면서 긴 시간 터미널로 서버에 접속해 작업하다 &amp;lsquo;git push&amp;rsquo;를&lt;br&gt;&#xA;사용했더니 &amp;lsquo;Missing or invalid credentials.&amp;rsquo; 오류가 발생하면서 push가 되질 않았다.&lt;br&gt;&#xA;분명 방금 전까지 잘 동작했었는데 .. 이상해서 검색을 해보았는데 생각보다 단순하게 해결이 되었다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;내용&#34;&gt;내용&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/git_error/git_error.png&#34; alt=&#34;오류 화면&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;누가봐도 자격 증명에 문제가 생겼고 귀찮은 일이 생길 것 같아 보이지만 ..&lt;br&gt;&#xA;그냥&amp;hellip; 터미널 새로 열어서 다시 접속하면 해결이 된다..&lt;br&gt;&#xA;다양한 해결방법이 더 있는 것으로 보이긴 하지만 해결이 되었기 떄문에.. 끝&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Oracle freetier A1 생성 시도(서울리전)</title>
       <link>https://thirdnsov.github.io/tech/2024/05/15/oracle_freetier/</link>
       <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2024/05/15/oracle_freetier/</guid>
-      <description>개요 현재 블로그를 두 플랫폼을 통해 운영 중이다.
-하나는 Github Pages를 활용한 블로그, 나머지 하나는 Oracle Freetier 서버를 활용한 블로그이다.
-Github 블로그는 구축도 쉽고 신경 쓸 것이 많이 없지만 오라클 프리티어는 직접 호스팅을 하는 것이다
-보니 생각 보다 신경쓸 것도 많다.
-하지만 직접 호스팅인 만큼 자유도가 상당하기 때문에 이것저것 새로운 기능을 테스트하거나
-개인 토이 프로젝트를 진행할 때 개발 서버로 역할도 충분하다고 생각한다.
-이번에 인스턴스 생성을 시도하게 된 것도 토이 프로젝트와 블로그 모니터링 용도로 활용하기 위해서였다.</description>
+      <description>&lt;h3 id=&#34;개요&#34;&gt;개요&lt;/h3&gt;&#xA;&lt;p&gt;현재 블로그를 두 플랫폼을 통해 운영 중이다.&lt;br&gt;&#xA;하나는 Github Pages를 활용한 블로그, 나머지 하나는 Oracle Freetier 서버를 활용한 블로그이다.&lt;br&gt;&#xA;Github 블로그는 구축도 쉽고 신경 쓸 것이 많이 없지만 오라클 프리티어는 직접 호스팅을 하는 것이다&lt;br&gt;&#xA;보니 생각 보다 신경쓸 것도 많다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 직접 호스팅인 만큼 자유도가 상당하기 때문에 이것저것 새로운 기능을 테스트하거나&lt;br&gt;&#xA;개인 토이 프로젝트를 진행할 때 개발 서버로 역할도 충분하다고 생각한다.&lt;br&gt;&#xA;이번에 인스턴스 생성을 시도하게 된 것도 토이 프로젝트와 블로그 모니터링 용도로 활용하기 위해서였다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HUGO 배포 환경 구성</title>
       <link>https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/</link>
       <pubDate>Sun, 07 Apr 2024 11:27:35 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/</guid>
-      <description>계기 HUGO로 블로그를 구축한지 며칠되지 않아서 문제점을 발견했었다.
-Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 맞게 추가 설정이 필요했었다.
- Oracle Freetier(개인 서버) Github Pages  이렇게 두개의 서버 환경에서 동일한 블로그를 운영하고 싶었고 그렇게 구축을 진행하였다.
-처음에는 동일한 소스로 동일한 내용을 보여주기에 잘 구축이 되었다고 생각했었다.
-그러다 구글 서치 콘솔 연동 작업 등을 하면서 같은 설정 파일만으로는 각 서버의 설정을
-해주기가 어렵다고 판단이 되었다.
- Hugo Config 내용 중 baseURL robots.</description>
+      <description>&lt;h3 id=&#34;계기&#34;&gt;계기&lt;/h3&gt;&#xA;&lt;p&gt;HUGO로 블로그를 구축한지 며칠되지 않아서 문제점을 발견했었다.&lt;br&gt;&#xA;Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 맞게 추가 설정이 필요했었다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Oracle Freetier(개인 서버)&lt;/li&gt;&#xA;&lt;li&gt;Github Pages&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;이렇게 두개의 서버 환경에서 동일한 블로그를 운영하고 싶었고 그렇게 구축을 진행하였다.&lt;br&gt;&#xA;처음에는 동일한 소스로 동일한 내용을 보여주기에 잘 구축이 되었다고 생각했었다.&lt;br&gt;&#xA;그러다 구글 서치 콘솔 연동 작업 등을 하면서 같은 설정 파일만으로는 각 서버의 설정을&lt;br&gt;&#xA;해주기가 어렵다고 판단이 되었다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo Config 내용 중 baseURL&lt;/li&gt;&#xA;&lt;li&gt;robots.txt&lt;/li&gt;&#xA;&lt;li&gt;Sitemap&lt;/li&gt;&#xA;&lt;li&gt;Google Analytics 연동&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;이 4가지 설정값 만큼은 따로따로 가야한다고 판단이 들었다.&lt;br&gt;&#xA;특히 baseURL의 경우에는 Sitemap 생성에도 영향을 주고 구글 서치 콘솔에서&lt;br&gt;&#xA;집계도 제대로 안되는 문제가 있었다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>jekyll -&gt; hugo 마이그레이션</title>
       <link>https://thirdnsov.github.io/tech/2024/04/06/jekyll_to_hugo/</link>
       <pubDate>Sat, 06 Apr 2024 12:06:45 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2024/04/06/jekyll_to_hugo/</guid>
-      <description>계기 몇번 언급했었던 것 처럼 이전에는 Github Pages를 이용한 Jekyll 블로그를 나름 운영하고 있었다.
-사실 포스팅을 자주 하는 것도 아니고해서 운영이라고 말하기가 좀 그렇지만 ..
-블로그를 볼 때 마다 개편하고 싶다.. 새로 바꾸고 싶다 .. 라고 막연하게 생각만 했었다.
-거기다 개인 서버에 워드프레스를 이용한 블로그까지 볼 때면 바꾸고 싶다는 생각이 자주 들었었다.
-그렇게 꽤 긴 시간이 흐르고 최근에 드디어 두 개 블로그를 어차피 동일 내용으로 운영할꺼라면
-하나의 플랫폼으로 싹 개편을 해보자!</description>
+      <description>&lt;h3 id=&#34;계기&#34;&gt;계기&lt;/h3&gt;&#xA;&lt;p&gt;몇번 언급했었던 것 처럼 이전에는 Github Pages를 이용한 Jekyll 블로그를 나름 운영하고 있었다.&lt;br&gt;&#xA;사실 포스팅을 자주 하는 것도 아니고해서 운영이라고 말하기가 좀 그렇지만 ..&lt;br&gt;&#xA;블로그를 볼 때 마다 개편하고 싶다.. 새로 바꾸고 싶다 .. 라고 막연하게 생각만 했었다.&lt;br&gt;&#xA;거기다 개인 서버에 워드프레스를 이용한 블로그까지 볼 때면 바꾸고 싶다는 생각이 자주 들었었다.&lt;/p&gt;&#xA;&lt;p&gt;그렇게 꽤 긴 시간이 흐르고 최근에 드디어 두 개 블로그를 어차피 동일 내용으로 운영할꺼라면&lt;br&gt;&#xA;하나의 플랫폼으로 싹 개편을 해보자! 라고 마음을 먹었고 바로 진행하게 되었다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>hugo로 블로그 이전 완료</title>
       <link>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</link>
       <pubDate>Sat, 30 Mar 2024 13:30:09 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2024/03/30/migrated_hugo_blog/</guid>
-      <description>미루고 미루고 있던 블로그 개편을 드디어 진행..
-기존에는 Github에서 Jekyll과 워드프레스 두개의 블로그를 운영 중이었는데
-두 플랫폼의 포스팅 통일하기도 어렵고 .. 한쪽만 관리하자니 한쪽이 아쉽고 하는 상황이었다
-(자세한 부분은 따로 포스팅을 할까 생각 중)
-워드프레스를 내리고 Jekyll로만 운영하려고 이것저것 찾아보던 중
-생각보다 블로그 플랫폼이 다양하게 존재하는 것을 확인했고 그 많은 플랫폼 중에
-개인적으로는 HUGO가 끌려 바로 진행하게 되었다.
-일단은 워드프레스를 내리고 HUGO를 올려보면서 친해지는 시간이 좀 필요했었다.
-대략적으로 구조를 이해하고 간단한 사용법을 확인하는 데까지 이틀 정도 걸린 것 같고 .</description>
+      <description>&lt;p&gt;미루고 미루고 있던 블로그 개편을 드디어 진행..&lt;br&gt;&#xA;기존에는 Github에서 Jekyll과 워드프레스 두개의 블로그를 운영 중이었는데&lt;br&gt;&#xA;두 플랫폼의 포스팅 통일하기도 어렵고 .. 한쪽만 관리하자니 한쪽이 아쉽고 하는 상황이었다&lt;br&gt;&#xA;(자세한 부분은 따로 포스팅을 할까 생각 중)&lt;br&gt;&#xA;워드프레스를 내리고 Jekyll로만 운영하려고 이것저것 찾아보던 중&lt;br&gt;&#xA;생각보다 블로그 플랫폼이 다양하게 존재하는 것을 확인했고 그 많은 플랫폼 중에&lt;br&gt;&#xA;개인적으로는 HUGO가 끌려 바로 진행하게 되었다.&lt;/p&gt;&#xA;&lt;p&gt;일단은 워드프레스를 내리고 HUGO를 올려보면서 친해지는 시간이 좀 필요했었다.&lt;br&gt;&#xA;대략적으로 구조를 이해하고 간단한 사용법을 확인하는 데까지 이틀 정도 걸린 것 같고 ..&lt;br&gt;&#xA;단독으로 서버를 올리기 보단 Nginx와 함께 올리기로 결정하고 바로 적용했다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://thirdnsov.github.io/about/</link>
       <pubDate>Sun, 24 Mar 2024 20:47:34 +0900</pubDate>
-      
       <guid>https://thirdnsov.github.io/about/</guid>
-      <description>About ThirdNSov.
-컴퓨터 앞에 앉아있는거나 좋아하고 특별히 잘하는 것도 없는 평범한 개발자.
-Contact : thirdnsov.dev@gmail.com</description>
+      <description>&lt;p&gt;About ThirdNSov.&lt;/p&gt;&#xA;&lt;p&gt;컴퓨터 앞에 앉아있는거나 좋아하고 특별히 잘하는 것도 없는 평범한 개발자.&lt;/p&gt;&#xA;&lt;p&gt;Contact : &lt;a href=&#34;mailto:thirdnsov.dev@gmail.com&#34;&gt;thirdnsov.dev@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Flutter - Android Studio Electic Eel 버전 설치 시 Java 오류</title>
       <link>https://thirdnsov.github.io/tech/2023/03/05/android_studio_electic_eel_issue/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2023/03/05/android_studio_electic_eel_issue/</guid>
-      <description>새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.
-기존에 세팅하던 순서대로 쭉 진행하고 있었는데
-Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기 flutter doctor에서 계속 오류가 발생하고 있었다.
-Unable to find bundled Java version. 분명 다 설치 했는데 왜지?
-안드로이드 스튜디오도 재설치 해보고 JAVA도 재설치 해보고
-PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는데 계속 해결이 안됐었다.
-결국 해결책을 찾기 시작했고 그리 오래 걸리지 않게 방법을 찾을 수 있었다.</description>
+      <description>&lt;p&gt;새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.&lt;br&gt;&#xA;기존에 세팅하던 순서대로 쭉 진행하고 있었는데&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기  &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;flutter doctor에서 계속 오류가 발생하고 있었다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Unable to find bundled Java version.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;분명 다 설치 했는데 왜지?&lt;br&gt;&#xA;안드로이드 스튜디오도 재설치 해보고 JAVA도 재설치 해보고&lt;br&gt;&#xA;PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는데 계속 해결이 안됐었다.&lt;/p&gt;&#xA;&lt;p&gt;결국 해결책을 찾기 시작했고 그리 오래 걸리지 않게 방법을 찾을 수 있었다.&lt;br&gt;&#xA;Android Studio가 버전업이 되면서 발생한 문제로 확인되었고&lt;br&gt;&#xA;Android Studio Electric Eel 버전부터 발생하는듯 했다.&lt;br&gt;&#xA;(포스팅 중인 현재는 이 이슈가 해결이 되었는지는 모르겠다.)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>맥북에서 undefined method `map&#39; for nil:NilClass 오류 발생 시</title>
       <link>https://thirdnsov.github.io/tech/2023/03/05/macbook_nilclass_issue/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2023/03/05/macbook_nilclass_issue/</guid>
-      <description>최근 공부 겸 토이프로젝트 진행 중인데 매번 안드로이드 에뮬레이터에서만 하다가
-이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..
-이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서
-빌드를 진행했는데 갑자기 .. 오류가 발생했다.
-Searching for inspections failed: undefined method `map&#39; for nil:NilClass 방금 전까지 분명 잘 되던 상태였는데 갑자기 오류가 발생하니 당황 ..
-테스트한다고 했던 코드랑 패키지를 하나씩 제거하다보니 역시나 특정 패키지에서
-문제가 있었던 것이고 해당 패키지는 사용하고 싶어서 해결 방법을 찾아봤다.</description>
+      <description>&lt;p&gt;최근 공부 겸 토이프로젝트 진행 중인데 매번 안드로이드 에뮬레이터에서만 하다가&lt;br&gt;&#xA;이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..&lt;/p&gt;&#xA;&lt;p&gt;이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서&lt;br&gt;&#xA;빌드를 진행했는데 갑자기 .. 오류가 발생했다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Searching for inspections failed: undefined method `map&amp;#39; for nil:NilClass&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;방금 전까지 분명 잘 되던 상태였는데 갑자기 오류가 발생하니 당황 ..&lt;br&gt;&#xA;테스트한다고 했던 코드랑 패키지를 하나씩 제거하다보니 역시나 특정 패키지에서&lt;br&gt;&#xA;문제가 있었던 것이고 해당 패키지는 사용하고 싶어서 해결 방법을 찾아봤다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>맥북에서 카톡 알림 안울릴 때</title>
       <link>https://thirdnsov.github.io/tech/2023/02/23/macbook_kakaotalk_alram_issue/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2023/02/23/macbook_kakaotalk_alram_issue/</guid>
-      <description>맥북을 구매한지 이제 반년이 조금 지났는데 초반에 카톡 알림이 울리지 않아서
-찾아보았던 결과를 기록하려고 한다.
-구글, 네이버 검색으로 얻은 해결 방법으로는 해결하지 못했었다.
-  카카오톡 설정 확인 (해결 안됨) - 카카오톡 -&amp;gt; 환경설정 -&amp;gt; 알림     맥북 시스템 설정 확인 (해결 안됨) - 시스템 설정 -&amp;gt; 알림 -&amp;gt; 카카오톡  방해 금지 모드 설정 해제 확인 (해결 안됨) - 시스템 설정 -&amp;gt; 집중 모드 -&amp;gt; 방해금지 모드   검색해서 확인한 모든 블로그에서 제시하는 방법은 위 세가지인데</description>
+      <description>&lt;p&gt;맥북을 구매한지 이제 반년이 조금 지났는데 초반에 카톡 알림이 울리지 않아서&lt;br&gt;&#xA;찾아보았던 결과를 기록하려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;구글, 네이버 검색으로 얻은 해결 방법으로는 해결하지 못했었다.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;카카오톡 설정 확인 (해결 안됨)&#xA;- 카카오톡 -&amp;gt; 환경설정 -&amp;gt; 알림&#xA;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/kakao/kakao_1.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;맥북 시스템 설정 확인 (해결 안됨)&#xA;- 시스템 설정 -&amp;gt; 알림 -&amp;gt; 카카오톡&#xA;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/kakao/kakao_2.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;방해 금지 모드 설정 해제 확인 (해결 안됨)&#xA;- 시스템 설정 -&amp;gt; 집중 모드 -&amp;gt; 방해금지 모드&lt;/li&gt;&#xA;&lt;/ol&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;검색해서 확인한 모든 블로그에서 제시하는 방법은 위 세가지인데&lt;br&gt;&#xA;둘 다 정상적으로 설정이 되어있는 상태였다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>맥북 한글 입력기 교체</title>
       <link>https://thirdnsov.github.io/tech/2022/09/05/macbook_korean_input/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2022/09/05/macbook_korean_input/</guid>
-      <description>작성자는 평소 한영 전환키를 Shift + Space로 사용한다.
-이 단축키로 사용한지 꽤나 오랜 시간이 지났기 때문에 처음 맥북을 사용할 때
-Control + Space가 오늘까지도 너무 불편하게 다가왔다.
-Capslock을 눌러도 되지만 워낙 잘 안누르던 키라서 더 어색했다.
-찾아보니 예전 맥북에서는 전환 단축키를 수정할 수 있었다는데
-Monterey 버전부터는 Control + Space가 고정인듯했다.
-(정확히는 Shift + Space가 설정이 안되는 상태)
-물론 터미널을 이용해서 변경하고 하면 당연히 가능은 한 것 같은데
-굳이 라는 생각이 들었다.</description>
+      <description>&lt;p&gt;작성자는 평소 한영 전환키를 Shift + Space로 사용한다.&lt;br&gt;&#xA;이 단축키로 사용한지 꽤나 오랜 시간이 지났기 때문에 처음 맥북을 사용할 때&lt;br&gt;&#xA;Control + Space가 오늘까지도 너무 불편하게 다가왔다.&lt;br&gt;&#xA;Capslock을 눌러도 되지만 워낙 잘 안누르던 키라서 더 어색했다.&lt;/p&gt;&#xA;&lt;p&gt;찾아보니 예전 맥북에서는 전환 단축키를 수정할 수 있었다는데&lt;br&gt;&#xA;Monterey 버전부터는 Control + Space가 고정인듯했다.&lt;br&gt;&#xA;(정확히는 Shift + Space가 설정이 안되는 상태)&lt;br&gt;&#xA;물론 터미널을 이용해서 변경하고 하면 당연히 가능은 한 것 같은데&lt;br&gt;&#xA;굳이 라는 생각이 들었다. 맥북을 샀으니 맥북을 따르자 라는 느낌?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Flutter 다운로드 버튼 (Failed) 대처법</title>
       <link>https://thirdnsov.github.io/tech/2022/09/02/flutter_download_failed_issue/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2022/09/02/flutter_download_failed_issue/</guid>
-      <description>최근 회사에서 Flutter를 사용할 일이 생겨서 학습해보는 중이다.
-그 과정 중에서 겪은 일이나 포스팅할 만한 내용은 간간히 남겨두려고 한다.
-새로운 개발 환경을 구축하려면 역시 관련 프로그램들을 설치해야한다.
-제일 먼저 Flutter를 설치하기 위해서 구글에 Flutter를 검색하고 들어가봤다.
-홈페이지가 한글로 잘 나와있고 &amp;ldquo;시작하기&amp;quot;를 누르면 누구나 쉽게 다운로드 받을 수 있고
-각 OS별로 설치 가이드를 제공해줘서 비교적 쉽게 설치할 수 있게 되어있다.
-사이트 우측 상단에 있는 &amp;ldquo;시작하기&amp;quot;를 누르면 위 이미지와 같은 화면이 나오는데</description>
+      <description>&lt;p&gt;최근 회사에서 Flutter를 사용할 일이 생겨서 학습해보는 중이다.&lt;br&gt;&#xA;그 과정 중에서 겪은 일이나 포스팅할 만한 내용은 간간히 남겨두려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;새로운 개발 환경을 구축하려면 역시 관련 프로그램들을 설치해야한다.&lt;br&gt;&#xA;제일 먼저 Flutter를 설치하기 위해서 구글에 Flutter를 검색하고 들어가봤다.&lt;/p&gt;&#xA;&lt;p&gt;홈페이지가 한글로 잘 나와있고 &amp;ldquo;시작하기&amp;quot;를 누르면 누구나 쉽게 다운로드 받을 수 있고&lt;br&gt;&#xA;각 OS별로 설치 가이드를 제공해줘서 비교적 쉽게 설치할 수 있게 되어있다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/flutter_download/flutter_1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;사이트 우측 상단에 있는 &amp;ldquo;시작하기&amp;quot;를 누르면 위 이미지와 같은 화면이 나오는데&lt;br&gt;&#xA;(20220902 기준)&lt;br&gt;&#xA;본인이 사용 중인, 본인이 설치하고자 하는 OS에 맞게 클릭해주면 된다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</title>
       <link>https://thirdnsov.github.io/tech/2021/11/02/qt_online_installer_mirror/</link>
       <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2021/11/02/qt_online_installer_mirror/</guid>
-      <description>Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.
-Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..
-왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다. 하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..
-Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치가 완료될지 기약 없이 기다려야 되는 엄청 답답한 속도..
-그래서 속도를 높일 방법이 없을까 하고 생각하다가 Offline Installer도 Mirror 사이트에서 쾌적하게 다운이 되는데 Online Installer도 Mirror 주소로 변경이 가능하지 않을까?</description>
+      <description>&lt;p&gt;Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.&lt;br&gt;&#xA;Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..&lt;/p&gt;&#xA;&lt;p&gt;왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다.  하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..&lt;/p&gt;&#xA;&lt;p&gt;Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치가 완료될지 기약 없이 기다려야 되는 엄청 답답한 속도..&lt;/p&gt;&#xA;&lt;p&gt;그래서 속도를 높일 방법이 없을까 하고 생각하다가 Offline Installer도 Mirror 사이트에서 쾌적하게 다운이 되는데 Online Installer도 Mirror 주소로 변경이 가능하지 않을까? 하고 검색을 시작했다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Qt 디버깅 시 QWebEngineCored 오류</title>
       <link>https://thirdnsov.github.io/programming/2021/10/18/qwebenginecored_issue/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/programming/2021/10/18/qwebenginecored_issue/</guid>
-      <description>Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.
-관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.
-개발 환경  Windows 10 64bit Qt 5.12.2 MSVC 2017  발생했던 오류 메시지 내용은 다음과 같다.
-QWebEngineCored - Check failed: used_count == used_items_ 코드상 특별한 수정을 했거나 오류가 발생할 만한 작업이 없었는데도 불구하고 뜬금없이 위 메시지가 뜨면서 디버깅 모드로 실행 자체가 불가능했었다.</description>
+      <description>&lt;p&gt;Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.&lt;br&gt;&#xA;관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;개발-환경&#34;&gt;개발 환경&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows 10 64bit&lt;/li&gt;&#xA;&lt;li&gt;Qt 5.12.2&lt;/li&gt;&#xA;&lt;li&gt;MSVC 2017&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;발생했던 오류 메시지 내용은 다음과 같다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;QWebEngineCored - Check failed: used_count == used_items_&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;코드상 특별한 수정을 했거나 오류가 발생할 만한 작업이 없었는데도 불구하고 뜬금없이 위 메시지가 뜨면서 디버깅 모드로 실행 자체가 불가능했었다.&lt;/p&gt;&#xA;&lt;p&gt;정확한 증상은 디버깅 모드로 실행 시 중단점이 &amp;ldquo;__debugbreak&amp;quot;로만 잡히고 더 이상의 콜스택도 볼 수 없었고 메모리 조차 제대로 확인이 되지 않았었다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kt 데이터 쉐어링 온라인 신청하기</title>
       <link>https://thirdnsov.github.io/daily/2021/10/12/kt_data_sharing/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2021/10/12/kt_data_sharing/</guid>
-      <description>갤럭시 탭 S7을 구입하고 와이파이로 사용하다가 문득 구매한 모델이 LTE지원 모델인 것을 깨닫고 바로 데이터 쉐어링을 찾아봤다.
-예전에 아는 형이 KT 데이터 쉐어링한다고 같이 KT 플라자를 방문해서 신청했던게 생각나서 회사 근처 KT 플라자를 찾아봤는데 찾다보니 온라인 신청도 가능하더라.
-KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선에 추가되서 청구된다고 한다.
-간단히 신용카드 정보 같은 것을 이용해서 본인 인증만 하면 신청할 수 있도록 되어있다.
-찾아보니 신청 후 약 2일 정도 뒤에 수령할 수 있는 것 같았다.</description>
+      <description>&lt;p&gt;갤럭시 탭 S7을 구입하고 와이파이로 사용하다가 문득 구매한 모델이 LTE지원 모델인 것을 깨닫고 바로 데이터 쉐어링을 찾아봤다.&lt;/p&gt;&#xA;&lt;p&gt;예전에 아는 형이 KT 데이터 쉐어링한다고 같이 KT 플라자를 방문해서 신청했던게 생각나서 회사 근처 KT 플라자를 찾아봤는데 찾다보니 온라인 신청도 가능하더라.&lt;/p&gt;&#xA;&lt;p&gt;KT 이용자면 바로 신청이 가능하고 유심 비용 또한 기존 회선에 추가되서 청구된다고 한다.&lt;br&gt;&#xA;간단히 신용카드 정보 같은 것을 이용해서 본인 인증만 하면 신청할 수 있도록 되어있다.&lt;br&gt;&#xA;찾아보니 신청 후 약 2일 정도 뒤에 수령할 수 있는 것 같았다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>갤럭시 S7 구매(with 당근)</title>
       <link>https://thirdnsov.github.io/daily/2021/10/11/galaxy_tab_s7/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2021/10/11/galaxy_tab_s7/</guid>
-      <description>최근 계속 태블릿을 하나 갖고 싶은 생각이 계속 들어서
-살지말지 고민을 계속하다가 오늘 질러버렸다..
-새거로 살까.. 중고로 살까 계속 간만 보고 있다가 오늘
-당근에 생각보다 가격도 괜찮고 상태도 좋은 매물이 있어서 바로 연락 후 구매해왔다.
-중고거래다 보니 현금이 훅 나가버렸지만 좋은 가격에 구해서 위안 삼는 중..
-태블릿 활용도는 많이 떨어지긴하겠지만 최대한 활용해보려고 한다.
- 간단한 블로그 포스팅 작성용 영상 시청용 메모/필기용 그외 장난감  1번 블로그 포스팅의 경우에는 아무래도 Github 블로그이다 보니 안드로이드용</description>
+      <description>&lt;p&gt;최근 계속 태블릿을 하나 갖고 싶은 생각이 계속 들어서&lt;br&gt;&#xA;살지말지 고민을 계속하다가 오늘 질러버렸다..&lt;/p&gt;&#xA;&lt;p&gt;새거로 살까.. 중고로 살까 계속 간만 보고 있다가 오늘&lt;br&gt;&#xA;당근에 생각보다 가격도 괜찮고 상태도 좋은 매물이 있어서 바로 연락 후 구매해왔다.&lt;br&gt;&#xA;중고거래다 보니 현금이 훅 나가버렸지만 좋은 가격에 구해서 위안 삼는 중..&lt;/p&gt;&#xA;&lt;p&gt;태블릿 활용도는 많이 떨어지긴하겠지만 최대한 활용해보려고 한다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;간단한 블로그 포스팅 작성용&lt;/li&gt;&#xA;&lt;li&gt;영상 시청용&lt;/li&gt;&#xA;&lt;li&gt;메모/필기용&lt;/li&gt;&#xA;&lt;li&gt;그외 장난감&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;1번 블로그 포스팅의 경우에는 아무래도 Github 블로그이다 보니 안드로이드용&lt;br&gt;&#xA;편집기가 있을지 의문이었지만 생각보다 괜찮은 어플을 찾아서 사용해보는 중이다.&lt;br&gt;&#xA;지금도 태블릿에서 해당 어플을 이용해서 작성 중인데 아직 낯선 느낌이다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Github 블로그 검색 등록 완료</title>
       <link>https://thirdnsov.github.io/daily/2021/10/10/reg_search_console/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2021/10/10/reg_search_console/</guid>
-      <description>Github 블로그를 만든지 1년 만에 구글, 네이버, 다음에서 검색되도록
-신청을 했다..
-신청하는 방법과 결과는 조만간 정리해서 포스팅 예정!
-미리 참고 했던 블로그를 적어두자면..
-http://jinyongjeong.github.io/2017/01/13/blog_make_searched/
-https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%B6%9C%EC%8B%9C%ED%82%A4%EA%B8%B0
- 생각 중인 블로그 관련 작업  검색 사이트에서 검색되게 하기 티스토리 블로그와 연동하기 프리티어에 블로그 올려서 연동하기(오라클 or AWS) 꾸준한 포스팅!    </description>
+      <description>&lt;p&gt;Github 블로그를 만든지 1년 만에 구글, 네이버, 다음에서 검색되도록&lt;br&gt;&#xA;신청을 했다..&lt;/p&gt;&#xA;&lt;p&gt;신청하는 방법과 결과는 조만간 정리해서 포스팅 예정!&lt;/p&gt;&#xA;&lt;p&gt;미리 참고 했던 블로그를 적어두자면..&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://jinyongjeong.github.io/2017/01/13/blog_make_searched/&#34; target=&#34;_blank&#34;&gt;http://jinyongjeong.github.io/2017/01/13/blog_make_searched/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%B6%9C%EC%8B%9C%ED%82%A4%EA%B8%B0&#34; target=&#34;_blank&#34;&gt;https://velog.io/@eona1301/Github-Blog-%EA%B2%80%EC%83%89%EC%B0%BD-%EB%85%B8%EC%B6%9C%EC%8B%9C%ED%82%A4%EA%B8%B0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;생각 중인 블로그 관련 작업&#xA;&lt;ul&gt;&#xA;&lt;li&gt;검색 사이트에서 검색되게 하기&lt;/li&gt;&#xA;&lt;li&gt;티스토리 블로그와 연동하기&lt;/li&gt;&#xA;&lt;li&gt;프리티어에 블로그 올려서 연동하기(오라클 or AWS)&lt;/li&gt;&#xA;&lt;li&gt;꾸준한 포스팅!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Github 블로그 포스팅 내용에 이미지 안나올 때</title>
       <link>https://thirdnsov.github.io/tech/2021/10/10/github_blog_image_not_load/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2021/10/10/github_blog_image_not_load/</guid>
-      <description>오랜만에 포스팅 문서 작성을 하고 푸시를 하고 잘 올라갔는지 확인을 해보는데 이상하게 포스팅 내용 중간중간 이미지가 보이질 않는다.
-파일명도 맞고 .. 경로도 맞고 .. VS Code에선 이미지가 잘 보이는데 이상하게 실제 블로그 화면에서는 이미지가 계속 보이지 않았다.
-뭔가 잘못 푸시를 한걸까 싶어 찾다보니 단순한 문제였다.
-이미지 확장자를 저장할 때 소문자로 지정을 했고, 포스팅 내용에서는 대문자로 작성해두었던게 문제였다.
-VS Code에서는 파일명에 대해 대소문자를 크게 가리지 않아서 푸시하기 전까지 인지하지 못했던 상황이고, 언제 또 같은 상황을 겪을지 몰라 바로 남겨놓는다.</description>
+      <description>&lt;p&gt;오랜만에 포스팅 문서 작성을 하고 푸시를 하고 잘 올라갔는지 확인을 해보는데 이상하게 포스팅 내용 중간중간 이미지가 보이질 않는다.&lt;/p&gt;&#xA;&lt;p&gt;파일명도 맞고 .. 경로도 맞고 .. VS Code에선 이미지가 잘 보이는데 이상하게 실제 블로그 화면에서는 이미지가 계속 보이지 않았다.&lt;/p&gt;&#xA;&lt;p&gt;뭔가 잘못 푸시를 한걸까 싶어 찾다보니 단순한 문제였다.&lt;br&gt;&#xA;이미지 확장자를 저장할 때 소문자로 지정을 했고, 포스팅 내용에서는 대문자로 작성해두었던게 문제였다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/blog_img.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;VS Code에서는 파일명에 대해 대소문자를 크게 가리지 않아서 푸시하기 전까지 인지하지 못했던 상황이고, 언제 또 같은 상황을 겪을지 몰라 바로 남겨놓는다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Qt 한글 깨짐 문제</title>
       <link>https://thirdnsov.github.io/programming/2021/10/10/qt_korean_broken_issue/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/programming/2021/10/10/qt_korean_broken_issue/</guid>
-      <description>개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.
-여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.
-개발 환경  Windows 11 Qt 5.14.2 (with Qt Creator) MSVC 2017 64bit  이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.
-보통 한글이 깨지는 주된 원인은 파일 인코딩인데 Windows에서 Qt Creator를 사용하면 기본 UTF-8로 설정되어있다.
-일반적으로 UTF-8이면 한글이 꺠지지 않아야 하는데 이상하게 한글이 깨져서 보인다.</description>
+      <description>&lt;p&gt;개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.&lt;br&gt;&#xA;여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;개발-환경&#34;&gt;개발 환경&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows 11&lt;/li&gt;&#xA;&lt;li&gt;Qt 5.14.2 (with Qt Creator)&lt;/li&gt;&#xA;&lt;li&gt;MSVC 2017 64bit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.&lt;/p&gt;&#xA;&lt;p&gt;보통 한글이 깨지는 주된 원인은 파일 인코딩인데 Windows에서 Qt Creator를 사용하면 기본 UTF-8로 설정되어있다.&lt;br&gt;&#xA;일반적으로 UTF-8이면 한글이 꺠지지 않아야 하는데 이상하게 한글이 깨져서 보인다.&lt;br&gt;&#xA;Qt Designer를 이용해서 Widget에 직접 한글을 입력해둔 경우에는 깨지지 않지만 코드를 이용해 Widget에 한글로 Text를 입력시키면 깨지게 된다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Raspberry Pi3&#43;에 Fedora Linux 설치</title>
       <link>https://thirdnsov.github.io/tech/2020/11/24/rpi3_fedora_linux/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2020/11/24/rpi3_fedora_linux/</guid>
-      <description>Fedora를 설치해서 사용해보려고 Hyper-V 설치하고 하다가 문득 집에 RPi3+가 남아서
-여기에 설치를 해보자 싶어서 시작.
-라즈베리파이 사용할 때 주로 그냥 라즈비안 올려서 사용했었는데 페도라를 올리면 또
-다른 느낌일 것 같아서 급하게 자료 찾아보고 설치를 진행했다.
-우선 다행이도 Fedora WiKi에 라즈베리파이 설치 관련 문서가 있었고
-영어의 압박만 견디면 따라하기 나름 쉽게 정리되어있다.
-해당 문서 내용 중에 라즈베리파이용 페도라 이미지가 있으니 다운 받아서 설치만
-해주면 된다.
-ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞게</description>
+      <description>&lt;p&gt;Fedora를 설치해서 사용해보려고 Hyper-V 설치하고 하다가 문득 집에 RPi3+가 남아서&lt;br&gt;&#xA;여기에 설치를 해보자 싶어서 시작.&lt;/p&gt;&#xA;&lt;p&gt;라즈베리파이 사용할 때 주로 그냥 라즈비안 올려서 사용했었는데 페도라를 올리면 또&lt;br&gt;&#xA;다른 느낌일 것 같아서 급하게 자료 찾아보고 설치를 진행했다.&lt;/p&gt;&#xA;&lt;p&gt;우선 다행이도 &lt;a href=&#34;https://fedoraproject.org/wiki/Architectures/ARM/Raspberry_Pi#aarch64_supported_images_for_Raspberry_Pi_3&#34; target=&#34;_blank&#34;&gt;Fedora WiKi&lt;/a&gt;에 라즈베리파이 설치 관련 문서가 있었고&lt;br&gt;&#xA;영어의 압박만 견디면 따라하기 나름 쉽게 정리되어있다.&lt;/p&gt;&#xA;&lt;p&gt;해당 문서 내용 중에 라즈베리파이용 페도라 이미지가 있으니 다운 받아서 설치만&lt;br&gt;&#xA;해주면 된다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/fedora_wiki_1.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞게&lt;br&gt;&#xA;다운 받으면 된다.&lt;br&gt;&#xA;이미지는 구했고 이미지를 SD Card에 구워야하는데 Windows 환경에서 진행하였기&lt;br&gt;&#xA;때문에 자주 사용했던 &lt;a href=&#34;https://www.balena.io/etcher/&#34; target=&#34;_blank&#34;&gt;balenaEtcher&lt;/a&gt;를 사용하였다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Fedora Linux - yum, 그리고 dnf</title>
       <link>https://thirdnsov.github.io/tech/2020/11/19/fedora_yum_dnf/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2020/11/19/fedora_yum_dnf/</guid>
-      <description>오랜만에 Fedora에 대한 정보를 들었는데 요즘은 yum을 대신해서 dnf라는
-명령을 사용한다고 들었다.
-yum을 사용하면서 크게 불편함을 느낀 기억이 없는데 왜 바뀌었는지 조금 찾아보았고
-찾은 내용을 간략히 정리해둔다.
- yum은 오랜 기간 동안 수정되지 못한 여러 문제점이 존재 여러 문제점들로 인해 성능 저하가 발생 패키지 설치 시 의존성 관련 문제가 존재 API 문서가 공식적으로 작성되었거나 제대로 정리가 되어있지 않음 python으로 작성되어 확장 시스템이 python만 지원  크게 대두되는 문제점들은 이 정도인 것으로 보이고 dnf로 변경된 가장 큰 이유는</description>
+      <description>&lt;p&gt;오랜만에 Fedora에 대한 정보를 들었는데 요즘은 yum을 대신해서 dnf라는&lt;br&gt;&#xA;명령을 사용한다고 들었다.&lt;/p&gt;&#xA;&lt;p&gt;yum을 사용하면서 크게 불편함을 느낀 기억이 없는데 왜 바뀌었는지 조금 찾아보았고&lt;br&gt;&#xA;찾은 내용을 간략히 정리해둔다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;yum은 오랜 기간 동안 수정되지 못한 여러 문제점이 존재&lt;/li&gt;&#xA;&lt;li&gt;여러 문제점들로 인해 성능 저하가 발생&lt;/li&gt;&#xA;&lt;li&gt;패키지 설치 시 의존성 관련 문제가 존재&lt;/li&gt;&#xA;&lt;li&gt;API 문서가 공식적으로 작성되었거나 제대로 정리가 되어있지 않음&lt;/li&gt;&#xA;&lt;li&gt;python으로 작성되어 확장 시스템이 python만 지원&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;크게 대두되는 문제점들은 이 정도인 것으로 보이고 dnf로 변경된 가장 큰 이유는&lt;br&gt;&#xA;아무래도 yum이 단순히 수정만으로 해결하기에는 덩치가 너무 커지고 복잡해졌기&lt;br&gt;&#xA;때문인 것 같다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Github 블로그 개설 일단 완료</title>
       <link>https://thirdnsov.github.io/daily/2020/10/08/make_github_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2020/10/08/make_github_blog/</guid>
-      <description>미루고 미루던 Github 블로그 작업 일단 1차 완료.
-Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..
-다른 블로그 플랫폼이랑 뭔가 느낌자체가 달라서 적응시간도..
-얼마나 유지하고 관리할지는 모르겠지만 ..
-개인적으로 공부한 내용들, 개발하면서 기록해둘 사항 같은 것들 정리하는 차원에서 시작.</description>
+      <description>&lt;p&gt;미루고 미루던 Github 블로그 작업 일단 1차 완료.&lt;br&gt;&#xA;Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..&lt;br&gt;&#xA;다른 블로그 플랫폼이랑 뭔가 느낌자체가 달라서 적응시간도..&lt;/p&gt;&#xA;&lt;p&gt;얼마나 유지하고 관리할지는 모르겠지만 ..&lt;br&gt;&#xA;개인적으로 공부한 내용들, 개발하면서 기록해둘 사항 같은 것들 정리하는 차원에서 시작.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>블로그 개설한 기념 오랜만에 Tistory 방문</title>
       <link>https://thirdnsov.github.io/daily/2020/10/08/visit_my_tistory_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2020/10/08/visit_my_tistory_blog/</guid>
-      <description>Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.
-예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&amp;hellip;
-오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..</description>
+      <description>&lt;p&gt;Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.&lt;br&gt;&#xA;예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

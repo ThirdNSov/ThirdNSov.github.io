@@ -4,467 +4,380 @@
     <title>Tags on </title>
     <link>https://thirdnsov.github.io/tags/</link>
     <description>Recent content in Tags on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 03 Apr 2025 12:22:52 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Aug 2025 12:28:57 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>flutter</title>
-      <link>https://thirdnsov.github.io/tags/flutter/</link>
-      <pubDate>Thu, 03 Apr 2025 12:22:52 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/flutter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://thirdnsov.github.io/tags/programming/</link>
-      <pubDate>Thu, 03 Apr 2025 12:22:52 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
+      <title>Blog</title>
       <link>https://thirdnsov.github.io/tags/blog/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
       <guid>https://thirdnsov.github.io/tags/blog/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>credentials</title>
-      <link>https://thirdnsov.github.io/tags/credentials/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/credentials/</guid>
+      <title>Cafe24</title>
+      <link>https://thirdnsov.github.io/tags/cafe24/</link>
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/cafe24/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>git</title>
-      <link>https://thirdnsov.github.io/tags/git/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>giterror</title>
-      <link>https://thirdnsov.github.io/tags/giterror/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/giterror/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://thirdnsov.github.io/tags/github/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gitpush</title>
-      <link>https://thirdnsov.github.io/tags/gitpush/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/gitpush/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://thirdnsov.github.io/tags/hugo/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>invalid</title>
-      <link>https://thirdnsov.github.io/tags/invalid/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/invalid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>missing</title>
-      <link>https://thirdnsov.github.io/tags/missing/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/missing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://thirdnsov.github.io/tags/tech/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>visualstudio</title>
-      <link>https://thirdnsov.github.io/tags/visualstudio/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/visualstudio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vscode</title>
-      <link>https://thirdnsov.github.io/tags/vscode/</link>
-      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/vscode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>a1</title>
-      <link>https://thirdnsov.github.io/tags/a1/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/a1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>api</title>
-      <link>https://thirdnsov.github.io/tags/api/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>freetier</title>
-      <link>https://thirdnsov.github.io/tags/freetier/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/freetier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>oracle</title>
-      <link>https://thirdnsov.github.io/tags/oracle/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/oracle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://thirdnsov.github.io/tags/python/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>region</title>
-      <link>https://thirdnsov.github.io/tags/region/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/region/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>script</title>
-      <link>https://thirdnsov.github.io/tags/script/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/script/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>seoul</title>
-      <link>https://thirdnsov.github.io/tags/seoul/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/seoul/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>server</title>
-      <link>https://thirdnsov.github.io/tags/server/</link>
-      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/server/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>githubpages</title>
-      <link>https://thirdnsov.github.io/tags/githubpages/</link>
-      <pubDate>Sun, 07 Apr 2024 11:27:35 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/githubpages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jekyll</title>
-      <link>https://thirdnsov.github.io/tags/jekyll/</link>
-      <pubDate>Sat, 06 Apr 2024 12:06:45 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>migration</title>
-      <link>https://thirdnsov.github.io/tags/migration/</link>
-      <pubDate>Sat, 06 Apr 2024 12:06:45 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/migration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wordpress</title>
-      <link>https://thirdnsov.github.io/tags/wordpress/</link>
-      <pubDate>Sat, 30 Mar 2024 13:30:09 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/wordpress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>androidstudio</title>
-      <link>https://thirdnsov.github.io/tags/androidstudio/</link>
-      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/androidstudio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>error</title>
-      <link>https://thirdnsov.github.io/tags/error/</link>
-      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/error/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jdk</title>
-      <link>https://thirdnsov.github.io/tags/jdk/</link>
-      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/jdk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>alarm</title>
-      <link>https://thirdnsov.github.io/tags/alarm/</link>
-      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/alarm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kakao</title>
-      <link>https://thirdnsov.github.io/tags/kakao/</link>
-      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/kakao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mac</title>
-      <link>https://thirdnsov.github.io/tags/mac/</link>
-      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/mac/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>macbook</title>
-      <link>https://thirdnsov.github.io/tags/macbook/</link>
-      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/macbook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hangul</title>
-      <link>https://thirdnsov.github.io/tags/hangul/</link>
-      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/hangul/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>korean</title>
-      <link>https://thirdnsov.github.io/tags/korean/</link>
-      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/korean/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>qt</title>
-      <link>https://thirdnsov.github.io/tags/qt/</link>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://thirdnsov.github.io/tags/qt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>daily</title>
+      <title>Daily</title>
       <link>https://thirdnsov.github.io/tags/daily/</link>
-      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
       <guid>https://thirdnsov.github.io/tags/daily/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kt</title>
+      <title>Hugo</title>
+      <link>https://thirdnsov.github.io/tags/hugo/</link>
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle</title>
+      <link>https://thirdnsov.github.io/tags/oracle/</link>
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/oracle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle_freetier</title>
+      <link>https://thirdnsov.github.io/tags/oracle_freetier/</link>
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/oracle_freetier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>https://thirdnsov.github.io/tags/server/</link>
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flutter</title>
+      <link>https://thirdnsov.github.io/tags/flutter/</link>
+      <pubDate>Thu, 03 Apr 2025 12:22:52 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/flutter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://thirdnsov.github.io/tags/programming/</link>
+      <pubDate>Thu, 03 Apr 2025 12:22:52 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Credentials</title>
+      <link>https://thirdnsov.github.io/tags/credentials/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/credentials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://thirdnsov.github.io/tags/git/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giterror</title>
+      <link>https://thirdnsov.github.io/tags/giterror/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/giterror/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://thirdnsov.github.io/tags/github/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitpush</title>
+      <link>https://thirdnsov.github.io/tags/gitpush/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/gitpush/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Invalid</title>
+      <link>https://thirdnsov.github.io/tags/invalid/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/invalid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Missing</title>
+      <link>https://thirdnsov.github.io/tags/missing/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/missing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>https://thirdnsov.github.io/tags/tech/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visualstudio</title>
+      <link>https://thirdnsov.github.io/tags/visualstudio/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/visualstudio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vscode</title>
+      <link>https://thirdnsov.github.io/tags/vscode/</link>
+      <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/vscode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A1</title>
+      <link>https://thirdnsov.github.io/tags/a1/</link>
+      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/a1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Api</title>
+      <link>https://thirdnsov.github.io/tags/api/</link>
+      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freetier</title>
+      <link>https://thirdnsov.github.io/tags/freetier/</link>
+      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/freetier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://thirdnsov.github.io/tags/python/</link>
+      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Region</title>
+      <link>https://thirdnsov.github.io/tags/region/</link>
+      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/region/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Script</title>
+      <link>https://thirdnsov.github.io/tags/script/</link>
+      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/script/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seoul</title>
+      <link>https://thirdnsov.github.io/tags/seoul/</link>
+      <pubDate>Wed, 15 May 2024 11:13:10 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/seoul/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Githubpages</title>
+      <link>https://thirdnsov.github.io/tags/githubpages/</link>
+      <pubDate>Sun, 07 Apr 2024 11:27:35 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/githubpages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jekyll</title>
+      <link>https://thirdnsov.github.io/tags/jekyll/</link>
+      <pubDate>Sat, 06 Apr 2024 12:06:45 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migration</title>
+      <link>https://thirdnsov.github.io/tags/migration/</link>
+      <pubDate>Sat, 06 Apr 2024 12:06:45 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/migration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>https://thirdnsov.github.io/tags/wordpress/</link>
+      <pubDate>Sat, 30 Mar 2024 13:30:09 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Androidstudio</title>
+      <link>https://thirdnsov.github.io/tags/androidstudio/</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/androidstudio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Error</title>
+      <link>https://thirdnsov.github.io/tags/error/</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jdk</title>
+      <link>https://thirdnsov.github.io/tags/jdk/</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/jdk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alarm</title>
+      <link>https://thirdnsov.github.io/tags/alarm/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/alarm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kakao</title>
+      <link>https://thirdnsov.github.io/tags/kakao/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/kakao/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac</title>
+      <link>https://thirdnsov.github.io/tags/mac/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macbook</title>
+      <link>https://thirdnsov.github.io/tags/macbook/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/macbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hangul</title>
+      <link>https://thirdnsov.github.io/tags/hangul/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/hangul/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Korean</title>
+      <link>https://thirdnsov.github.io/tags/korean/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/korean/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qt</title>
+      <link>https://thirdnsov.github.io/tags/qt/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/tags/qt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kt</title>
       <link>https://thirdnsov.github.io/tags/kt/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/kt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>share</title>
+      <title>Share</title>
       <link>https://thirdnsov.github.io/tags/share/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/share/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>galaxytab</title>
+      <title>Galaxytab</title>
       <link>https://thirdnsov.github.io/tags/galaxytab/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/galaxytab/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>samsung</title>
+      <title>Samsung</title>
       <link>https://thirdnsov.github.io/tags/samsung/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/samsung/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>google</title>
+      <title>Google</title>
       <link>https://thirdnsov.github.io/tags/google/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/google/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>naver</title>
+      <title>Naver</title>
       <link>https://thirdnsov.github.io/tags/naver/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/naver/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>searchconsole</title>
+      <title>Searchconsole</title>
       <link>https://thirdnsov.github.io/tags/searchconsole/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/searchconsole/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tip</title>
+      <title>Tip</title>
       <link>https://thirdnsov.github.io/tags/tip/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/tip/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>fedora</title>
+      <title>Fedora</title>
       <link>https://thirdnsov.github.io/tags/fedora/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/fedora/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://thirdnsov.github.io/tags/linux/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>raspberry</title>
+      <title>Raspberry</title>
       <link>https://thirdnsov.github.io/tags/raspberry/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/raspberry/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>command</title>
+      <title>Command</title>
       <link>https://thirdnsov.github.io/tags/command/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/command/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tistory</title>
+      <title>Tistory</title>
       <link>https://thirdnsov.github.io/tags/tistory/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tags/tistory/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

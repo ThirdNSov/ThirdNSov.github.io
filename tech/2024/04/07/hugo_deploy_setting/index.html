@@ -20,23 +20,26 @@
 
 
 
-<script defer language="javascript" type="text/javascript" src="/js/bundle.min.38ccdf5c998a71d2ad889faefccbe9132577d265b25e73d94a1be540ebcaaa18.js"></script>
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.7750550c0319f5de56d916b91e642bf72a5bd09ee50b201dc2ed9db69d6177a8.js"></script>
 
 
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-QH13CJVBDK', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QH13CJVBDK');
+        }
+      </script>
 
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -111,13 +114,13 @@ if (!doNotTrack) {
 
 
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.148.2">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.8d80d957eb4652872ae88f6384687dfa732356385d8a6abf94fac744f49b65d7.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.91550e3e6a2234e4ff320015b38cb741615043a380a7fdbef2af30d71990b7e3.css">
 
 
     
@@ -183,12 +186,12 @@ if (!doNotTrack) {
         <div class="sidebar-about">
     <h1 class="brand">
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <img src="/assets/img/logo.PNG" alt="brand image">
             </a>
         
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <h2>Thirdy</h2>
             </a>
         
@@ -459,17 +462,17 @@ Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 �
 <p>공식적으로 설정을 하는 방법이 있는지는 정확히는 모르겠지만 ..<br>
 현재 나는 두 서버의 도메인이 다르기 때문에 baseURL 설정을 위해서라도 분리하는게<br>
 맞다고 보였다.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">...
-<span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;https://thirdy.me&#34;</span>
-<span style="color:#75715e"># baseURL = &#34;https://thirdnsov.github.io&#34; #Github 주소</span>
-<span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;ko-KR&#34;</span>
-<span style="color:#a6e22e">defaultContentLanguage</span> = <span style="color:#e6db74">&#34;ko&#34;</span>
-<span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#34;&#34;</span>
-<span style="color:#75715e"># googleAnalytics = &#34;&#34; #Github용 수집 ID</span>
-<span style="color:#75715e">#publishDir = &#34;public_github&#34; #Github용 Output Path</span>
-<span style="color:#a6e22e">enableRobotsTXT</span> = <span style="color:#66d9ef">true</span>
-...
-</code></pre></div><p>Config를 분리함으로써 복잡하게 생각할 필요 없이 그저 hugo 명령만 한번 더 해주면 되서<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;https://thirdy.me&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># baseURL = &#34;https://thirdnsov.github.io&#34; #Github 주소</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;ko-KR&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">defaultContentLanguage</span> = <span style="color:#e6db74">&#34;ko&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># googleAnalytics = &#34;&#34; #Github용 수집 ID</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#publishDir = &#34;public_github&#34; #Github용 Output Path</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">enableRobotsTXT</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><p>Config를 분리함으로써 복잡하게 생각할 필요 없이 그저 hugo 명령만 한번 더 해주면 되서<br>
 오히려 편하게 관리할 수 있는 느낌도 든다.<br>
 지금은 동일한 테마와 동일한 내용으로 구성이 되어있지만 혹시라도 나중에 서로 다른 테마 적용이나<br>
 다른 구성으로 가려고 했을 때 좀 더 수월할 거 같은 느낌&hellip;?</p>
@@ -484,10 +487,10 @@ Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 �
 단순히 그냥 .. 자유롭게 접근할 수 있게 설정을 해버렸다.</p>
 <ul>
 <li>config.toml / config_github.toml 내용 중
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">...
-<span style="color:#a6e22e">enableRobotsTXT</span> = <span style="color:#66d9ef">true</span>
-...
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">enableRobotsTXT</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div></li>
 </ul>
 <p>저 한줄이 설정 끝. 그리고 static에 있던 robots.txt는 삭제. <br>
 enableRobotsTXT 옵션을 주게 되면 구성해놓은 템플릿에 맞게 robots.txt가 생성된다.<br>

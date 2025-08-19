@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tistory on </title>
+    <title>Tistory on </title>
     <link>https://thirdnsov.github.io/tags/tistory/</link>
-    <description>Recent content in tistory on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tistory on </description>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/tistory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/tags/tistory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>블로그 개설한 기념 오랜만에 Tistory 방문</title>
       <link>https://thirdnsov.github.io/daily/2020/10/08/visit_my_tistory_blog/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/daily/2020/10/08/visit_my_tistory_blog/</guid>
-      <description>Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.
-예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&amp;hellip;
-오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..</description>
+      <description>&lt;p&gt;Github 블로그 개설하고 예전에 사용하고 지금은 딱히 관리 안하고 있는.. Tistory 방문.&lt;br&gt;&#xA;예나 지금이나 이것저것 하려고한건 많은데 끝까지 한건 없는듯&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;오래된 자료들 밖에 없지만.. 그래도 댓글 달린 글도 있고 방문자도 은근 있어서 신기하고 고맙고 ..&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

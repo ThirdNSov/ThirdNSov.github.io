@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hangul on </title>
+    <title>Hangul on </title>
     <link>https://thirdnsov.github.io/tags/hangul/</link>
-    <description>Recent content in hangul on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Hangul on </description>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/hangul/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/tags/hangul/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>맥북 한글 입력기 교체</title>
       <link>https://thirdnsov.github.io/tech/2022/09/05/macbook_korean_input/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2022/09/05/macbook_korean_input/</guid>
-      <description>작성자는 평소 한영 전환키를 Shift + Space로 사용한다.
-이 단축키로 사용한지 꽤나 오랜 시간이 지났기 때문에 처음 맥북을 사용할 때
-Control + Space가 오늘까지도 너무 불편하게 다가왔다.
-Capslock을 눌러도 되지만 워낙 잘 안누르던 키라서 더 어색했다.
-찾아보니 예전 맥북에서는 전환 단축키를 수정할 수 있었다는데
-Monterey 버전부터는 Control + Space가 고정인듯했다.
-(정확히는 Shift + Space가 설정이 안되는 상태)
-물론 터미널을 이용해서 변경하고 하면 당연히 가능은 한 것 같은데
-굳이 라는 생각이 들었다.</description>
+      <description>&lt;p&gt;작성자는 평소 한영 전환키를 Shift + Space로 사용한다.&lt;br&gt;&#xA;이 단축키로 사용한지 꽤나 오랜 시간이 지났기 때문에 처음 맥북을 사용할 때&lt;br&gt;&#xA;Control + Space가 오늘까지도 너무 불편하게 다가왔다.&lt;br&gt;&#xA;Capslock을 눌러도 되지만 워낙 잘 안누르던 키라서 더 어색했다.&lt;/p&gt;&#xA;&lt;p&gt;찾아보니 예전 맥북에서는 전환 단축키를 수정할 수 있었다는데&lt;br&gt;&#xA;Monterey 버전부터는 Control + Space가 고정인듯했다.&lt;br&gt;&#xA;(정확히는 Shift + Space가 설정이 안되는 상태)&lt;br&gt;&#xA;물론 터미널을 이용해서 변경하고 하면 당연히 가능은 한 것 같은데&lt;br&gt;&#xA;굳이 라는 생각이 들었다. 맥북을 샀으니 맥북을 따르자 라는 느낌?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

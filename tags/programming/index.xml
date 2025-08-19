@@ -1,108 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on </title>
+    <title>Programming on </title>
     <link>https://thirdnsov.github.io/tags/programming/</link>
-    <description>Recent content in programming on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Programming on </description>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 03 Apr 2025 12:22:52 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Apr 2025 12:22:52 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flutter - List, ListQueue 처리 속도 비교</title>
       <link>https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/</link>
       <pubDate>Thu, 03 Apr 2025 12:22:52 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/</guid>
-      <description>List List 타입은 흔히 볼 수 있는 Collection 타입 중 하나로, 자주 사용하는 타입 중 하나다.
-흔히 배열이라고 불리는 이 List 타입은 여러 개의 값을 하나의 변수에 보관하면서
-다양하게 활용할 수 있게 해주는 데이터 타입이다.
-List를 사용하면서 처리 속도에 대해 고민을 할 정도로 많은 양의 데이터를 삽입할 일이 없었는데
-최근 업무를 진행하면서 최소 10만개 이상의 데이터를 다룰 때 겪은 내용을 포스팅하려고 한다.
-개인적으로 10만개 정도면 엄청나게 많은 양의 데이터라고 생각하지는 않는다.</description>
+      <description>&lt;h2 id=&#34;list&#34;&gt;List&lt;/h2&gt;&#xA;&lt;p&gt;List 타입은 흔히 볼 수 있는 Collection 타입 중 하나로, 자주 사용하는 타입 중 하나다.&lt;br&gt;&#xA;흔히 배열이라고 불리는 이 List 타입은 여러 개의 값을 하나의 변수에 보관하면서&lt;br&gt;&#xA;다양하게 활용할 수 있게 해주는 데이터 타입이다.&lt;/p&gt;&#xA;&lt;p&gt;List를 사용하면서 처리 속도에 대해 고민을 할 정도로 많은 양의 데이터를 삽입할 일이 없었는데&lt;br&gt;&#xA;최근 업무를 진행하면서 최소 10만개 이상의 데이터를 다룰 때 겪은 내용을 포스팅하려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;개인적으로 10만개 정도면 엄청나게 많은 양의 데이터라고 생각하지는 않는다.&lt;br&gt;&#xA;그렇기에 큰 고민 없이 당연히 List로 관리하면 되겠지 하며 개발을 진행했다.&lt;br&gt;&#xA;원하는 기능을 구현이 끝났고 결과도 잘나와 대수롭지 않게 생각하고 해당 기능을 마무리했었다.&lt;br&gt;&#xA;근데 성능 테스트를 진행하면서 최적화가 필요하다는 결론에 도달했고 어느 부분이 문제인지 찾다보니&lt;br&gt;&#xA;List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있다는 것을 알게 되었다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Flutter - Android Studio Electic Eel 버전 설치 시 Java 오류</title>
       <link>https://thirdnsov.github.io/tech/2023/03/05/android_studio_electic_eel_issue/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2023/03/05/android_studio_electic_eel_issue/</guid>
-      <description>새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.
-기존에 세팅하던 순서대로 쭉 진행하고 있었는데
-Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기 flutter doctor에서 계속 오류가 발생하고 있었다.
-Unable to find bundled Java version. 분명 다 설치 했는데 왜지?
-안드로이드 스튜디오도 재설치 해보고 JAVA도 재설치 해보고
-PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는데 계속 해결이 안됐었다.
-결국 해결책을 찾기 시작했고 그리 오래 걸리지 않게 방법을 찾을 수 있었다.</description>
+      <description>&lt;p&gt;새로운 맥북에 개발 환경 세팅을 하던 중 Flutter doctor 시 오류가 발생했다.&lt;br&gt;&#xA;기존에 세팅하던 순서대로 쭉 진행하고 있었는데&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Flutter 설치 -&amp;gt; Path 잡아주기 -&amp;gt; Flutter doctor 돌려보면서 하나씩 설치해주기  &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;flutter doctor에서 계속 오류가 발생하고 있었다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Unable to find bundled Java version.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;분명 다 설치 했는데 왜지?&lt;br&gt;&#xA;안드로이드 스튜디오도 재설치 해보고 JAVA도 재설치 해보고&lt;br&gt;&#xA;PATH 설정이 잘못된건가 살펴보고 혹시나 재부팅도 해보았는데 계속 해결이 안됐었다.&lt;/p&gt;&#xA;&lt;p&gt;결국 해결책을 찾기 시작했고 그리 오래 걸리지 않게 방법을 찾을 수 있었다.&lt;br&gt;&#xA;Android Studio가 버전업이 되면서 발생한 문제로 확인되었고&lt;br&gt;&#xA;Android Studio Electric Eel 버전부터 발생하는듯 했다.&lt;br&gt;&#xA;(포스팅 중인 현재는 이 이슈가 해결이 되었는지는 모르겠다.)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>맥북에서 undefined method `map&#39; for nil:NilClass 오류 발생 시</title>
       <link>https://thirdnsov.github.io/tech/2023/03/05/macbook_nilclass_issue/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2023/03/05/macbook_nilclass_issue/</guid>
-      <description>최근 공부 겸 토이프로젝트 진행 중인데 매번 안드로이드 에뮬레이터에서만 하다가
-이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..
-이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서
-빌드를 진행했는데 갑자기 .. 오류가 발생했다.
-Searching for inspections failed: undefined method `map&#39; for nil:NilClass 방금 전까지 분명 잘 되던 상태였는데 갑자기 오류가 발생하니 당황 ..
-테스트한다고 했던 코드랑 패키지를 하나씩 제거하다보니 역시나 특정 패키지에서
-문제가 있었던 것이고 해당 패키지는 사용하고 싶어서 해결 방법을 찾아봤다.</description>
+      <description>&lt;p&gt;최근 공부 겸 토이프로젝트 진행 중인데 매번 안드로이드 에뮬레이터에서만 하다가&lt;br&gt;&#xA;이번엔 iOS 시뮬레이터에서 해볼까? 하고 진행 중..&lt;/p&gt;&#xA;&lt;p&gt;이것 저것 테스트 해본다고 여러 패키지들과 코드가 난잡하게 있던 상황에서&lt;br&gt;&#xA;빌드를 진행했는데 갑자기 .. 오류가 발생했다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Searching for inspections failed: undefined method `map&amp;#39; for nil:NilClass&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;방금 전까지 분명 잘 되던 상태였는데 갑자기 오류가 발생하니 당황 ..&lt;br&gt;&#xA;테스트한다고 했던 코드랑 패키지를 하나씩 제거하다보니 역시나 특정 패키지에서&lt;br&gt;&#xA;문제가 있었던 것이고 해당 패키지는 사용하고 싶어서 해결 방법을 찾아봤다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Flutter 다운로드 버튼 (Failed) 대처법</title>
       <link>https://thirdnsov.github.io/tech/2022/09/02/flutter_download_failed_issue/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2022/09/02/flutter_download_failed_issue/</guid>
-      <description>최근 회사에서 Flutter를 사용할 일이 생겨서 학습해보는 중이다.
-그 과정 중에서 겪은 일이나 포스팅할 만한 내용은 간간히 남겨두려고 한다.
-새로운 개발 환경을 구축하려면 역시 관련 프로그램들을 설치해야한다.
-제일 먼저 Flutter를 설치하기 위해서 구글에 Flutter를 검색하고 들어가봤다.
-홈페이지가 한글로 잘 나와있고 &amp;ldquo;시작하기&amp;quot;를 누르면 누구나 쉽게 다운로드 받을 수 있고
-각 OS별로 설치 가이드를 제공해줘서 비교적 쉽게 설치할 수 있게 되어있다.
-사이트 우측 상단에 있는 &amp;ldquo;시작하기&amp;quot;를 누르면 위 이미지와 같은 화면이 나오는데</description>
+      <description>&lt;p&gt;최근 회사에서 Flutter를 사용할 일이 생겨서 학습해보는 중이다.&lt;br&gt;&#xA;그 과정 중에서 겪은 일이나 포스팅할 만한 내용은 간간히 남겨두려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;새로운 개발 환경을 구축하려면 역시 관련 프로그램들을 설치해야한다.&lt;br&gt;&#xA;제일 먼저 Flutter를 설치하기 위해서 구글에 Flutter를 검색하고 들어가봤다.&lt;/p&gt;&#xA;&lt;p&gt;홈페이지가 한글로 잘 나와있고 &amp;ldquo;시작하기&amp;quot;를 누르면 누구나 쉽게 다운로드 받을 수 있고&lt;br&gt;&#xA;각 OS별로 설치 가이드를 제공해줘서 비교적 쉽게 설치할 수 있게 되어있다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/flutter_download/flutter_1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;사이트 우측 상단에 있는 &amp;ldquo;시작하기&amp;quot;를 누르면 위 이미지와 같은 화면이 나오는데&lt;br&gt;&#xA;(20220902 기준)&lt;br&gt;&#xA;본인이 사용 중인, 본인이 설치하고자 하는 OS에 맞게 클릭해주면 된다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Qt Online Installer 다운로드 속도 높이기(Mirror 적용)</title>
       <link>https://thirdnsov.github.io/tech/2021/11/02/qt_online_installer_mirror/</link>
       <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2021/11/02/qt_online_installer_mirror/</guid>
-      <description>Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.
-Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..
-왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다. 하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..
-Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치가 완료될지 기약 없이 기다려야 되는 엄청 답답한 속도..
-그래서 속도를 높일 방법이 없을까 하고 생각하다가 Offline Installer도 Mirror 사이트에서 쾌적하게 다운이 되는데 Online Installer도 Mirror 주소로 변경이 가능하지 않을까?</description>
+      <description>&lt;p&gt;Qt 5.14 버전을 마지막으로 Offline Installer 제공이 끝인 것 같다.&lt;br&gt;&#xA;Qt를 설치하려고 할 때면 항상 download.qt.io로 들어가서 Offline Installer를 찾아서 설치를 했었는데 이번에 5.15를 설치하려고 보니 Offline Installer가 없더라..&lt;/p&gt;&#xA;&lt;p&gt;왜 없는건가 찾다보니 5.15부터 Online Installer로만 설치가 가능하다고 한다.  하지만 Online Installer는 설치해본 사람이라면 알겠지만 속도가 진짜 느리다..&lt;/p&gt;&#xA;&lt;p&gt;Component 몇 개 추가하고 Source까지 설치하려고 하면 언제 설치가 완료될지 기약 없이 기다려야 되는 엄청 답답한 속도..&lt;/p&gt;&#xA;&lt;p&gt;그래서 속도를 높일 방법이 없을까 하고 생각하다가 Offline Installer도 Mirror 사이트에서 쾌적하게 다운이 되는데 Online Installer도 Mirror 주소로 변경이 가능하지 않을까? 하고 검색을 시작했다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Qt 디버깅 시 QWebEngineCored 오류</title>
       <link>https://thirdnsov.github.io/programming/2021/10/18/qwebenginecored_issue/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/programming/2021/10/18/qwebenginecored_issue/</guid>
-      <description>Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.
-관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.
-개발 환경  Windows 10 64bit Qt 5.12.2 MSVC 2017  발생했던 오류 메시지 내용은 다음과 같다.
-QWebEngineCored - Check failed: used_count == used_items_ 코드상 특별한 수정을 했거나 오류가 발생할 만한 작업이 없었는데도 불구하고 뜬금없이 위 메시지가 뜨면서 디버깅 모드로 실행 자체가 불가능했었다.</description>
+      <description>&lt;p&gt;Qt의 QWebEngine을 가지고 개발을 하던 중 어느 순간 디버깅을 시도하는데 이상하게도 QWebEngineCored에서 오류가 발생했었다.&lt;br&gt;&#xA;관련 로그를 따로 보관하고 있지 않아서 현재는 스크린샷 같은 것은 없지만 다행히 오류 메시지는 기록해두었었다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;개발-환경&#34;&gt;개발 환경&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows 10 64bit&lt;/li&gt;&#xA;&lt;li&gt;Qt 5.12.2&lt;/li&gt;&#xA;&lt;li&gt;MSVC 2017&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;발생했던 오류 메시지 내용은 다음과 같다.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;QWebEngineCored - Check failed: used_count == used_items_&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;코드상 특별한 수정을 했거나 오류가 발생할 만한 작업이 없었는데도 불구하고 뜬금없이 위 메시지가 뜨면서 디버깅 모드로 실행 자체가 불가능했었다.&lt;/p&gt;&#xA;&lt;p&gt;정확한 증상은 디버깅 모드로 실행 시 중단점이 &amp;ldquo;__debugbreak&amp;quot;로만 잡히고 더 이상의 콜스택도 볼 수 없었고 메모리 조차 제대로 확인이 되지 않았었다.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Qt 한글 깨짐 문제</title>
       <link>https://thirdnsov.github.io/programming/2021/10/10/qt_korean_broken_issue/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/programming/2021/10/10/qt_korean_broken_issue/</guid>
-      <description>개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.
-여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.
-개발 환경  Windows 11 Qt 5.14.2 (with Qt Creator) MSVC 2017 64bit  이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.
-보통 한글이 깨지는 주된 원인은 파일 인코딩인데 Windows에서 Qt Creator를 사용하면 기본 UTF-8로 설정되어있다.
-일반적으로 UTF-8이면 한글이 꺠지지 않아야 하는데 이상하게 한글이 깨져서 보인다.</description>
+      <description>&lt;p&gt;개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.&lt;br&gt;&#xA;여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;개발-환경&#34;&gt;개발 환경&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows 11&lt;/li&gt;&#xA;&lt;li&gt;Qt 5.14.2 (with Qt Creator)&lt;/li&gt;&#xA;&lt;li&gt;MSVC 2017 64bit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.&lt;/p&gt;&#xA;&lt;p&gt;보통 한글이 깨지는 주된 원인은 파일 인코딩인데 Windows에서 Qt Creator를 사용하면 기본 UTF-8로 설정되어있다.&lt;br&gt;&#xA;일반적으로 UTF-8이면 한글이 꺠지지 않아야 하는데 이상하게 한글이 깨져서 보인다.&lt;br&gt;&#xA;Qt Designer를 이용해서 Widget에 직접 한글을 입력해둔 경우에는 깨지지 않지만 코드를 이용해 Widget에 한글로 Text를 입력시키면 깨지게 된다.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

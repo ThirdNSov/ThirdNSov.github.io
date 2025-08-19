@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kakao on </title>
+    <title>Kakao on </title>
     <link>https://thirdnsov.github.io/tags/kakao/</link>
-    <description>Recent content in kakao on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Kakao on </description>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/kakao/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/tags/kakao/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>맥북에서 카톡 알림 안울릴 때</title>
       <link>https://thirdnsov.github.io/tech/2023/02/23/macbook_kakaotalk_alram_issue/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2023/02/23/macbook_kakaotalk_alram_issue/</guid>
-      <description>맥북을 구매한지 이제 반년이 조금 지났는데 초반에 카톡 알림이 울리지 않아서
-찾아보았던 결과를 기록하려고 한다.
-구글, 네이버 검색으로 얻은 해결 방법으로는 해결하지 못했었다.
-  카카오톡 설정 확인 (해결 안됨) - 카카오톡 -&amp;gt; 환경설정 -&amp;gt; 알림     맥북 시스템 설정 확인 (해결 안됨) - 시스템 설정 -&amp;gt; 알림 -&amp;gt; 카카오톡  방해 금지 모드 설정 해제 확인 (해결 안됨) - 시스템 설정 -&amp;gt; 집중 모드 -&amp;gt; 방해금지 모드   검색해서 확인한 모든 블로그에서 제시하는 방법은 위 세가지인데</description>
+      <description>&lt;p&gt;맥북을 구매한지 이제 반년이 조금 지났는데 초반에 카톡 알림이 울리지 않아서&lt;br&gt;&#xA;찾아보았던 결과를 기록하려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;구글, 네이버 검색으로 얻은 해결 방법으로는 해결하지 못했었다.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;카카오톡 설정 확인 (해결 안됨)&#xA;- 카카오톡 -&amp;gt; 환경설정 -&amp;gt; 알림&#xA;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/kakao/kakao_1.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;맥북 시스템 설정 확인 (해결 안됨)&#xA;- 시스템 설정 -&amp;gt; 알림 -&amp;gt; 카카오톡&#xA;&lt;img src=&#34;https://thirdnsov.github.io/assets/img/kakao/kakao_2.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;방해 금지 모드 설정 해제 확인 (해결 안됨)&#xA;- 시스템 설정 -&amp;gt; 집중 모드 -&amp;gt; 방해금지 모드&lt;/li&gt;&#xA;&lt;/ol&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;검색해서 확인한 모든 블로그에서 제시하는 방법은 위 세가지인데&lt;br&gt;&#xA;둘 다 정상적으로 설정이 되어있는 상태였다.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

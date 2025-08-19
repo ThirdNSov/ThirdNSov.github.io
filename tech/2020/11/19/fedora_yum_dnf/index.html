@@ -20,23 +20,26 @@
 
 
 
-<script defer language="javascript" type="text/javascript" src="/js/bundle.min.38ccdf5c998a71d2ad889faefccbe9132577d265b25e73d94a1be540ebcaaa18.js"></script>
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.7750550c0319f5de56d916b91e642bf72a5bd09ee50b201dc2ed9db69d6177a8.js"></script>
 
 
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-QH13CJVBDK', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH13CJVBDK"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QH13CJVBDK');
+        }
+      </script>
 
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -111,13 +114,13 @@ if (!doNotTrack) {
 
 
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.148.2">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.8d80d957eb4652872ae88f6384687dfa732356385d8a6abf94fac744f49b65d7.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.91550e3e6a2234e4ff320015b38cb741615043a380a7fdbef2af30d71990b7e3.css">
 
 
     
@@ -183,12 +186,12 @@ if (!doNotTrack) {
         <div class="sidebar-about">
     <h1 class="brand">
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <img src="/assets/img/logo.PNG" alt="brand image">
             </a>
         
         
-            <a href="https://thirdnsov.github.io">
+            <a href="https://thirdnsov.github.io/">
                 <h2>Thirdy</h2>
             </a>
         
@@ -443,27 +446,27 @@ yum의 자리를 대신하게 됬다고 한다.</p>
 절반 가량 줄어들어 개발적인 측면에서 더 효율이 좋아졌다고 볼 수도 있을듯?</p>
 <hr>
 <h3 id="업데이트-체크패키지명-입력-시-개별-체크-가능">업데이트 체크(패키지명 입력 시 개별 체크 가능)</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum check-update (pkg-name)</span>
-<span style="color:#75715e"># dnf check-update (pkg-name)</span>
-</code></pre></div><h3 id="업데이트패키지명-입력-시-개별-업데이트-가능">업데이트(패키지명 입력 시 개별 업데이트 가능)</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum update (pkg-name)</span>
-<span style="color:#75715e"># dnf update (pkg-name)</span>
-</code></pre></div><h3 id="패키지-인스톨">패키지 인스톨</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum install pkg-name</span>
-<span style="color:#75715e"># dnf install pkg-name</span>
-</code></pre></div><h3 id="패키지-재설치">패키지 재설치</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum reinstall pkg-name</span>
-<span style="color:#75715e"># dnf reinstall pkg-name</span>
-</code></pre></div><h3 id="설치된-패키지-삭제">설치된 패키지 삭제</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum remove pkg-name</span>
-<span style="color:#75715e"># dnf remove pkg-name</span>
-</code></pre></div><h3 id="설치된-패키지-목록패키지명-입력-시-개별-검색-가능">설치된 패키지 목록(패키지명 입력 시 개별 검색 가능)</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum list installed (pkg-name)</span>
-<span style="color:#75715e"># dnf list installed (pkg-name)</span>
-</code></pre></div><h3 id="repository에서-패키지-검색">Repository에서 패키지 검색</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># yum search pkg-name</span>
-<span style="color:#75715e"># dnf search pkg-name</span>
-</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># yum check-update (pkg-name)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dnf check-update (pkg-name)</span>
+</span></span></code></pre></div><h3 id="업데이트패키지명-입력-시-개별-업데이트-가능">업데이트(패키지명 입력 시 개별 업데이트 가능)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># yum update (pkg-name)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dnf update (pkg-name)</span>
+</span></span></code></pre></div><h3 id="패키지-인스톨">패키지 인스톨</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># yum install pkg-name</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dnf install pkg-name</span>
+</span></span></code></pre></div><h3 id="패키지-재설치">패키지 재설치</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># yum reinstall pkg-name</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dnf reinstall pkg-name</span>
+</span></span></code></pre></div><h3 id="설치된-패키지-삭제">설치된 패키지 삭제</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># yum remove pkg-name</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dnf remove pkg-name</span>
+</span></span></code></pre></div><h3 id="설치된-패키지-목록패키지명-입력-시-개별-검색-가능">설치된 패키지 목록(패키지명 입력 시 개별 검색 가능)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># yum list installed (pkg-name)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dnf list installed (pkg-name)</span>
+</span></span></code></pre></div><h3 id="repository에서-패키지-검색">Repository에서 패키지 검색</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># yum search pkg-name</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dnf search pkg-name</span>
+</span></span></code></pre></div><hr>
 <p>사용법도 기존 yum과 크게 차이가 없어 크게 새로 익힐 부분이 없지 않나 싶다.<br>
 흔히 쓰는 명령은 거의 비슷하다고 봐도 무방할 것 같다.<br>
 자세한 사용법은 아래 Reference 링크를 타고 들어가면 확인 할 수 있다.</p>

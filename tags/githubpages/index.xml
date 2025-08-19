@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>githubpages on </title>
+    <title>Githubpages on </title>
     <link>https://thirdnsov.github.io/tags/githubpages/</link>
-    <description>Recent content in githubpages on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Githubpages on </description>
+    <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 07 Apr 2024 11:27:35 +0000</lastBuildDate><atom:link href="https://thirdnsov.github.io/tags/githubpages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 11:27:35 +0000</lastBuildDate>
+    <atom:link href="https://thirdnsov.github.io/tags/githubpages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HUGO 배포 환경 구성</title>
       <link>https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/</link>
       <pubDate>Sun, 07 Apr 2024 11:27:35 +0000</pubDate>
-      
       <guid>https://thirdnsov.github.io/tech/2024/04/07/hugo_deploy_setting/</guid>
-      <description>계기 HUGO로 블로그를 구축한지 며칠되지 않아서 문제점을 발견했었다.
-Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 맞게 추가 설정이 필요했었다.
- Oracle Freetier(개인 서버) Github Pages  이렇게 두개의 서버 환경에서 동일한 블로그를 운영하고 싶었고 그렇게 구축을 진행하였다.
-처음에는 동일한 소스로 동일한 내용을 보여주기에 잘 구축이 되었다고 생각했었다.
-그러다 구글 서치 콘솔 연동 작업 등을 하면서 같은 설정 파일만으로는 각 서버의 설정을
-해주기가 어렵다고 판단이 되었다.
- Hugo Config 내용 중 baseURL robots.</description>
+      <description>&lt;h3 id=&#34;계기&#34;&gt;계기&lt;/h3&gt;&#xA;&lt;p&gt;HUGO로 블로그를 구축한지 며칠되지 않아서 문제점을 발견했었다.&lt;br&gt;&#xA;Hugo 자체의 문제라기 보다는 내가 운영하고자 하는 환경에 맞게 추가 설정이 필요했었다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Oracle Freetier(개인 서버)&lt;/li&gt;&#xA;&lt;li&gt;Github Pages&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;이렇게 두개의 서버 환경에서 동일한 블로그를 운영하고 싶었고 그렇게 구축을 진행하였다.&lt;br&gt;&#xA;처음에는 동일한 소스로 동일한 내용을 보여주기에 잘 구축이 되었다고 생각했었다.&lt;br&gt;&#xA;그러다 구글 서치 콘솔 연동 작업 등을 하면서 같은 설정 파일만으로는 각 서버의 설정을&lt;br&gt;&#xA;해주기가 어렵다고 판단이 되었다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo Config 내용 중 baseURL&lt;/li&gt;&#xA;&lt;li&gt;robots.txt&lt;/li&gt;&#xA;&lt;li&gt;Sitemap&lt;/li&gt;&#xA;&lt;li&gt;Google Analytics 연동&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;이 4가지 설정값 만큼은 따로따로 가야한다고 판단이 들었다.&lt;br&gt;&#xA;특히 baseURL의 경우에는 Sitemap 생성에도 영향을 주고 구글 서치 콘솔에서&lt;br&gt;&#xA;집계도 제대로 안되는 문제가 있었다.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
