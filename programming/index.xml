@@ -16,6 +16,13 @@
       <description>&lt;h2 id=&#34;list&#34;&gt;List&lt;/h2&gt;&#xA;&lt;p&gt;List 타입은 흔히 볼 수 있는 Collection 타입 중 하나로, 자주 사용하는 타입 중 하나다.&lt;br&gt;&#xA;흔히 배열이라고 불리는 이 List 타입은 여러 개의 값을 하나의 변수에 보관하면서&lt;br&gt;&#xA;다양하게 활용할 수 있게 해주는 데이터 타입이다.&lt;/p&gt;&#xA;&lt;p&gt;List를 사용하면서 처리 속도에 대해 고민을 할 정도로 많은 양의 데이터를 삽입할 일이 없었는데&lt;br&gt;&#xA;최근 업무를 진행하면서 최소 10만개 이상의 데이터를 다룰 때 겪은 내용을 포스팅하려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;개인적으로 10만개 정도면 엄청나게 많은 양의 데이터라고 생각하지는 않는다.&lt;br&gt;&#xA;그렇기에 큰 고민 없이 당연히 List로 관리하면 되겠지 하며 개발을 진행했다.&lt;br&gt;&#xA;원하는 기능을 구현이 끝났고 결과도 잘나와 대수롭지 않게 생각하고 해당 기능을 마무리했었다.&lt;br&gt;&#xA;근데 성능 테스트를 진행하면서 최적화가 필요하다는 결론에 도달했고 어느 부분이 문제인지 찾다보니&lt;br&gt;&#xA;List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있다는 것을 알게 되었다.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Flutter - List, ListQueue 처리 속도 비교</title>
+      <link>https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/</link>
+      <pubDate>Thu, 03 Apr 2025 12:22:52 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/programming/2025/04/03/flutter_list_listqueue/</guid>
+      <description>&lt;h2 id=&#34;list&#34;&gt;List&lt;/h2&gt;&#xA;&lt;p&gt;List 타입은 흔히 볼 수 있는 Collection 타입 중 하나로, 자주 사용하는 타입 중 하나다.&lt;br&gt;&#xA;흔히 배열이라고 불리는 이 List 타입은 여러 개의 값을 하나의 변수에 보관하면서&lt;br&gt;&#xA;다양하게 활용할 수 있게 해주는 데이터 타입이다.&lt;/p&gt;&#xA;&lt;p&gt;List를 사용하면서 처리 속도에 대해 고민을 할 정도로 많은 양의 데이터를 삽입할 일이 없었는데&lt;br&gt;&#xA;최근 업무를 진행하면서 최소 10만개 이상의 데이터를 다룰 때 겪은 내용을 포스팅하려고 한다.&lt;/p&gt;&#xA;&lt;p&gt;개인적으로 10만개 정도면 엄청나게 많은 양의 데이터라고 생각하지는 않는다.&lt;br&gt;&#xA;그렇기에 큰 고민 없이 당연히 List로 관리하면 되겠지 하며 개발을 진행했다.&lt;br&gt;&#xA;원하는 기능을 구현이 끝났고 결과도 잘나와 대수롭지 않게 생각하고 해당 기능을 마무리했었다.&lt;br&gt;&#xA;근데 성능 테스트를 진행하면서 최적화가 필요하다는 결론에 도달했고 어느 부분이 문제인지 찾다보니&lt;br&gt;&#xA;List를 사용한 특정 부분이 처리 속도 지연에 한 몫을 하고 있다는 것을 알게 되었다.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Qt 디버깅 시 QWebEngineCored 오류</title>
       <link>https://thirdnsov.github.io/programming/2021/10/18/qwebenginecored_issue/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>

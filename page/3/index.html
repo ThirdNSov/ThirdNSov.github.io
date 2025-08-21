@@ -98,8 +98,7 @@
 <meta name="googlebot" content="index,follow" />
 
 
-<meta name="twitter:site" content="" />
-<meta name="twitter:creator" content="" />
+
 <meta property="fb:admins" content="" />
 
 
@@ -340,6 +339,8 @@
 
 
 
+
+
     <a target="_blank" class="social" title="Email" href="mailto://thirdnsov.dev@gmail.com">
        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1.2em" viewBox="0 0 485.211 485.211">
             <path fill="currentColor" d="M301.393,241.631L464.866,424.56H20.332l163.474-182.928l58.801,51.443L301.393,241.631z M462.174,60.651H23.027 l219.579,192.142L462.174,60.651z M324.225,221.67l160.986,180.151V80.792L324.225,221.67z M0,80.792v321.029L160.972,221.64 L0,80.792z"/>
@@ -358,6 +359,15 @@
     </a>
 
 
+    <a target="_blank" class="social" title="Email" href="mailto://thirdnsov.dev@gmail.com">
+       <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1.2em" viewBox="0 0 485.211 485.211">
+            <path fill="currentColor" d="M301.393,241.631L464.866,424.56H20.332l163.474-182.928l58.801,51.443L301.393,241.631z M462.174,60.651H23.027 l219.579,192.142L462.174,60.651z M324.225,221.67l160.986,180.151V80.792L324.225,221.67z M0,80.792v321.029L160.972,221.64 L0,80.792z"/>
+       </svg>
+    </a>
+
+
+
+
         <p class="footnote">
 powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
     <br>
@@ -374,10 +384,146 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
     <article class="post">
         <div class="info">
   <h3 class="post-title">
+    <a href="https://thirdnsov.github.io/programming/2021/10/10/qt_korean_broken_issue/">Qt 한글 깨짐 문제</a>
+  </h3>
+  <div class="headline">
+    <div>
+      
+      
+      <time datetime=" 2021-10-10T00:00:00Z" class="post-date">
+        2021년 10월 10일
+      </time>
+      
+      
+      
+    </div>
+  </div>
+  
+  <div class="headline">
+    
+    <ul class="tags">
+      
+      <li class="tag-programming">
+        <a href="https://thirdnsov.github.io/tags/programming">programming</a>
+      </li>
+      
+      <li class="tag-qt">
+        <a href="https://thirdnsov.github.io/tags/qt">qt</a>
+      </li>
+      
+      <li class="tag-korean">
+        <a href="https://thirdnsov.github.io/tags/korean">korean</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+        
+        <p>개발을 하다보면 영어가 아닌 한글을 UI에 디스플레이 해야하는 경우가 있다.<br>
+여러 개발 환경 중 Qt에서 한글이 깨지지 않도록 하는 방법을 정리했다.</p>
+<h3 id="개발-환경">개발 환경</h3>
+<ul>
+<li>Windows 11</li>
+<li>Qt 5.14.2 (with Qt Creator)</li>
+<li>MSVC 2017 64bit</li>
+</ul>
+<p>이 글은 위 환경 처럼 윈도우즈에서 Qt로 개발할 때 상황에 맞춰져있다.</p>
+<p>보통 한글이 깨지는 주된 원인은 파일 인코딩인데 Windows에서 Qt Creator를 사용하면 기본 UTF-8로 설정되어있다.<br>
+일반적으로 UTF-8이면 한글이 꺠지지 않아야 하는데 이상하게 한글이 깨져서 보인다.<br>
+Qt Designer를 이용해서 Widget에 직접 한글을 입력해둔 경우에는 깨지지 않지만 코드를 이용해 Widget에 한글로 Text를 입력시키면 깨지게 된다.</p>
+        
+        <div class="read-more-link">
+            <a href="/programming/2021/10/10/qt_korean_broken_issue/">Read More…</a>
+        </div>
+        
+        
+    </article>
+    <article class="post">
+        <div class="info">
+  <h3 class="post-title">
+    <a href="https://thirdnsov.github.io/tech/2020/11/24/rpi3_fedora_linux/">Raspberry Pi3&#43;에 Fedora Linux 설치</a>
+  </h3>
+  <div class="headline">
+    <div>
+      
+      
+      <time datetime=" 2020-11-24T00:00:00Z" class="post-date">
+        2020년 11월 24일
+      </time>
+      
+      
+      
+    </div>
+  </div>
+  
+  <div class="headline">
+    
+    <ul class="tags">
+      
+      <li class="tag-tech">
+        <a href="https://thirdnsov.github.io/tags/tech">tech</a>
+      </li>
+      
+      <li class="tag-linux">
+        <a href="https://thirdnsov.github.io/tags/linux">linux</a>
+      </li>
+      
+      <li class="tag-raspberry">
+        <a href="https://thirdnsov.github.io/tags/raspberry">raspberry</a>
+      </li>
+      
+      <li class="tag-fedora">
+        <a href="https://thirdnsov.github.io/tags/fedora">fedora</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+
+  
+  
+
+  
+</div>
+
+        
+        <p>Fedora를 설치해서 사용해보려고 Hyper-V 설치하고 하다가 문득 집에 RPi3+가 남아서<br>
+여기에 설치를 해보자 싶어서 시작.</p>
+<p>라즈베리파이 사용할 때 주로 그냥 라즈비안 올려서 사용했었는데 페도라를 올리면 또<br>
+다른 느낌일 것 같아서 급하게 자료 찾아보고 설치를 진행했다.</p>
+<p>우선 다행이도 <a href="https://fedoraproject.org/wiki/Architectures/ARM/Raspberry_Pi#aarch64_supported_images_for_Raspberry_Pi_3" target="_blank">Fedora WiKi</a>에 라즈베리파이 설치 관련 문서가 있었고<br>
+영어의 압박만 견디면 따라하기 나름 쉽게 정리되어있다.</p>
+<p>해당 문서 내용 중에 라즈베리파이용 페도라 이미지가 있으니 다운 받아서 설치만<br>
+해주면 된다.</p>
+<p><img src="/assets/img/fedora_wiki_1.PNG" alt=""></p>
+<p>ARMv7용과 aarch64용(RPi3용)으로 구분되어있으니 본인 환경에 맞게<br>
+다운 받으면 된다.<br>
+이미지는 구했고 이미지를 SD Card에 구워야하는데 Windows 환경에서 진행하였기<br>
+때문에 자주 사용했던 <a href="https://www.balena.io/etcher/" target="_blank">balenaEtcher</a>를 사용하였다.</p>
+        
+        <div class="read-more-link">
+            <a href="/tech/2020/11/24/rpi3_fedora_linux/">Read More…</a>
+        </div>
+        
+        
+    </article>
+    <article class="post">
+        <div class="info">
+  <h3 class="post-title">
     <a href="https://thirdnsov.github.io/tech/2020/11/19/fedora_yum_dnf/">Fedora Linux - yum, 그리고 dnf</a>
   </h3>
   <div class="headline">
     <div>
+      
       
       <time datetime=" 2020-11-19T00:00:00Z" class="post-date">
         2020년 11월 19일
@@ -449,6 +595,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   <div class="headline">
     <div>
       
+      
       <time datetime=" 2020-10-08T00:00:00Z" class="post-date">
         2020년 10월 8일
       </time>
@@ -505,6 +652,7 @@ Markdown은 아직 생소해서 배우고 익히려면 시간 좀 걸릴듯..<br
   </h3>
   <div class="headline">
     <div>
+      
       
       <time datetime=" 2020-10-08T00:00:00Z" class="post-date">
         2020년 10월 8일

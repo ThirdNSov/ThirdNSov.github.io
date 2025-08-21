@@ -16,6 +16,13 @@
       <description>&lt;p&gt;그동안 오라클 프리티어 서버를 사용하고 있었는데&lt;br&gt;&#xA;풍문일지는 몰라도 A1 서버 사용하다가 갑자기 삭제되거나 계정이 정지되는 경우가&lt;br&gt;&#xA;종종 있다는 얘기를 듣고 그 후부터 조금 안정적인 서버에 대한 욕심이 생기고..&lt;/p&gt;&#xA;&lt;p&gt;무료로 쓰던걸 갑자기 돈을 주고 쓸 생각을 하니.. 쉽게 결제하지 못하고&lt;br&gt;&#xA;계속 시간만 허비했다.&lt;br&gt;&#xA;그러다가 오늘 블로그 말고 어떤 서비스를 좀 안정적으로 올려서 사용하고&lt;br&gt;&#xA;싶은 생각이 문득 들어서 미루고 미루던 카페24 가상서버호스팅을 결제했다.&lt;/p&gt;&#xA;&lt;p&gt;한달 커피 한잔 값으로 스펙은 다소 아쉽지만 그래도 카페24에서 서버를&lt;br&gt;&#xA;관리해주는 것이니 느리고 제한적이더라도 안정적이지 싶어 진행했다.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>블로그 서버 이사</title>
+      <link>https://thirdnsov.github.io/daily/2025/08/19/migration_blog_server/</link>
+      <pubDate>Tue, 19 Aug 2025 12:28:57 +0000</pubDate>
+      <guid>https://thirdnsov.github.io/daily/2025/08/19/migration_blog_server/</guid>
+      <description>&lt;p&gt;그동안 오라클 프리티어 서버를 사용하고 있었는데&lt;br&gt;&#xA;풍문일지는 몰라도 A1 서버 사용하다가 갑자기 삭제되거나 계정이 정지되는 경우가&lt;br&gt;&#xA;종종 있다는 얘기를 듣고 그 후부터 조금 안정적인 서버에 대한 욕심이 생기고..&lt;/p&gt;&#xA;&lt;p&gt;무료로 쓰던걸 갑자기 돈을 주고 쓸 생각을 하니.. 쉽게 결제하지 못하고&lt;br&gt;&#xA;계속 시간만 허비했다.&lt;br&gt;&#xA;그러다가 오늘 블로그 말고 어떤 서비스를 좀 안정적으로 올려서 사용하고&lt;br&gt;&#xA;싶은 생각이 문득 들어서 미루고 미루던 카페24 가상서버호스팅을 결제했다.&lt;/p&gt;&#xA;&lt;p&gt;한달 커피 한잔 값으로 스펙은 다소 아쉽지만 그래도 카페24에서 서버를&lt;br&gt;&#xA;관리해주는 것이니 느리고 제한적이더라도 안정적이지 싶어 진행했다.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>VSCode 터미널에서 git - Missing or invalid credentials. 오류</title>
       <link>https://thirdnsov.github.io/tech/2024/05/15/vscode_git_push_error/</link>
       <pubDate>Wed, 15 May 2024 12:13:23 +0000</pubDate>
